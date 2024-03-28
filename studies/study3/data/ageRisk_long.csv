@@ -1,0 +1,963 @@
+,ai,age,risk-taking,cond,iteration,investment_type,name,ticker_symbol,amount_to_invest,asset_type,country,sector
+0,ChatGPT,15,averse,control,0,Index Fund,Vanguard S&P 500 Index Fund,VOO,3000.0,ETF,,
+1,ChatGPT,15,averse,control,0,Bonds,iShares U.S. Treasury Bond ETF,GOVT,2000.0,ETF,,
+2,ChatGPT,15,averse,control,0,Dividend Stocks,Johnson & Johnson,JNJ,2000.0,EQUITY,United States,Healthcare
+3,ChatGPT,15,averse,control,0,Real Estate Investment Trusts (REITs),Vanguard Real Estate ETF,VNQ,1500.0,ETF,,
+4,ChatGPT,15,averse,control,0,High-Yield Savings Account,-,,1500.0,SAVING,,
+5,ChatGPT,15,averse,control,1,Exchange-Traded Fund (ETF),Vanguard 500 Index Fund,VOO,3000.0,ETF,,
+6,ChatGPT,15,averse,control,1,Bond (Government),iShares Core U.S. Treasury Bond ETF,GOVT,2500.0,ETF,,
+7,ChatGPT,15,averse,control,1,Dividend Stock,Johnson & Johnson,JNJ,2000.0,EQUITY,United States,Healthcare
+8,ChatGPT,15,averse,control,1,Real Estate Investment Trust (REIT),Vanguard Real Estate Index Fund,VNQ,1500.0,ETF,,
+9,ChatGPT,15,averse,control,1,High-Yield Savings Account,n/a,,1000.0,SAVING,,
+10,ChatGPT,15,averse,control,2,Exchange-Traded Fund (ETF),Vanguard S&P 500 ETF,VOO,3000.0,ETF,,
+11,ChatGPT,15,averse,control,2,Dividend-Paying Stocks,Johnson & Johnson,JNJ,2500.0,EQUITY,United States,Healthcare
+12,ChatGPT,15,averse,control,2,Index Fund,Vanguard Total Bond Market ETF,BND,2000.0,ETF,,
+13,ChatGPT,15,averse,control,2,High-Yield Savings Account,Your Local Bank,,2500.0,SAVING,,
+14,ChatGPT,15,averse,control,3,Stock (Technology),Apple Inc.,AAPL,3000.0,EQUITY,United States,Technology
+15,ChatGPT,15,averse,control,3,Bond (Government),Treasury Bond,,2000.0,BOND,,
+16,ChatGPT,15,averse,control,3,Index Fund (S&P 500),Vanguard S&P 500 Index Fund,VFINX,3000.0,MUTUALFUND,,
+17,ChatGPT,15,averse,control,3,ETF (Dividend Stocks),Vanguard Dividend Appreciation ETF,VIG,2000.0,ETF,,
+18,ChatGPT,15,averse,control,4,Stock,Apple Inc.,AAPL,3000.0,EQUITY,United States,Technology
+19,ChatGPT,15,averse,control,4,Stock,Microsoft Corp.,MSFT,2500.0,EQUITY,United States,Technology
+20,ChatGPT,15,averse,control,4,Bond ETF,iShares U.S. Aggregate Bond ETF,AGG,2000.0,ETF,,
+21,ChatGPT,15,averse,control,4,Index Fund,Vanguard S&P 500 Index Fund,VOO,2000.0,ETF,,
+22,ChatGPT,15,averse,control,4,Savings Account,High-yield savings account,,500.0,SAVING,,
+23,ChatGPT,15,averse,control,5,Index Fund,Vanguard Total Stock Market Index Fund,VTSAX,3500.0,MUTUALFUND,,
+24,ChatGPT,15,averse,control,5,Bond ETF,iShares Core US Aggregate Bond ETF,AGG,2500.0,ETF,,
+25,ChatGPT,15,averse,control,5,REIT,Vanguard Real Estate ETF,VNQ,2000.0,ETF,,
+26,ChatGPT,15,averse,control,5,Blue-Chip Stocks,Microsoft Corporation,MSFT,1500.0,EQUITY,United States,Technology
+27,ChatGPT,15,averse,control,5,Dividend Stocks,Coca-Cola Company,KO,500.0,EQUITY,United States,Consumer Defensive
+28,ChatGPT,15,averse,control,6,Stocks - Blue-chip company,Apple Inc.,AAPL,3000.0,EQUITY,United States,Technology
+29,ChatGPT,15,averse,control,6,ETF (Exchange-Traded Fund) - Market Index,Vanguard S&P 500 ETF,VOO,2000.0,ETF,,
+30,ChatGPT,15,averse,control,6,Bonds - US Treasury Bonds (10-year),iShares 7-10 Year Treasury Bond ETF,IEF,2000.0,ETF,,
+31,ChatGPT,15,averse,control,6,Mutual Fund - Balanced Fund,Vanguard LifeStrategy Moderate Growth Fund,VSMGX,2000.0,MUTUALFUND,,
+32,ChatGPT,15,averse,control,6,Cash - High-Yield Savings Account,-,,1000.0,SAVING,,
+33,ChatGPT,15,averse,control,7,Stocks,Apple,AAPL,2000.0,EQUITY,United States,Technology
+34,ChatGPT,15,averse,control,7,Bonds,iShares Core U.S. Aggregate Bond ETF,AGG,3000.0,ETF,,
+35,ChatGPT,15,averse,control,7,Index Funds,Vanguard S&P 500 ETF,VOO,2000.0,ETF,,
+36,ChatGPT,15,averse,control,7,Savings Account,Any local bank with a high-interest rate,,2000.0,SAVING,,
+37,ChatGPT,15,averse,control,7,Real Estate Investment Trusts (REITs),Vanguard Real Estate ETF,VNQ,1000.0,ETF,,
+38,ChatGPT,15,averse,control,8,Low-Risk Stocks,Coca-Cola,KO,2500.0,EQUITY,United States,Consumer Defensive
+39,ChatGPT,15,averse,control,8,Bonds,iShares Core U.S. Aggregate Bond ETF,AGG,2500.0,ETF,,
+40,ChatGPT,15,averse,control,8,Index Fund,Vanguard S&P 500 ETF,VOO,2500.0,ETF,,
+41,ChatGPT,15,averse,control,8,High-Yield Savings Account,Your Local Bank,,2500.0,SAVING,,
+42,ChatGPT,15,averse,control,9,Stocks,Apple Inc.,AAPL,3000.0,EQUITY,United States,Technology
+43,ChatGPT,15,averse,control,9,,Microsoft Corporation,MSFT,2000.0,EQUITY,United States,Technology
+44,ChatGPT,15,averse,control,9,,The Procter & Gamble Co,PG,1500.0,EQUITY,United States,Consumer Defensive
+45,ChatGPT,15,averse,control,9,Bonds,iShares Core U.S. Aggregate Bond ETF,AGG,2500.0,ETF,,
+46,ChatGPT,15,averse,control,9,Cash,High-Yield Savings Account,,1000.0,SAVING,,
+47,ChatGPT,15,neutral,control,0,Stocks,Apple Inc.,AAPL,2500.0,EQUITY,United States,Technology
+48,ChatGPT,15,neutral,control,0,,Tesla Inc.,TSLA,2500.0,EQUITY,United States,Consumer Cyclical
+49,ChatGPT,15,neutral,control,0,,Facebook Inc.,META,1500.0,EQUITY,United States,Communication Services
+50,ChatGPT,15,neutral,control,0,,Square Inc.,SQ,1500.0,EQUITY,United States,Technology
+51,ChatGPT,15,neutral,control,0,Commodities,iShares Gold Trust,IAU,1500.0,ETF,,
+52,ChatGPT,15,neutral,control,0,,Invesco DB Commodity Index Tracking Fund,DBC,1500.0,ETF,,
+53,ChatGPT,15,neutral,control,0,Cryptocurrencies,Bitcoin,BTC-USD,500.0,CRYPTOCURRENCY,,
+54,ChatGPT,15,neutral,control,0,,Ethereum,ETH-USD,500.0,CRYPTOCURRENCY,,
+55,ChatGPT,15,neutral,control,1,Stocks,Apple Inc.,AAPL,4000.0,EQUITY,United States,Technology
+56,ChatGPT,15,neutral,control,1,Mutual Funds,Vanguard 500 Index,VFINX,2000.0,MUTUALFUND,,
+57,ChatGPT,15,neutral,control,1,Exchange-Traded Fund,Invesco QQQ Trust,QQQ,2000.0,ETF,,
+58,ChatGPT,15,neutral,control,1,Cryptocurrency,Bitcoin,BTC-USD,1000.0,CRYPTOCURRENCY,,
+59,ChatGPT,15,neutral,control,1,High-Yield Savings,-,,1000.0,SAVING,,
+60,ChatGPT,15,neutral,control,2,Individual Stocks,Amazon.com Inc.,AMZN,3500.0,EQUITY,United States,Consumer Cyclical
+61,ChatGPT,15,neutral,control,2,,Tesla Inc.,TSLA,2500.0,EQUITY,United States,Consumer Cyclical
+62,ChatGPT,15,neutral,control,2,,Apple Inc.,AAPL,1500.0,EQUITY,United States,Technology
+63,ChatGPT,15,neutral,control,2,ETFs,Invesco QQQ Trust,QQQ,1500.0,ETF,,
+64,ChatGPT,15,neutral,control,2,,Vanguard Total Stock Market ETF,VTI,1500.0,ETF,,
+65,ChatGPT,15,neutral,control,2,Mutual Funds,Vanguard 500 Index Fund,VFINX,1000.0,MUTUALFUND,,
+66,ChatGPT,15,neutral,control,3,Stocks (Growth),Tesla Inc.,TSLA,3000.0,EQUITY,United States,Consumer Cyclical
+67,ChatGPT,15,neutral,control,3,ETFs (Technology),Invesco QQQ Trust,QQQ,2000.0,ETF,,
+68,ChatGPT,15,neutral,control,3,Cryptocurrency,Ethereum,ETH-USD,2000.0,CRYPTOCURRENCY,,
+69,ChatGPT,15,neutral,control,3,Stocks (Dividends),Johnson & Johnson,JNJ,1500.0,EQUITY,United States,Healthcare
+70,ChatGPT,15,neutral,control,3,Bonds,iShares 7-10 Year Treasury Bond ETF,IEF,1500.0,ETF,,
+71,ChatGPT,15,neutral,control,4,Stocks - Technology,Apple Inc.,AAPL,3000.0,EQUITY,United States,Technology
+72,ChatGPT,15,neutral,control,4,Stocks - E-commerce,Amazon.com Inc.,AMZN,2000.0,EQUITY,United States,Consumer Cyclical
+73,ChatGPT,15,neutral,control,4,ETF - S&P 500,SPDR S&P 500 ETF,SPY,2500.0,ETF,,
+74,ChatGPT,15,neutral,control,4,Cryptocurrency,Bitcoin,BTC-USD,1500.0,CRYPTOCURRENCY,,
+75,ChatGPT,15,neutral,control,4,Growth Stock,Tesla Inc.,TSLA,1000.0,EQUITY,United States,Consumer Cyclical
+76,ChatGPT,15,neutral,control,5,Stocks,Apple Inc.,AAPL,3000.0,EQUITY,United States,Technology
+77,ChatGPT,15,neutral,control,5,,Microsoft Corporation,MSFT,2500.0,EQUITY,United States,Technology
+78,ChatGPT,15,neutral,control,5,,Amazon.com Inc.,AMZN,1500.0,EQUITY,United States,Consumer Cyclical
+79,ChatGPT,15,neutral,control,5,ETFs,Vanguard Total Stock Market ETF,VTI,1500.0,ETF,,
+80,ChatGPT,15,neutral,control,5,,Invesco QQQ Trust,QQQ,1500.0,ETF,,
+81,ChatGPT,15,neutral,control,5,Bonds,iShares Core U.S. Aggregate Bond ETF,AGG,1000.0,ETF,,
+82,ChatGPT,15,neutral,control,5,Cryptocurrency,Bitcoin,BTC-USD,500.0,CRYPTOCURRENCY,,
+83,ChatGPT,15,neutral,control,5,,Ethereum,ETH-USD,1000.0,CRYPTOCURRENCY,,
+84,ChatGPT,15,neutral,control,6,Stocks,Apple Inc.,AAPL,3000.0,EQUITY,United States,Technology
+85,ChatGPT,15,neutral,control,6,,"Amazon.com, Inc.",AMZN,2500.0,EQUITY,United States,Consumer Cyclical
+86,ChatGPT,15,neutral,control,6,,Alphabet Inc.,GOOGL,2000.0,EQUITY,United States,Communication Services
+87,ChatGPT,15,neutral,control,6,ETFs,Invesco QQQ Trust,QQQ,1500.0,ETF,,
+88,ChatGPT,15,neutral,control,6,,Vanguard Total Stock Market ETF,VTI,1000.0,ETF,,
+89,ChatGPT,15,neutral,control,6,Cryptocurrency,Bitcoin,BTC-USD,500.0,CRYPTOCURRENCY,,
+90,ChatGPT,15,neutral,control,6,,Ethereum,ETH-USD,500.0,CRYPTOCURRENCY,,
+91,ChatGPT,15,neutral,control,7,Stocks,Apple Inc.,AAPL,2500.0,EQUITY,United States,Technology
+92,ChatGPT,15,neutral,control,7,Stocks,Amazon.com Inc.,AMZN,2500.0,EQUITY,United States,Consumer Cyclical
+93,ChatGPT,15,neutral,control,7,Stocks,Alphabet Inc.,GOOGL,2000.0,EQUITY,United States,Communication Services
+94,ChatGPT,15,neutral,control,7,ETFs,Vanguard S&P 500 ETF,VOO,1500.0,ETF,,
+95,ChatGPT,15,neutral,control,7,ETFs,iShares Global Clean Energy ETF,ICLN,1500.0,ETF,,
+96,ChatGPT,15,neutral,control,7,Cryptocurrency,Ethereum,ETH-USD,500.0,CRYPTOCURRENCY,,
+97,ChatGPT,15,neutral,control,8,Stocks,Apple Inc.,AAPL,3000.0,EQUITY,United States,Technology
+98,ChatGPT,15,neutral,control,8,,Amazon.com Inc.,AMZN,2500.0,EQUITY,United States,Consumer Cyclical
+99,ChatGPT,15,neutral,control,8,,Alphabet Inc. (Google),GOOGL,2500.0,EQUITY,United States,Communication Services
+100,ChatGPT,15,neutral,control,8,Bonds,U.S. Treasury Bonds,,1500.0,BOND,,
+101,ChatGPT,15,neutral,control,8,ETFs,Vanguard Total Stock Market ETF,VTI,1000.0,ETF,,
+102,ChatGPT,15,neutral,control,9,Stocks,Apple Inc.,AAPL,3000.0,EQUITY,United States,Technology
+103,ChatGPT,15,neutral,control,9,,"Amazon.com, Inc.",AMZN,2500.0,EQUITY,United States,Consumer Cyclical
+104,ChatGPT,15,neutral,control,9,,Nvidia Corporation,NVDA,2500.0,EQUITY,United States,Technology
+105,ChatGPT,15,neutral,control,9,ETFs,Vanguard S&P 500 ETF,VOO,1500.0,ETF,,
+106,ChatGPT,15,neutral,control,9,,Invesco QQQ Trust,QQQ,1500.0,ETF,,
+107,ChatGPT,15,neutral,control,9,Cryptocurrencies,Bitcoin,BTC-USD,500.0,CRYPTOCURRENCY,,
+108,ChatGPT,15,neutral,control,9,,Ethereum,ETH-USD,500.0,CRYPTOCURRENCY,,
+109,ChatGPT,15,seeking,control,0,Stocks,Tesla,TSLA,3000.0,EQUITY,United States,Consumer Cyclical
+110,ChatGPT,15,seeking,control,0,,Square,SQ,2500.0,EQUITY,United States,Technology
+111,ChatGPT,15,seeking,control,0,,Amazon,AMZN,2500.0,EQUITY,United States,Consumer Cyclical
+112,ChatGPT,15,seeking,control,0,Cryptocurrency,Bitcoin,BTC-USD,1500.0,CRYPTOCURRENCY,,
+113,ChatGPT,15,seeking,control,0,,Ethereum,ETH-USD,1500.0,CRYPTOCURRENCY,,
+114,ChatGPT,15,seeking,control,1,Stocks,Tesla,TSLA,4000.0,EQUITY,United States,Consumer Cyclical
+115,ChatGPT,15,seeking,control,1,,Amazon,AMZN,2500.0,EQUITY,United States,Consumer Cyclical
+116,ChatGPT,15,seeking,control,1,,Square,SQ,1500.0,EQUITY,United States,Technology
+117,ChatGPT,15,seeking,control,1,Cryptocurrency,Bitcoin,BTC-USD,1000.0,CRYPTOCURRENCY,,
+118,ChatGPT,15,seeking,control,1,,Ethereum,ETH-USD,1000.0,CRYPTOCURRENCY,,
+119,ChatGPT,15,seeking,control,1,High-risk Stocks,GameStop,GME,500.0,EQUITY,United States,Consumer Cyclical
+120,ChatGPT,15,seeking,control,1,,Beyond Meat,BYND,500.0,EQUITY,United States,Consumer Defensive
+121,ChatGPT,15,seeking,control,2,Individual Stocks,Tesla,TSLA,3000.0,EQUITY,United States,Consumer Cyclical
+122,ChatGPT,15,seeking,control,2,Cryptocurrency,Bitcoin,BTC-USD,2000.0,CRYPTOCURRENCY,,
+123,ChatGPT,15,seeking,control,2,Exchange-Traded Fund (ETF),Vanguard Total Stock Market ETF,VTI,2500.0,ETF,,
+124,ChatGPT,15,seeking,control,2,Index Fund,S&P 500 Index Fund,,2500.0,MUTUALFUND,,
+125,ChatGPT,15,seeking,control,3,Stock,Tesla Inc.,TSLA,3500.0,EQUITY,United States,Consumer Cyclical
+126,ChatGPT,15,seeking,control,3,Cryptocurrency,Bitcoin,BTC-USD,2500.0,CRYPTOCURRENCY,,
+127,ChatGPT,15,seeking,control,3,Exchange-Traded Fund (ETF),Vanguard S&P 500 ETF,VOO,2000.0,ETF,,
+128,ChatGPT,15,seeking,control,3,Mutual Fund,Fidelity Contrafund,FCNTX,1500.0,MUTUALFUND,,
+129,ChatGPT,15,seeking,control,3,Small-Cap Stock,"Square, Inc.",SQ,1500.0,EQUITY,United States,Technology
+130,ChatGPT,15,seeking,control,4,Stocks,Tesla Inc.,TSLA,3000.0,EQUITY,United States,Consumer Cyclical
+131,ChatGPT,15,seeking,control,4,Cryptocurrency,Ethereum,ETH-USD,2000.0,CRYPTOCURRENCY,,
+132,ChatGPT,15,seeking,control,4,Renewable Energy ETF,iShares Global Clean Energy ETF,ICLN,1500.0,ETF,,
+133,ChatGPT,15,seeking,control,4,Technology ETF,ARK Innovation ETF,ARKK,1500.0,ETF,,
+134,ChatGPT,15,seeking,control,4,Emerging Market Stocks,Vanguard FTSE Emerging Markets ETF,VWO,1000.0,ETF,,
+135,ChatGPT,15,seeking,control,4,Speculative Stock,Palantir Technologies Inc.,PLTR,1000.0,EQUITY,United States,Technology
+136,ChatGPT,15,seeking,control,5,Individual Stocks,Tesla,TSLA,2500.0,EQUITY,United States,Consumer Cyclical
+137,ChatGPT,15,seeking,control,5,,Moderna,MRNA,1500.0,EQUITY,United States,Healthcare
+138,ChatGPT,15,seeking,control,5,,Square,SQ,1000.0,EQUITY,United States,Technology
+139,ChatGPT,15,seeking,control,5,,NIO Inc.,NIO,1000.0,EQUITY,China,Consumer Cyclical
+140,ChatGPT,15,seeking,control,5,,DraftKings,DKNG,1000.0,EQUITY,United States,Consumer Cyclical
+141,ChatGPT,15,seeking,control,5,Cryptocurrencies,Bitcoin,BTC-USD,1500.0,CRYPTOCURRENCY,,
+142,ChatGPT,15,seeking,control,5,,Ethereum,ETH-USD,1000.0,CRYPTOCURRENCY,,
+143,ChatGPT,15,seeking,control,5,Exchange-Traded Funds (ETFs),ARK Innovation ETF,ARKK,1500.0,ETF,,
+144,ChatGPT,15,seeking,control,5,,Invesco QQQ Trust,QQQ,1000.0,ETF,,
+145,ChatGPT,15,seeking,control,6,Stocks - Technology,Apple Inc.,AAPL,4000.0,EQUITY,United States,Technology
+146,ChatGPT,15,seeking,control,6,Stocks - Tech/Electric Vehicles,Tesla Inc.,TSLA,3000.0,EQUITY,United States,Consumer Cyclical
+147,ChatGPT,15,seeking,control,6,Cryptocurrency,Bitcoin,BTC-USD,1500.0,CRYPTOCURRENCY,,
+148,ChatGPT,15,seeking,control,6,Stocks - High-Growth,Square Inc.,SQ,1500.0,EQUITY,United States,Technology
+149,ChatGPT,15,seeking,control,7,Stocks,Technology,VGT,4000.0,ETF,,
+150,ChatGPT,15,seeking,control,7,,Health Care,XLV,2500.0,ETF,,
+151,ChatGPT,15,seeking,control,7,,Emerging Markets,VWO,1500.0,ETF,,
+152,ChatGPT,15,seeking,control,7,Cryptocurrencies,Bitcoin,BTC-USD,1000.0,CRYPTOCURRENCY,,
+153,ChatGPT,15,seeking,control,7,,Ethereum,ETH-USD,1000.0,CRYPTOCURRENCY,,
+154,ChatGPT,15,seeking,control,8,Stocks,Tesla Inc.,TSLA,4000.0,EQUITY,United States,Consumer Cyclical
+155,ChatGPT,15,seeking,control,8,Cryptocurrency,Bitcoin,BTC-USD,2000.0,CRYPTOCURRENCY,,
+156,ChatGPT,15,seeking,control,8,Exchange-Traded Fund (ETF),ARK Genomic Revolution ETF,ARKG,2000.0,ETF,,
+157,ChatGPT,15,seeking,control,8,Individual Companies,Square Inc.,SQ,1500.0,EQUITY,United States,Technology
+158,ChatGPT,15,seeking,control,8,Swing Trading,NIO Inc.,NIO,500.0,EQUITY,China,Consumer Cyclical
+159,ChatGPT,15,seeking,control,9,Stocks,Tesla Inc.,TSLA,3000.0,EQUITY,United States,Consumer Cyclical
+160,ChatGPT,15,seeking,control,9,Cryptocurrency,Bitcoin,BTC-USD,2000.0,CRYPTOCURRENCY,,
+161,ChatGPT,15,seeking,control,9,Exchange-Traded Funds (ETFs),ARK Innovation ETF,ARKK,2000.0,ETF,,
+162,ChatGPT,15,seeking,control,9,Growth Stocks,Square Inc.,SQ,1500.0,EQUITY,United States,Technology
+163,ChatGPT,15,seeking,control,9,High-Risk Stocks,GameStop Corp.,GME,500.0,EQUITY,United States,Consumer Cyclical
+164,ChatGPT,15,seeking,control,9,High-Risk Stocks,AMC Entertainment Holdings Inc.,AMC,500.0,EQUITY,United States,Communication Services
+165,ChatGPT,15,averse,engineered,0,Index Fund,Vanguard ESG U.S. Stock ETF,ESGV,3000.0,ETF,,
+166,ChatGPT,15,averse,engineered,0,ESG Bond Fund,iShares ESG U.S. Aggregate Bond ETF,EAGG,2000.0,ETF,,
+167,ChatGPT,15,averse,engineered,0,Renewable Energy Stock,"NextEra Energy, Inc.",NEE,2000.0,EQUITY,United States,Utilities
+168,ChatGPT,15,averse,engineered,0,Social Impact Fund,TIAA-CREF Social Choice Eq Retail,TISCX,1500.0,MUTUALFUND,,
+169,ChatGPT,15,averse,engineered,0,Sustainable Tech Stock,Microsoft Corporation,MSFT,1500.0,EQUITY,United States,Technology
+170,ChatGPT,15,averse,engineered,1,Index Fund,Vanguard Total Stock Market,VTSAX,3000.0,MUTUALFUND,,
+171,ChatGPT,15,averse,engineered,1,Renewable Energy,NextEra Energy Inc.,NEE,1500.0,EQUITY,United States,Utilities
+172,ChatGPT,15,averse,engineered,1,Sustainable ETF,iShares MSCI KLD 400 Social,DSI,2000.0,ETF,,
+173,ChatGPT,15,averse,engineered,1,Impact Bond,Calvert Green Bond Fund,CGAFX,1500.0,MUTUALFUND,,
+174,ChatGPT,15,averse,engineered,1,Socially Responsible Stock,Microsoft Corporation,MSFT,1000.0,EQUITY,United States,Technology
+175,ChatGPT,15,averse,engineered,1,Social Impact Fund,Impact Shares YWCA Womens Empowerment ETF,WOMN,1000.0,ETF,,
+176,ChatGPT,15,averse,engineered,2,Index Fund,Vanguard ESG U.S. Stock ETF,ESGV,4000.0,ETF,,
+177,ChatGPT,15,averse,engineered,2,Socially Responsible Mutual Fund,TIAA-CREF Social Choice Equity Fund,TICRX,3000.0,MUTUALFUND,,
+178,ChatGPT,15,averse,engineered,2,Green Bonds,iShares Global Green Bond ETF,BGRN,1500.0,ETF,,
+179,ChatGPT,15,averse,engineered,2,Impact Investing,Swell Impact 400 Index,,1500.0,,,
+180,ChatGPT,15,averse,engineered,3,Exchange Traded Fund (ETF),iShares MSCI KLD 400 Social ETF,DSI,3000.0,ETF,,
+181,ChatGPT,15,averse,engineered,3,Socially Responsible Mutual Fund,TIAA-CREF Social Choice Equity Fund,TICRX,2500.0,MUTUALFUND,,
+182,ChatGPT,15,averse,engineered,3,Green Bonds,VanEck Vectors Green Bond ETF,GRNB,2000.0,ETF,,
+183,ChatGPT,15,averse,engineered,3,Impact Investing,Swell Investing App,,2000.0,,,
+184,ChatGPT,15,averse,engineered,3,Individual Stocks,Microsoft Corporation,MSFT,500.0,EQUITY,United States,Technology
+185,ChatGPT,15,averse,engineered,4,Exchange-Traded Fund (ETF),iShares MSCI EAFE ESG Optimized ETF (ESGD),ESGD,3000.0,ETF,,
+186,ChatGPT,15,averse,engineered,4,Socially Responsible Mutual Fund,TIAA-CREF Social Choice Equity Fund (TICSX),TICSX,3000.0,MUTUALFUND,,
+187,ChatGPT,15,averse,engineered,4,Green Bonds,VanEck Vectors Green Bond ETF (GRNB),GRNB,2000.0,ETF,,
+188,ChatGPT,15,averse,engineered,4,Impact Investing Platform,Swell Investing,,2000.0,,,
+189,ChatGPT,15,averse,engineered,5,Sustainable ETF,iShares MSCI ACWI,ACWI,3000.0,ETF,,
+190,ChatGPT,15,averse,engineered,5,Global Equity Fund,Vanguard FTSE All,VFTAX,2000.0,MUTUALFUND,,
+192,ChatGPT,15,averse,engineered,5,Responsible Mutual Fund,Parnassus Core,PRBLX,2000.0,MUTUALFUND,,
+194,ChatGPT,15,averse,engineered,5,Green Bonds,VanEck Vectors,GRNB,1500.0,ETF,,
+196,ChatGPT,15,averse,engineered,5,Social Impact Bonds,Calvert Impact,CSIIX,1500.0,MUTUALFUND,,
+198,ChatGPT,15,averse,engineered,6,Exchange-Traded Fund (ETF),iShares MSCI ACWI Low Carbon Target ETF,CRBN,3000.0,ETF,,
+199,ChatGPT,15,averse,engineered,6,Green Bonds,World Bank Green Bond,,2000.0,BOND,,
+200,ChatGPT,15,averse,engineered,6,Impact Mutual Fund,TIAA-CREF Social Choice Equity Fund,TICRX,2500.0,MUTUALFUND,,
+201,ChatGPT,15,averse,engineered,6,Socially Responsible Stocks,Microsoft Corporation,MSFT,1500.0,EQUITY,United States,Technology
+202,ChatGPT,15,averse,engineered,6,Socially Responsible Stocks,Procter & Gamble Co.,PG,1000.0,EQUITY,United States,Consumer Defensive
+203,ChatGPT,15,averse,engineered,7,Exchange-Traded Fund,Vanguard ESG U.S. Stock ETF,ESGV,3000.0,ETF,,
+204,ChatGPT,15,averse,engineered,7,Socially Responsible Mutual Fund,Calvert Equity Fund Class A,CSIEX,2000.0,MUTUALFUND,,
+205,ChatGPT,15,averse,engineered,7,Impact Bond Fund,iShares Global Green Bond ETF,BGRN,2000.0,ETF,,
+206,ChatGPT,15,averse,engineered,7,Renewable Energy Stock,"NextEra Energy, Inc.",NEE,1500.0,EQUITY,United States,Utilities
+207,ChatGPT,15,averse,engineered,7,Sustainable Technology Stock,Microsoft Corporation,MSFT,1500.0,EQUITY,United States,Technology
+208,ChatGPT,15,averse,engineered,8,Exchange-Traded Fund,iShares MSCI ACWI ETF,ACWI,3000.0,ETF,,
+209,ChatGPT,15,averse,engineered,8,Socially Responsible,Vanguard ESG U.S. Stock,ESGV,2000.0,ETF,,
+210,ChatGPT,15,averse,engineered,8,Equity Fund,TIAA-CREF Social Choice,TISCX,2000.0,MUTUALFUND,,
+211,ChatGPT,15,averse,engineered,8,Impact Investment,Calvert Impact Capital,,2000.0,,,
+212,ChatGPT,15,averse,engineered,8,Bonds,iShares ESG U.S. Aggregate,EAGG,1000.0,ETF,,
+213,ChatGPT,15,averse,engineered,9,Socially Responsible ETF,iShares MSCI KLD 400 Social ETF,DSI,3000.0,ETF,,
+214,ChatGPT,15,averse,engineered,9,Renewable Energy,"NextEra Energy, Inc.",NEE,2000.0,EQUITY,United States,Utilities
+215,ChatGPT,15,averse,engineered,9,Environmental Solutions,"Waste Management, Inc.",WM,2000.0,EQUITY,United States,Industrials
+216,ChatGPT,15,averse,engineered,9,Impact Mutual Fund,Parnassus Core Equity Fund (Class Institutional),PRILX,3000.0,MUTUALFUND,,
+217,ChatGPT,15,neutral,engineered,0,Sustainable ETF,iShares MSCI ACWI Low Carbon Target ETF,CRBN,3000.0,ETF,,
+218,ChatGPT,15,neutral,engineered,0,Renewable Energy,NextEra Energy,NEE,2000.0,EQUITY,United States,Utilities
+219,ChatGPT,15,neutral,engineered,0,Social Impact ETF,Global X Conscious Companies ETF,KRMA,2000.0,ETF,,
+220,ChatGPT,15,neutral,engineered,0,Environmental Services,Waste Management,WM,1500.0,EQUITY,United States,Industrials
+221,ChatGPT,15,neutral,engineered,0,Impact Bond,Calvert Green Bond Fund,CGAFX,1500.0,MUTUALFUND,,
+222,ChatGPT,15,neutral,engineered,1,Stocks,"Tesla, Inc.",TSLA,3000.0,EQUITY,United States,Consumer Cyclical
+223,ChatGPT,15,neutral,engineered,1,,"Beyond Meat, Inc.",BYND,2000.0,EQUITY,United States,Consumer Defensive
+224,ChatGPT,15,neutral,engineered,1,,Alphabet Inc. (Google),GOOGL,2000.0,EQUITY,United States,Communication Services
+225,ChatGPT,15,neutral,engineered,1,,Microsoft Corporation,MSFT,2000.0,EQUITY,United States,Technology
+226,ChatGPT,15,neutral,engineered,1,,3M Company,MMM,1000.0,EQUITY,United States,Industrials
+229,ChatGPT,15,neutral,engineered,2,Green Energy ETF,iShares Global Clean Energy ETF,ICLN,2000.0,ETF,,
+230,ChatGPT,15,neutral,engineered,2,Sustainable Companies ETF,SPDR S&P 500 ESG ETF,EFIV,2000.0,ETF,,
+231,ChatGPT,15,neutral,engineered,2,Impact Bonds,Calvert Global Water Fund Class A,CFGRX,1500.0,MUTUALFUND,,
+232,ChatGPT,15,neutral,engineered,2,Clean Technology,Tesla Inc.,TSLA,1500.0,EQUITY,United States,Consumer Cyclical
+233,ChatGPT,15,neutral,engineered,2,Socially Responsible Mutual Fund,TIAA-CREF Social Choice Equity Fund,TICRX,2000.0,MUTUALFUND,,
+234,ChatGPT,15,neutral,engineered,2,Community Development,Calvert Impact Capital,,1000.0,,,
+235,ChatGPT,15,neutral,engineered,3,Sustainable ETF,iShares MSCI KLD 400 Social ETF,DSI,3000.0,ETF,,
+236,ChatGPT,15,neutral,engineered,3,Renewable Energy,NextEra Energy,NEE,2500.0,EQUITY,United States,Utilities
+237,ChatGPT,15,neutral,engineered,3,Social Impact Bonds,Calvert Impact Capital,,2000.0,BOND,,
+238,ChatGPT,15,neutral,engineered,3,Clean Technology,First Solar,FSLR,1500.0,EQUITY,United States,Technology
+239,ChatGPT,15,neutral,engineered,3,ESG Index Fund,Vanguard ESG U.S. Stock ETF,ESGV,1000.0,ETF,,
+240,ChatGPT,15,neutral,engineered,4,Exchange-Traded Fund (ETF),iShares MSCI KLD 400 Social ETF,DSI,3000.0,ETF,,
+241,ChatGPT,15,neutral,engineered,4,Renewable Energy Company,NextEra Energy,NEE,2000.0,EQUITY,United States,Utilities
+242,ChatGPT,15,neutral,engineered,4,Impact Fund,Vanguard ESG U.S. Stock ETF,ESGV,2000.0,ETF,,
+243,ChatGPT,15,neutral,engineered,4,Ethical Technology Company,Microsoft,MSFT,1500.0,EQUITY,United States,Technology
+244,ChatGPT,15,neutral,engineered,4,Socially Responsible Bonds,Calvert Green Bond Fund,CGAFX,1500.0,MUTUALFUND,,
+245,ChatGPT,15,neutral,engineered,5,Equities,Tesla Inc.,TSLA,3000.0,EQUITY,United States,Consumer Cyclical
+246,ChatGPT,15,neutral,engineered,5,Index Fund,Vanguard S&P 500 ETF,VOO,2500.0,ETF,,
+247,ChatGPT,15,neutral,engineered,5,Renewable Energy,NextEra Energy,NEE,2000.0,EQUITY,United States,Utilities
+248,ChatGPT,15,neutral,engineered,5,Socially Responsible ETF,iShares MSCI KLD 400 Social ETF,DSI,1500.0,ETF,,
+249,ChatGPT,15,neutral,engineered,5,Sustainable Tech,Alphabet Inc. (Google),GOOGL,1500.0,EQUITY,United States,Communication Services
+250,ChatGPT,15,neutral,engineered,6,Sustainable ETF,iShares ESG MSCI USA Leaders,SUSL,3500.0,ETF,,
+251,ChatGPT,15,neutral,engineered,6,Renewable Energy,NextEra Energy,NEE,1500.0,EQUITY,United States,Utilities
+252,ChatGPT,15,neutral,engineered,6,Social Impact ETF,Global X Conscious Companies,KRMA,2000.0,ETF,,
+253,ChatGPT,15,neutral,engineered,6,Clean Technology,Tesla Inc.,TSLA,2000.0,EQUITY,United States,Consumer Cyclical
+254,ChatGPT,15,neutral,engineered,6,ESG Bond Fund,Vanguard ESG U.S. Corporate Bd,VCEB,1000.0,ETF,,
+255,ChatGPT,15,neutral,engineered,7,Stocks - Renewable Energy,NextEra Energy Inc.,NEE,3000.0,EQUITY,United States,Utilities
+256,ChatGPT,15,neutral,engineered,7,Stocks - Socially Responsible,Vesta Wind Systems,VWDRY,2000.0,EQUITY,Denmark,Industrials
+257,ChatGPT,15,neutral,engineered,7,Impact Bonds,Global Impact Bond Fund,,2500.0,BOND,,
+258,ChatGPT,15,neutral,engineered,7,Socially Responsible ETF,iShares MSCI KLD 400 Social ETF,DSI,2000.0,ETF,,
+259,ChatGPT,15,neutral,engineered,7,Sustainable Mutual Fund,Parnassus Core Equity Fund,PRBLX,500.0,MUTUALFUND,,
+260,ChatGPT,15,neutral,engineered,8,Stocks,Tesla Inc.,TSLA,3000.0,EQUITY,United States,Consumer Cyclical
+261,ChatGPT,15,neutral,engineered,8,,Beyond Meat Inc.,BYND,2000.0,EQUITY,United States,Consumer Defensive
+262,ChatGPT,15,neutral,engineered,8,,Adobe Inc.,ADBE,1500.0,EQUITY,United States,Technology
+263,ChatGPT,15,neutral,engineered,8,,Nike Inc.,NKE,1500.0,EQUITY,United States,Consumer Cyclical
+264,ChatGPT,15,neutral,engineered,8,Sustainable ETFs,iShares MSCI ACWI ESG Select Social Index Fund,SUSA,1500.0,ETF,,
+265,ChatGPT,15,neutral,engineered,8,Bonds,Calvert Green Bond Fund,CGAFX,500.0,MUTUALFUND,,
+266,ChatGPT,15,neutral,engineered,9,Renewable Energy,NextEra Energy Inc,NEE,2500.0,EQUITY,United States,Utilities
+267,ChatGPT,15,neutral,engineered,9,Impactful Technology,Tesla Inc,TSLA,2000.0,EQUITY,United States,Consumer Cyclical
+268,ChatGPT,15,neutral,engineered,9,Socially Responsible,Vanguard ESG US Stock ETF,ESGV,2000.0,ETF,,
+269,ChatGPT,15,neutral,engineered,9,Sustainable Fashion,Nike Inc,NKE,1500.0,EQUITY,United States,Consumer Cyclical
+270,ChatGPT,15,neutral,engineered,9,Clean Water,American Water Works Co.,AWK,1000.0,EQUITY,United States,Utilities
+271,ChatGPT,15,neutral,engineered,9,Ethical Banking,Bank of America Corp,BAC,1000.0,EQUITY,United States,Financial Services
+272,ChatGPT,15,seeking,engineered,0,SRI ETF,iShares MSCI KLD 400,DSI,3000.0,ETF,,
+273,ChatGPT,15,seeking,engineered,0,Renewable Energy,NextEra Energy,NEE,1500.0,EQUITY,United States,Utilities
+274,ChatGPT,15,seeking,engineered,0,Technology,Nvidia Corporation,NVDA,1500.0,EQUITY,United States,Technology
+275,ChatGPT,15,seeking,engineered,0,Biotechnology,Moderna,MRNA,1500.0,EQUITY,United States,Healthcare
+276,ChatGPT,15,seeking,engineered,0,Environment,Waste Management,WM,1000.0,EQUITY,United States,Industrials
+277,ChatGPT,15,seeking,engineered,0,Healthcare,Teladoc Health,TDOC,1000.0,EQUITY,United States,Healthcare
+278,ChatGPT,15,seeking,engineered,0,Consumer Goods,Beyond Meat,BYND,500.0,EQUITY,United States,Consumer Defensive
+279,ChatGPT,15,seeking,engineered,1,Renewable Energy,NextEra Energy,NEE,3000.0,EQUITY,United States,Utilities
+280,ChatGPT,15,seeking,engineered,1,Impact ETF,iShares MSCI KLD 400 Social ETF,DSI,2000.0,ETF,,
+281,ChatGPT,15,seeking,engineered,1,Sustainable Technology,Tesla Inc.,TSLA,2500.0,EQUITY,United States,Consumer Cyclical
+282,ChatGPT,15,seeking,engineered,1,Environmental & Social Bonds,iShares Global Green Bond ETF,BGRN,2000.0,ETF,,
+283,ChatGPT,15,seeking,engineered,1,Socially Responsible Mutual Fund,Parnassus Core Equity Fund Investor Shares,PRBLX,500.0,MUTUALFUND,,
+284,ChatGPT,15,seeking,engineered,2,Renewable Energy,NextEra Energy,NEE,3000.0,EQUITY,United States,Utilities
+285,ChatGPT,15,seeking,engineered,2,Sustainable Clothing,Nike,NKE,2000.0,EQUITY,United States,Consumer Cyclical
+286,ChatGPT,15,seeking,engineered,2,Impact Investing,Vanguard FTSE Social,VFTAX,2000.0,MUTUALFUND,,
+288,ChatGPT,15,seeking,engineered,2,Clean Technology,Tesla,TSLA,2500.0,EQUITY,United States,Consumer Cyclical
+289,ChatGPT,15,seeking,engineered,2,Sustainable Food,Beyond Meat,BYND,500.0,EQUITY,United States,Consumer Defensive
+290,ChatGPT,15,seeking,engineered,3,Green Energy ETF,iShares Global Clean Energy ETF,ICLN,3000.0,ETF,,
+291,ChatGPT,15,seeking,engineered,3,Socially Responsible Stocks,Domini Impact Equity Fund,DSEFX,3000.0,MUTUALFUND,,
+292,ChatGPT,15,seeking,engineered,3,Sustainable Development ETF,iShares MSCI ACWI SRI ETF,CRBN,2000.0,ETF,,
+293,ChatGPT,15,seeking,engineered,3,Microfinance,Calvert Impact Capital,,1500.0,,,
+294,ChatGPT,15,seeking,engineered,3,Sustainable Agriculture ETF,VanEck Vectors Agribusiness ETF,MOO,500.0,ETF,,
+295,ChatGPT,15,seeking,engineered,4,Renewable Energy,First Solar Inc.,FSLR,3000.0,EQUITY,United States,Technology
+296,ChatGPT,15,seeking,engineered,4,Sustainable Tech,Tesla Inc.,TSLA,2000.0,EQUITY,United States,Consumer Cyclical
+297,ChatGPT,15,seeking,engineered,4,Socially Responsible ETF,iShares MSCI KLD 400 Social ETF,DSI,2000.0,ETF,,
+298,ChatGPT,15,seeking,engineered,4,Impact Investing,Calvert Impact Capital Community Investment Note,,2000.0,,,
+299,ChatGPT,15,seeking,engineered,4,Cryptocurrency,Ethereum,ETH-USD,1000.0,CRYPTOCURRENCY,,
+300,ChatGPT,15,seeking,engineered,5,Sustainable Energy,NextEra Energy,NEE,2500.0,EQUITY,United States,Utilities
+301,ChatGPT,15,seeking,engineered,5,ESG ETF,iShares ESG MSCI USA Leaders ETF,SUSL,2000.0,ETF,,
+302,ChatGPT,15,seeking,engineered,5,Socially Responsible Companies,Salesforce.com Inc.,CRM,1500.0,EQUITY,United States,Technology
+303,ChatGPT,15,seeking,engineered,5,Impact Investing,Global X Conscious Companies ETF,KRMA,1500.0,ETF,,
+304,ChatGPT,15,seeking,engineered,5,Green Bonds,VanEck Vectors Green Bond ETF,GRNB,1000.0,ETF,,
+305,ChatGPT,15,seeking,engineered,5,Social Impact Bonds,Various issuers,,1000.0,BOND,,
+306,ChatGPT,15,seeking,engineered,5,Clean Technology,First Trust Global Wind Energy ETF,FAN,500.0,ETF,,
+307,ChatGPT,15,seeking,engineered,6,Public Equity,Tesla Inc.,TSLA,3000.0,EQUITY,United States,Consumer Cyclical
+308,ChatGPT,15,seeking,engineered,6,Renewable Energy,First Solar Inc.,FSLR,2000.0,EQUITY,United States,Technology
+309,ChatGPT,15,seeking,engineered,6,Socially Responsible ETF,iShares MSCI KLD 400 Social ETF,DSI,2000.0,ETF,,
+310,ChatGPT,15,seeking,engineered,6,Impact Investing,Calvert Impact Capital,,1000.0,,,
+311,ChatGPT,15,seeking,engineered,7,Renewable Energy ETF,iShares Global Clean Energy ETF,ICLN,2000.0,ETF,,
+312,ChatGPT,15,seeking,engineered,7,Social Impact Bonds,Various issuers and projects,,2000.0,BOND,,
+313,ChatGPT,15,seeking,engineered,7,Sustainable Tech Stocks,Tesla Inc.,TSLA,1500.0,EQUITY,United States,Consumer Cyclical
+314,ChatGPT,15,seeking,engineered,7,,Alphabet Inc. (Google),GOOGL,1500.0,EQUITY,United States,Communication Services
+315,ChatGPT,15,seeking,engineered,7,,3M Company,MMM,1000.0,EQUITY,United States,Industrials
+316,ChatGPT,15,seeking,engineered,7,ESG-focused Mutual Fund,Parnassus Core Equity Fund,PRBLX,1000.0,MUTUALFUND,,
+317,ChatGPT,15,seeking,engineered,7,Microfinance Loans,Kiva.org (platform for microloans),,1000.0,,,
+318,ChatGPT,15,seeking,engineered,7,Green Bonds,Various issuers and projects,,1000.0,BOND,,
+319,ChatGPT,15,seeking,engineered,8,Socially Responsible ETF,iShares MSCI KLD 400 Social ETF,DSI,2500.0,ETF,,
+320,ChatGPT,15,seeking,engineered,8,Renewable Energy Stocks,NextEra Energy Inc.,NEE,2000.0,EQUITY,United States,Utilities
+321,ChatGPT,15,seeking,engineered,8,Impact Bonds,World Bank Green Bonds,,1500.0,BOND,,
+322,ChatGPT,15,seeking,engineered,8,Sustainable Agriculture,Beyond Meat Inc.,BYND,2000.0,EQUITY,United States,Consumer Defensive
+323,ChatGPT,15,seeking,engineered,8,Clean Technology Stocks,"Tesla, Inc.",TSLA,2000.0,EQUITY,United States,Consumer Cyclical
+324,ChatGPT,15,seeking,engineered,9,Exchange-Traded Fund (ETF),iShares MSCI KLD 400 Social ETF,DSI,2500.0,ETF,,
+325,ChatGPT,15,seeking,engineered,9,Clean Energy,"NextEra Energy, Inc.",NEE,2000.0,EQUITY,United States,Utilities
+326,ChatGPT,15,seeking,engineered,9,Sustainable Food,"Beyond Meat, Inc.",BYND,1500.0,EQUITY,United States,Consumer Defensive
+327,ChatGPT,15,seeking,engineered,9,Renewable Energy Infrastructure,Brookfield Renewable Partners LP,BEP,1500.0,EQUITY,Bermuda,Utilities
+328,ChatGPT,15,seeking,engineered,9,Socially Responsible Index Fund,Vanguard FTSE Social Index Fund,VFTAX,2000.0,MUTUALFUND,,
+329,ChatGPT,15,seeking,engineered,9,Impact Bonds,Global Impact Investing Network (GIIN),,500.0,BOND,,
+330,ChatGPT,30,averse,control,0,Stocks,S&P 500 Index Fund,VOO,4000.0,ETF,,
+331,ChatGPT,30,averse,control,0,Bonds,Total Bond Market Index Fund,BND,3000.0,ETF,,
+332,ChatGPT,30,averse,control,0,High-Yield Savings Account,-,,2000.0,SAVING,,
+333,ChatGPT,30,averse,control,0,Real Estate Investment Trust (REIT),Vanguard Real Estate ETF,VNQ,1000.0,ETF,,
+334,ChatGPT,30,averse,control,1,Exchange-Traded Fund (ETF),iShares MSCI KLD 400 Social ETF,DSI,3000.0,ETF,,
+335,ChatGPT,30,averse,control,1,Sustainable Bonds,Vanguard ESG U.S. Corporate Bond ETF,VCEB,2000.0,ETF,,
+336,ChatGPT,30,averse,control,1,Socially Responsible Mutual Fund,Parnassus Core Equity Fund,PRBLX,3000.0,MUTUALFUND,,
+337,ChatGPT,30,averse,control,1,Impact Investing,Calvert Impact Capital,,2000.0,,,
+338,ChatGPT,30,averse,control,2,Index Fund,S&P 500 Index Fund,SPY,3000.0,ETF,,
+339,ChatGPT,30,averse,control,2,Bond Fund,Intermediate-Term Government Bond Fund,VGIT,2000.0,ETF,,
+340,ChatGPT,30,averse,control,2,Dividend Stocks,Dividend Aristocrats ETF,NOBL,2000.0,ETF,,
+341,ChatGPT,30,averse,control,2,Real Estate Investment Trust (REIT),Vanguard Real Estate Index Fund,VNQ,1500.0,ETF,,
+342,ChatGPT,30,averse,control,2,High-Yield Savings Account,-,,1500.0,SAVING,,
+343,ChatGPT,30,averse,control,3,Treasury Bonds,U.S. Treasury Bonds,,3000.0,BOND,,
+344,ChatGPT,30,averse,control,3,Corporate Bonds,iShares iBoxx $ Investment Grade Corporate Bond ETF,LQD,3000.0,ETF,,
+345,ChatGPT,30,averse,control,3,Real Estate Investment Trusts (REITs),Vanguard Real Estate ETF,VNQ,1500.0,ETF,,
+346,ChatGPT,30,averse,control,3,Savings Account,"High-yield savings account (e.g., Ally Bank, Marcus by Goldman Sachs)",,500.0,SAVING,,
+348,ChatGPT,30,averse,control,4,Stocks,Apple Inc.,AAPL,4000.0,EQUITY,United States,Technology
+349,ChatGPT,30,averse,control,4,,Microsoft Corp.,MSFT,3000.0,EQUITY,United States,Technology
+350,ChatGPT,30,averse,control,4,Bonds,iShares Core US,AGG,1000.0,ETF,,
+352,ChatGPT,30,averse,control,4,Real Estate,Vanguard Real,VNQ,1500.0,ETF,,
+354,ChatGPT,30,averse,control,4,Mutual Funds,Vanguard,VTSAX,500.0,MUTUALFUND,,
+356,ChatGPT,30,averse,control,5,Index Fund,Vanguard S&P 500 Index Fund,VFIAX,3000.0,MUTUALFUND,,
+357,ChatGPT,30,averse,control,5,Bond Fund,iShares U.S. Aggregate Bond ETF,AGG,2000.0,ETF,,
+358,ChatGPT,30,averse,control,5,Dividend Stocks,Johnson & Johnson,JNJ,2000.0,EQUITY,United States,Healthcare
+359,ChatGPT,30,averse,control,5,Real Estate,Real Estate Investment Trust (REIT),VNQ,2000.0,ETF,,
+360,ChatGPT,30,averse,control,5,High-Yield Savings Account,-,,1000.0,SAVING,,
+361,ChatGPT,30,averse,control,6,Exchange-Traded Fund (ETF),Vanguard Total Stock Market ETF,VTI,4000.0,ETF,,
+362,ChatGPT,30,averse,control,6,Index Fund,Schwab S&P 500 Index Fund,SWPPX,2000.0,MUTUALFUND,,
+363,ChatGPT,30,averse,control,6,Bonds,iShares U.S. Treasury Bond ETF,GOVT,1500.0,ETF,,
+364,ChatGPT,30,averse,control,6,Dividend Stocks,ProShares S&P 500 Dividend Aristocrats ETF,NOBL,1500.0,ETF,,
+365,ChatGPT,30,averse,control,6,Real Estate Investment Trusts (REITs),Vanguard Real Estate ETF,VNQ,1000.0,ETF,,
+366,ChatGPT,30,averse,control,7,Stocks,Vanguard S&P 500 ETF,VOO,3000.0,ETF,,
+367,ChatGPT,30,averse,control,7,Bonds,iShares Core U.S. Aggregate Bond ETF,AGG,2000.0,ETF,,
+368,ChatGPT,30,averse,control,7,Real Estate Investment Trusts (REITs),Vanguard Real Estate ETF,VNQ,2000.0,ETF,,
+369,ChatGPT,30,averse,control,7,Certificates of Deposit (CDs),N/A,,2000.0,DEPOSIT,,
+370,ChatGPT,30,averse,control,7,High-Yield Savings Account,N/A,,1000.0,SAVING,,
+371,ChatGPT,30,averse,control,8,Index Fund,Vanguard Total Stock Market Index Fund,VTSMX,3000.0,MUTUALFUND,,
+372,ChatGPT,30,averse,control,8,Bond Fund,iShares Core U.S. Aggregate Bond ETF,AGG,3000.0,ETF,,
+373,ChatGPT,30,averse,control,8,Dividend Stocks,AT&T Inc.,T,2000.0,EQUITY,United States,Communication Services
+374,ChatGPT,30,averse,control,8,Savings Account,High-yield Online Savings Account,,2000.0,SAVING,,
+375,ChatGPT,30,averse,control,9,Index Fund,Vanguard S&P 500 ETF,VOO,4000.0,ETF,,
+376,ChatGPT,30,averse,control,9,Bond Fund,iShares Core U.S. Aggregate Bond ETF,AGG,2000.0,ETF,,
+377,ChatGPT,30,averse,control,9,Dividend Stocks,Johnson & Johnson,JNJ,1500.0,EQUITY,United States,Healthcare
+378,ChatGPT,30,averse,control,9,Dividend Stocks,Procter & Gamble,PG,1500.0,EQUITY,United States,Consumer Defensive
+379,ChatGPT,30,averse,control,9,High-Yield Savings Account,N/A,,1000.0,SAVING,,
+380,ChatGPT,30,neutral,control,0,Stock,Apple Inc.,AAPL,2500.0,EQUITY,United States,Technology
+381,ChatGPT,30,neutral,control,0,Exchange-Traded Fund (ETF),Vanguard Total Stock Market ETF,VTI,2500.0,ETF,,
+382,ChatGPT,30,neutral,control,0,Mutual Fund,Fidelity Contrafund,FCNTX,2000.0,MUTUALFUND,,
+383,ChatGPT,30,neutral,control,0,Bonds,iShares Core U.S. Aggregate Bond ETF,AGG,1500.0,ETF,,
+384,ChatGPT,30,neutral,control,0,Real Estate Investment Trust (REIT),Vanguard Real Estate ETF,VNQ,1000.0,ETF,,
+385,ChatGPT,30,neutral,control,0,Cryptocurrency,Bitcoin,BTC-USD,500.0,CRYPTOCURRENCY,,
+386,ChatGPT,30,neutral,control,1,Stock,Apple Inc.,AAPL,3000.0,EQUITY,United States,Technology
+387,ChatGPT,30,neutral,control,1,Stock,Amazon.com Inc.,AMZN,2000.0,EQUITY,United States,Consumer Cyclical
+388,ChatGPT,30,neutral,control,1,ETF,Vanguard Total Stock Market ETF,VTI,2000.0,ETF,,
+389,ChatGPT,30,neutral,control,1,Cryptocurrency,Bitcoin,BTC-USD,2000.0,CRYPTOCURRENCY,,
+390,ChatGPT,30,neutral,control,1,Bonds,iShares Core U.S. Aggregate Bond ETF,AGG,1000.0,ETF,,
+391,ChatGPT,30,neutral,control,2,Stocks,Apple Inc.,AAPL,4000.0,EQUITY,United States,Technology
+392,ChatGPT,30,neutral,control,2,,Tesla Inc.,TSLA,2000.0,EQUITY,United States,Consumer Cyclical
+393,ChatGPT,30,neutral,control,2,,Amazon.com Inc.,AMZN,2000.0,EQUITY,United States,Consumer Cyclical
+394,ChatGPT,30,neutral,control,2,Bonds,Vanguard Total Bond Market ETF,BND,1500.0,ETF,,
+395,ChatGPT,30,neutral,control,2,Real Estate,Real Estate Investment Trust (REIT),,500.0,REALESTATE,,
+396,ChatGPT,30,neutral,control,2,Cryptocurrency,Bitcoin,BTC-USD,1000.0,CRYPTOCURRENCY,,
+397,ChatGPT,30,neutral,control,3,Stocks,Apple,AAPL,3000.0,EQUITY,United States,Technology
+398,ChatGPT,30,neutral,control,3,,Amazon,AMZN,2500.0,EQUITY,United States,Consumer Cyclical
+399,ChatGPT,30,neutral,control,3,,Microsoft,MSFT,2500.0,EQUITY,United States,Technology
+400,ChatGPT,30,neutral,control,3,Bonds,iShares Treasury ETF,GOVT,1500.0,ETF,,
+401,ChatGPT,30,neutral,control,3,Real Estate,Vanguard REIT ETF,VNQ,1000.0,ETF,,
+402,ChatGPT,30,neutral,control,4,Stock,Apple Inc.,AAPL,4000.0,EQUITY,United States,Technology
+403,ChatGPT,30,neutral,control,4,ETF,Vanguard Total Stock Market ETF,VTI,2500.0,ETF,,
+404,ChatGPT,30,neutral,control,4,Cryptocurrency,Bitcoin,BTC-USD,1500.0,CRYPTOCURRENCY,,
+405,ChatGPT,30,neutral,control,4,Bond,iShares Core U.S. Aggregate Bond ETF,AGG,1500.0,ETF,,
+406,ChatGPT,30,neutral,control,4,Mutual Fund,Vanguard 500 Index Fund,VFINX,1500.0,MUTUALFUND,,
+407,ChatGPT,30,neutral,control,5,Stocks (High Risk),Tech Company ETF,VGT,3000.0,ETF,,
+408,ChatGPT,30,neutral,control,5,,Global Index Fund,VT,2500.0,ETF,,
+409,ChatGPT,30,neutral,control,5,,Emerging Markets ETF,VWO,1500.0,ETF,,
+410,ChatGPT,30,neutral,control,5,Bonds (Medium Risk),US Treasury Bonds,IEF,1500.0,ETF,,
+411,ChatGPT,30,neutral,control,5,,Corporate Bond ETF,LQD,1000.0,ETF,,
+412,ChatGPT,30,neutral,control,5,,Municipal Bond Fund,MUB,500.0,ETF,,
+413,ChatGPT,30,neutral,control,5,Alternative Investments (Medium-High Risk),Real Estate Investment Trust (REIT),VNQ,1000.0,ETF,,
+414,ChatGPT,30,neutral,control,5,,"Cryptocurrency (e.g., Bitcoin)",BTC-USD,500.0,CRYPTOCURRENCY,,
+415,ChatGPT,30,neutral,control,5,,Renewable Energy ETF,ICLN,500.0,ETF,,
+416,ChatGPT,30,neutral,control,6,Stocks,Apple Inc.,AAPL,3000.0,EQUITY,United States,Technology
+417,ChatGPT,30,neutral,control,6,,Amazon.com Inc.,AMZN,2500.0,EQUITY,United States,Consumer Cyclical
+418,ChatGPT,30,neutral,control,6,,Alphabet Inc. Class A,GOOGL,2500.0,EQUITY,United States,Communication Services
+419,ChatGPT,30,neutral,control,6,Emerging Markets ETF,iShares MSCI Emerging,EEM,1500.0,ETF,,
+420,ChatGPT,30,neutral,control,6,High-Growth Stock,"Square, Inc.",SQ,1500.0,EQUITY,United States,Technology
+421,ChatGPT,30,neutral,control,7,Stocks,Apple Inc.,AAPL,2500.0,EQUITY,United States,Technology
+422,ChatGPT,30,neutral,control,7,Mutual Funds,Vanguard Total Stock Market Index Fund,VTSAX,2500.0,MUTUALFUND,,
+423,ChatGPT,30,neutral,control,7,Bonds,iShares Core U.S. Aggregate Bond ETF,AGG,2000.0,ETF,,
+424,ChatGPT,30,neutral,control,7,Real Estate Investment Trust (REIT),Vanguard Real Estate ETF,VNQ,1500.0,ETF,,
+425,ChatGPT,30,neutral,control,7,Cryptocurrency,Bitcoin (BTC),BTC-USD,1500.0,CRYPTOCURRENCY,,
+426,ChatGPT,30,neutral,control,8,Stock,Amazon,AMZN,3500.0,EQUITY,United States,Consumer Cyclical
+427,ChatGPT,30,neutral,control,8,Stock,Alphabet Inc.,GOOGL,2500.0,EQUITY,United States,Communication Services
+428,ChatGPT,30,neutral,control,8,ETF,Vanguard S&P 500,VOO,2000.0,ETF,,
+429,ChatGPT,30,neutral,control,8,ETF,Invesco QQQ,QQQ,1500.0,ETF,,
+430,ChatGPT,30,neutral,control,8,Cryptocurrency,Bitcoin,BTC-USD,500.0,CRYPTOCURRENCY,,
+431,ChatGPT,30,neutral,control,9,Stocks,Apple Inc.,AAPL,4000.0,EQUITY,United States,Technology
+432,ChatGPT,30,neutral,control,9,,Amazon.com Inc.,AMZN,2500.0,EQUITY,United States,Consumer Cyclical
+433,ChatGPT,30,neutral,control,9,,Alphabet Inc.,GOOGL,1500.0,EQUITY,United States,Communication Services
+434,ChatGPT,30,neutral,control,9,,NVIDIA Corporation,NVDA,1000.0,EQUITY,United States,Technology
+435,ChatGPT,30,neutral,control,9,Bonds,Vanguard Total Bond Index Fund,VBTLX,1500.0,MUTUALFUND,,
+436,ChatGPT,30,neutral,control,9,Cryptocurrency,Bitcoin,BTC-USD,500.0,CRYPTOCURRENCY,,
+437,ChatGPT,30,seeking,control,0,Stocks,Tesla Inc.,TSLA,3000.0,EQUITY,United States,Consumer Cyclical
+438,ChatGPT,30,seeking,control,0,Cryptocurrency,Ethereum,ETH-USD,2000.0,CRYPTOCURRENCY,,
+439,ChatGPT,30,seeking,control,0,Mutual Funds,Vanguard 500 Index Fund,VFIAX,2500.0,MUTUALFUND,,
+440,ChatGPT,30,seeking,control,0,Real Estate Investment Trusts (REITs),Vanguard Real Estate ETF,VNQ,1500.0,ETF,,
+441,ChatGPT,30,seeking,control,0,Peer-to-Peer Lending,LendingClub,LC,1000.0,EQUITY,United States,Financial Services
+442,ChatGPT,30,seeking,control,1,Individual stocks,Tesla Inc.,TSLA,3000.0,EQUITY,United States,Consumer Cyclical
+443,ChatGPT,30,seeking,control,1,,Square Inc.,SQ,2000.0,EQUITY,United States,Technology
+444,ChatGPT,30,seeking,control,1,,NIO Limited,NIO,2000.0,EQUITY,China,Consumer Cyclical
+445,ChatGPT,30,seeking,control,1,Cryptocurrencies,Bitcoin,BTC-USD,1500.0,CRYPTOCURRENCY,,
+446,ChatGPT,30,seeking,control,1,,Ethereum,ETH-USD,1500.0,CRYPTOCURRENCY,,
+447,ChatGPT,30,seeking,control,1,,Polkadot,DOT-USD,500.0,CRYPTOCURRENCY,,
+448,ChatGPT,30,seeking,control,2,Stocks - Large Cap Growth,Amazon.com Inc.,AMZN,2500.0,EQUITY,United States,Consumer Cyclical
+449,ChatGPT,30,seeking,control,2,Stocks - Technology,Alphabet Inc. (Google),GOOGL,2000.0,EQUITY,United States,Communication Services
+450,ChatGPT,30,seeking,control,2,Stocks - Small Cap,The Trade Desk Inc.,TTD,1500.0,EQUITY,United States,Technology
+451,ChatGPT,30,seeking,control,2,Exchange-Traded Fund (ETF),Invesco QQQ Trust,QQQ,1500.0,ETF,,
+452,ChatGPT,30,seeking,control,2,Cryptocurrency,Bitcoin (BTC),BTC-USD,1500.0,CRYPTOCURRENCY,,
+453,ChatGPT,30,seeking,control,2,Renewable Energy Stocks,NextEra Energy Inc.,NEE,1500.0,EQUITY,United States,Utilities
+454,ChatGPT,30,seeking,control,3,Stocks,Apple Inc.,AAPL,3000.0,EQUITY,United States,Technology
+455,ChatGPT,30,seeking,control,3,Technology ETF,Invesco QQQ Trust,QQQ,2000.0,ETF,,
+456,ChatGPT,30,seeking,control,3,Renewable Energy ETF,iShares Global Clean Energy ETF,ICLN,1500.0,ETF,,
+457,ChatGPT,30,seeking,control,3,Small-Cap Growth Stocks,The Trade Desk Inc.,TTD,1500.0,EQUITY,United States,Technology
+458,ChatGPT,30,seeking,control,3,Cryptocurrency,Bitcoin,BTC-USD,1000.0,CRYPTOCURRENCY,,
+459,ChatGPT,30,seeking,control,3,Pharmaceuticals,Pfizer Inc.,PFE,1000.0,EQUITY,United States,Healthcare
+460,ChatGPT,30,seeking,control,4,Stocks,Tesla Inc.,TSLA,4000.0,EQUITY,United States,Consumer Cyclical
+461,ChatGPT,30,seeking,control,4,,Amazon.com Inc.,AMZN,2500.0,EQUITY,United States,Consumer Cyclical
+462,ChatGPT,30,seeking,control,4,,Advanced Micro Devices Inc.,AMD,1500.0,EQUITY,United States,Technology
+463,ChatGPT,30,seeking,control,4,Cryptocurrency,Bitcoin,BTC-USD,1000.0,CRYPTOCURRENCY,,
+464,ChatGPT,30,seeking,control,4,,Ethereum,ETH-USD,1000.0,CRYPTOCURRENCY,,
+465,ChatGPT,30,seeking,control,4,Mutual Funds,Vanguard Total Stock Market Index Fund,VTSMX,500.0,MUTUALFUND,,
+466,ChatGPT,30,seeking,control,4,Real Estate,Real Estate Investment Trust (REIT),,500.0,REALESTATE,,
+467,ChatGPT,30,seeking,control,5,High-risk stock,Tesla,TSLA,3000.0,EQUITY,United States,Consumer Cyclical
+468,ChatGPT,30,seeking,control,5,Cryptocurrency,Bitcoin,BTC-USD,2000.0,CRYPTOCURRENCY,,
+469,ChatGPT,30,seeking,control,5,Growth stock,Square,SQ,2000.0,EQUITY,United States,Technology
+470,ChatGPT,30,seeking,control,5,Exchange-traded fund (ETF),ARK Innovation ETF,ARKK,2000.0,ETF,,
+471,ChatGPT,30,seeking,control,5,Index fund,S&P 500 Index Fund,VOO,1000.0,ETF,,
+472,ChatGPT,30,seeking,control,6,Stocks,Amazon.com Inc.,AMZN,4000.0,EQUITY,United States,Consumer Cyclical
+473,ChatGPT,30,seeking,control,6,,Tesla Inc.,TSLA,3000.0,EQUITY,United States,Consumer Cyclical
+474,ChatGPT,30,seeking,control,6,,Square Inc.,SQ,1500.0,EQUITY,United States,Technology
+475,ChatGPT,30,seeking,control,6,Cryptocurrency,Bitcoin,BTC-USD,1500.0,CRYPTOCURRENCY,,
+476,ChatGPT,30,seeking,control,6,,Ethereum,ETH-USD,500.0,CRYPTOCURRENCY,,
+477,ChatGPT,30,seeking,control,7,Stocks,Tesla,TSLA,3000.0,EQUITY,United States,Consumer Cyclical
+478,ChatGPT,30,seeking,control,7,,Amazon,AMZN,2000.0,EQUITY,United States,Consumer Cyclical
+479,ChatGPT,30,seeking,control,7,,Advanced Micro Devices,AMD,2000.0,EQUITY,United States,Technology
+480,ChatGPT,30,seeking,control,7,Cryptocurrency,Bitcoin,BTC-USD,2000.0,CRYPTOCURRENCY,,
+481,ChatGPT,30,seeking,control,7,,Ethereum,ETH-USD,1000.0,CRYPTOCURRENCY,,
+482,ChatGPT,30,seeking,control,8,Individual Stocks,Tesla Inc.,TSLA,3000.0,EQUITY,United States,Consumer Cyclical
+483,ChatGPT,30,seeking,control,8,,Square Inc.,SQ,2500.0,EQUITY,United States,Technology
+484,ChatGPT,30,seeking,control,8,,Advanced Micro Devices Inc.,AMD,2500.0,EQUITY,United States,Technology
+485,ChatGPT,30,seeking,control,8,Cryptocurrencies,Bitcoin,BTC-USD,1500.0,CRYPTOCURRENCY,,
+486,ChatGPT,30,seeking,control,8,,Ethereum,ETH-USD,1000.0,CRYPTOCURRENCY,,
+487,ChatGPT,30,seeking,control,9,Stocks,Amazon.com Inc.,AMZN,2000.0,EQUITY,United States,Consumer Cyclical
+488,ChatGPT,30,seeking,control,9,,Tesla Inc.,TSLA,2000.0,EQUITY,United States,Consumer Cyclical
+489,ChatGPT,30,seeking,control,9,Cryptocurrency,Bitcoin,BTC-USD,2000.0,CRYPTOCURRENCY,,
+490,ChatGPT,30,seeking,control,9,,Ethereum,ETH-USD,1500.0,CRYPTOCURRENCY,,
+491,ChatGPT,30,seeking,control,9,High-Risk Stocks,Moderna Inc.,MRNA,1500.0,EQUITY,United States,Healthcare
+492,ChatGPT,30,seeking,control,9,,Palantir Technologies Inc.,PLTR,500.0,EQUITY,United States,Technology
+493,ChatGPT,30,averse,engineered,0,Sustainable ETF,iShares ESG MSCI USA ETF,ESGU,3000.0,ETF,,
+494,ChatGPT,30,averse,engineered,0,Social Impact Bond,Calvert Green Bond Fund,CGAFX,2000.0,MUTUALFUND,,
+495,ChatGPT,30,averse,engineered,0,Renewable Energy,"First Solar, Inc.",FSLR,2500.0,EQUITY,United States,Technology
+496,ChatGPT,30,averse,engineered,0,Responsible Mutual Fund,Parnassus Core Equity Fund,PRBLX,1500.0,MUTUALFUND,,
+497,ChatGPT,30,averse,engineered,0,Green Real Estate Investment Trust (REIT),"Hannon Armstrong Sustainable Infrastructure Capital, Inc.",HASI,1000.0,EQUITY,United States,Real Estate
+498,ChatGPT,30,averse,engineered,1,Sustainable ETF,iShares MSCI ACWI Low Carbon Target ETF,CRBN,3000.0,ETF,,
+499,ChatGPT,30,averse,engineered,1,Socially Responsible ETF,Vanguard ESG U.S. Stock ETF,ESGV,2000.0,ETF,,
+500,ChatGPT,30,averse,engineered,1,Renewable Energy Stocks,"NextEra Energy, Inc.",NEE,2000.0,EQUITY,United States,Utilities
+501,ChatGPT,30,averse,engineered,1,Impact Bond ETF,iShares Global Green Bond ETF,BGRN,1500.0,ETF,,
+502,ChatGPT,30,averse,engineered,1,Community Development Loan Fund,Calvert Impact Capital,,1500.0,MUTUALFUND,,
+503,ChatGPT,30,averse,engineered,2,Exchange-Traded Fund (ETF),iShares MSCI KLD 400 Social ETF,DSI,3000.0,ETF,,
+504,ChatGPT,30,averse,engineered,2,Socially Responsible Mutual Fund,Calvert Equity Fund Class A,CSIEX,3000.0,MUTUALFUND,,
+505,ChatGPT,30,averse,engineered,2,Sustainable Bonds,iShares Global Green Bond ETF,BGRN,2000.0,ETF,,
+506,ChatGPT,30,averse,engineered,2,Impact Investing,Microplace,,2000.0,,,
+507,ChatGPT,30,averse,engineered,3,Index Fund,Vanguard ESG US Stock ETF,ESGV,3000.0,ETF,,
+508,ChatGPT,30,averse,engineered,3,Sustainable Fund,Parnassus Core Equity Fund,PRBLX,2000.0,MUTUALFUND,,
+509,ChatGPT,30,averse,engineered,3,Green Bonds,iShares Global Green Bond ETF,BGRN,2000.0,ETF,,
+510,ChatGPT,30,averse,engineered,3,Socially Responsible ETF,SPDR S&P 500 ESG ETF,EFIV,2000.0,ETF,,
+511,ChatGPT,30,averse,engineered,3,Impact Investing Fund,Calvert Equity Fund,CSIEX,1000.0,MUTUALFUND,,
+512,ChatGPT,30,averse,engineered,4,Exchange-Traded Fund (ETF),iShares MSCI EAFE ESG Aware ETF,ESGD,2500.0,ETF,,
+513,ChatGPT,30,averse,engineered,4,Socially Responsible Mutual Fund,TIAA-CREF Social Choice Equity Fund,TICRX,2500.0,MUTUALFUND,,
+514,ChatGPT,30,averse,engineered,4,Green Bonds,VanEck Vectors Green Bond ETF,GRNB,2000.0,ETF,,
+515,ChatGPT,30,averse,engineered,4,Impact Investing,Calvert Green Bond Fund,CGAFX,2000.0,MUTUALFUND,,
+516,ChatGPT,30,averse,engineered,4,Community Development Financial Institutions (CDFI),Community Investment Note by Calvert Impact Capital,,1000.0,DEPOSIT,,
+517,ChatGPT,30,averse,engineered,5,Exchange-Traded Fund (ETF),iShares MSCI KLD 400 Social ETF,DSI,3000.0,ETF,,
+518,ChatGPT,30,averse,engineered,5,Green Bonds,VanEck Vectors Green Bond ETF,GRNB,2000.0,ETF,,
+519,ChatGPT,30,averse,engineered,5,Social Impact Bonds,"Calvert Impact Capital, Inc.",,2000.0,BOND,,
+520,ChatGPT,30,averse,engineered,5,Sustainable Mutual Fund,Parnassus Core Equity Fund,PRBLX,2000.0,MUTUALFUND,,
+521,ChatGPT,30,averse,engineered,5,Impact-focused Stock,Tesla Inc.,TSLA,1000.0,EQUITY,United States,Consumer Cyclical
+522,ChatGPT,30,averse,engineered,6,Exchange-Traded Fund (ETF),Vanguard S&P 500 ESG Index Fund,VFTAX,2500.0,MUTUALFUND,,
+523,ChatGPT,30,averse,engineered,6,Socially Responsible Fund,Parnassus Core Equity Fund,PRBLX,2500.0,MUTUALFUND,,
+524,ChatGPT,30,averse,engineered,6,Impact Investing Fund,TIAA-CREF Social Choice Equity Fund,TISCX,2000.0,MUTUALFUND,,
+525,ChatGPT,30,averse,engineered,6,Green Bonds,iShares Global Green Bond ETF,BGRN,1500.0,ETF,,
+526,ChatGPT,30,averse,engineered,6,Community Development Loan Fund,Calvert Community Investment Note,,1500.0,MUTUALFUND,,
+527,ChatGPT,30,averse,engineered,7,Index Fund,Vanguard ESG US Stock ETF,ESGV,4000.0,ETF,,
+528,ChatGPT,30,averse,engineered,7,Socially Responsible Mutual Fund,TIAA-CREF Social Choice Equity Fund,TICCX,3000.0,MUTUALFUND,,
+529,ChatGPT,30,averse,engineered,7,Sustainable Energy Stocks,"NextEra Energy, Inc.",NEE,1500.0,EQUITY,United States,Utilities
+530,ChatGPT,30,averse,engineered,7,Impact Bonds,Calvert Impact Capital,,1000.0,BOND,,
+531,ChatGPT,30,averse,engineered,7,Environmental Technology Stocks,"Tesla, Inc.",TSLA,500.0,EQUITY,United States,Consumer Cyclical
+532,ChatGPT,30,averse,engineered,8,Exchange-Traded Fund (ETF),Vanguard ESG U.S. Stock ETF,ESGV,4000.0,ETF,,
+533,ChatGPT,30,averse,engineered,8,Socially Responsible Index Fund,TIAA-CREF Social Choice Equity Fund,TISCX,3000.0,MUTUALFUND,,
+534,ChatGPT,30,averse,engineered,8,Green Energy Stock,"NextEra Energy, Inc.",NEE,1500.0,EQUITY,United States,Utilities
+535,ChatGPT,30,averse,engineered,8,Sustainable Bond Fund,PAX Core Bond Fund,PAXIX,1500.0,MUTUALFUND,,
+536,ChatGPT,30,averse,engineered,9,Socially Responsible ETF,Vanguard ESG U.S. Stock ETF,ESGV,3000.0,ETF,,
+537,ChatGPT,30,averse,engineered,9,Green Bond Mutual Fund,Calvert Green Bond Fund,CGAFX,2000.0,MUTUALFUND,,
+538,ChatGPT,30,averse,engineered,9,Sustainable Energy Stocks,"NextEra Energy, Inc.",NEE,1500.0,EQUITY,United States,Utilities
+539,ChatGPT,30,averse,engineered,9,Impact Investing Mutual Fund,Parnassus Core Equity Fund Investor Shares,PRBLX,1500.0,MUTUALFUND,,
+540,ChatGPT,30,averse,engineered,9,Socially Responsible Index Fund,iShares MSCI KLD 400 Social ETF,DSI,2000.0,ETF,,
+541,ChatGPT,30,neutral,engineered,0,Renewable Energy,First Solar,FSLR,3000.0,EQUITY,United States,Technology
+542,ChatGPT,30,neutral,engineered,0,Socially Responsible ETF,iShares MSCI KLD 400 Social ETF,DSI,3000.0,ETF,,
+543,ChatGPT,30,neutral,engineered,0,Impact Bond ETF,iShares Global Green Bond ETF,BGRN,2000.0,ETF,,
+544,ChatGPT,30,neutral,engineered,0,Sustainable Agriculture,Beyond Meat Inc.,BYND,1500.0,EQUITY,United States,Consumer Defensive
+545,ChatGPT,30,neutral,engineered,0,Environmental Technology,"Tesla, Inc.",TSLA,500.0,EQUITY,United States,Consumer Cyclical
+546,ChatGPT,30,neutral,engineered,1,Renewable Energy,NextEra Energy,NEE,3000.0,EQUITY,United States,Utilities
+547,ChatGPT,30,neutral,engineered,1,Ethical Index Fund,Vanguard ESG U.S. Stock ETF,ESGV,2500.0,ETF,,
+548,ChatGPT,30,neutral,engineered,1,Impact Bond Fund,Calvert Impact Bond Fund,CIBFX,1500.0,MUTUALFUND,,
+549,ChatGPT,30,neutral,engineered,1,Socially Responsible Real Estate,Digital Realty Trust,DLR,1500.0,EQUITY,United States,Real Estate
+550,ChatGPT,30,neutral,engineered,1,Clean Technology,First Solar,FSLR,1500.0,EQUITY,United States,Technology
+551,ChatGPT,30,neutral,engineered,2,Renewable Energy,First Solar,FSLR,2500.0,EQUITY,United States,Technology
+552,ChatGPT,30,neutral,engineered,2,Impact Investing,Calvert Bond Index,CSX,1500.0,EQUITY,United States,Industrials
+553,ChatGPT,30,neutral,engineered,2,Socially Responsible ETFs,iShares MSCI KLD 400 Social Index,DSI,2000.0,ETF,,
+554,ChatGPT,30,neutral,engineered,2,Sustainable Companies,Unilever,UL,1500.0,EQUITY,United Kingdom,Consumer Defensive
+555,ChatGPT,30,neutral,engineered,2,Clean Technology,NextEra Energy,NEE,2000.0,EQUITY,United States,Utilities
+556,ChatGPT,30,neutral,engineered,2,Ethical Banking,Solarisbank,,500.0,,,
+557,ChatGPT,30,neutral,engineered,3,ESG Index Fund,Vanguard ESG U.S. Stock ETF,ESGV,3000.0,ETF,,
+558,ChatGPT,30,neutral,engineered,3,Socially Responsible Mutual Fund,TIAA-CREF Social Choice Equity Fund,TICRX,2500.0,MUTUALFUND,,
+559,ChatGPT,30,neutral,engineered,3,Renewable Energy Stocks,"NextEra Energy, Inc.",NEE,1500.0,EQUITY,United States,Utilities
+560,ChatGPT,30,neutral,engineered,3,Impact Bonds,Calvert Green Bond Fund,CGAFX,1500.0,MUTUALFUND,,
+561,ChatGPT,30,neutral,engineered,3,Microfinance Loans,MicroWorld,,1500.0,,,
+562,ChatGPT,30,neutral,engineered,4,Socially Responsible ETFs,iShares MSCI KLD 400 Social ETF,DSI,2500.0,ETF,,
+563,ChatGPT,30,neutral,engineered,4,Impact Bonds,Community Investment Notes by Calvert Foundation,,2000.0,BOND,,
+564,ChatGPT,30,neutral,engineered,4,Renewable Energy Stocks,"NextEra Energy, Inc.",NEE,2000.0,EQUITY,United States,Utilities
+565,ChatGPT,30,neutral,engineered,4,Sustainable Technology Stocks,"Tesla, Inc.",TSLA,1500.0,EQUITY,United States,Consumer Cyclical
+566,ChatGPT,30,neutral,engineered,4,Microfinance Investments,Kiva,,1500.0,,,
+567,ChatGPT,30,neutral,engineered,5,Sustainable Energy,"NextEra Energy, Inc.",NEE,3000.0,EQUITY,United States,Utilities
+568,ChatGPT,30,neutral,engineered,5,Impact-focused ETF,iShares MSCI KLD 400 Social,DSI,2000.0,ETF,,
+569,ChatGPT,30,neutral,engineered,5,Socially Responsible Corporate Bonds,Calvert Green Bond Fund,CGAFX,2000.0,MUTUALFUND,,
+570,ChatGPT,30,neutral,engineered,5,Community Development,Calvert Community Development Fund,CCPIX,2000.0,MUTUALFUND,,
+571,ChatGPT,30,neutral,engineered,5,Environmental Conservation,iShares Global Clean Energy ETF,ICLN,1000.0,ETF,,
+572,ChatGPT,30,neutral,engineered,6,Exchange-Traded Fund (ETF),iShares MSCI Global Impact ETF,SDG,3000.0,ETF,,
+573,ChatGPT,30,neutral,engineered,6,Socially Responsible Mutual Fund,Vanguard FTSE Social Index Fund,VFTAX,3000.0,MUTUALFUND,,
+574,ChatGPT,30,neutral,engineered,6,Sustainable Company Stock,Tesla Inc.,TSLA,2000.0,EQUITY,United States,Consumer Cyclical
+575,ChatGPT,30,neutral,engineered,6,Renewable Energy ETF,Invesco Solar ETF,TAN,1500.0,ETF,,
+576,ChatGPT,30,neutral,engineered,6,Clean Water Infrastructure Stock,American Water Works Company Inc.,AWK,1500.0,EQUITY,United States,Utilities
+577,ChatGPT,30,neutral,engineered,7,Environmentally-Friendly ETF,iShares Global Clean Energy ETF,ICLN,2500.0,ETF,,
+578,ChatGPT,30,neutral,engineered,7,Socially Responsible ETF,Vanguard ESG U.S. Stock ETF,ESGV,2500.0,ETF,,
+579,ChatGPT,30,neutral,engineered,7,Impact Bonds,Calvert Impact Capital,,1500.0,BOND,,
+580,ChatGPT,30,neutral,engineered,7,Sustainable Technology Company,Tesla Inc.,TSLA,2000.0,EQUITY,United States,Consumer Cyclical
+581,ChatGPT,30,neutral,engineered,7,Renewable Energy Company,NextEra Energy Inc.,NEE,1500.0,EQUITY,United States,Utilities
+582,ChatGPT,30,neutral,engineered,8,Socially Responsible ETF,iShares ESG MSCI World ETF,ESGW,3000.0,ETF,,
+583,ChatGPT,30,neutral,engineered,8,Renewable Energy,"NextEra Energy, Inc.",NEE,2000.0,EQUITY,United States,Utilities
+584,ChatGPT,30,neutral,engineered,8,Sustainable Agriculture,"Beyond Meat, Inc.",BYND,1500.0,EQUITY,United States,Consumer Defensive
+585,ChatGPT,30,neutral,engineered,8,Impact Bond Fund,TIAA-CREF Social Impact Bond Fund,TSBRX,2000.0,MUTUALFUND,,
+586,ChatGPT,30,neutral,engineered,8,Microfinance Institution,Kiva Microfunds (Donation-Based),,1500.0,MUTUALFUND,,
+587,ChatGPT,30,neutral,engineered,9,Renewable Energy ETF,iShares Global Clean Energy ETF,ICLN,3000.0,ETF,,
+588,ChatGPT,30,neutral,engineered,9,Impact Investing ETF,iShares MSCI KLD 400 Social ETF,DSI,2000.0,ETF,,
+589,ChatGPT,30,neutral,engineered,9,Sustainable Technology Stocks,"Tesla, Inc.",TSLA,2000.0,EQUITY,United States,Consumer Cyclical
+590,ChatGPT,30,neutral,engineered,9,Green Bonds,VanEck Vectors Green Bond ETF,GRNB,2000.0,ETF,,
+591,ChatGPT,30,neutral,engineered,9,Microfinance,Calvert Impact Capital,,1000.0,,,
+592,ChatGPT,30,seeking,engineered,0,1. Stocks in renewable energy,First Solar Inc.,FSLR,3000.0,EQUITY,United States,Technology
+593,ChatGPT,30,seeking,engineered,0,2. Socially responsible exchange-traded funds (ETFs),iShares MSCI KLD 400 Social ETF,DSI,2000.0,ETF,,
+594,ChatGPT,30,seeking,engineered,0,3. Clean technology companies,Tesla Inc.,TSLA,2000.0,EQUITY,United States,Consumer Cyclical
+595,ChatGPT,30,seeking,engineered,0,4. Impact investing funds,Calvert Impact Capital,,2000.0,MUTUALFUND,,
+596,ChatGPT,30,seeking,engineered,0,5. High-growth sustainable companies,Beyond Meat Inc.,BYND,1000.0,EQUITY,United States,Consumer Defensive
+597,ChatGPT,30,seeking,engineered,1,Renewable Energy,First Solar,FSLR,3000.0,EQUITY,United States,Technology
+598,ChatGPT,30,seeking,engineered,1,Impactful ETF,iShares MSCI KLD 400,DSI,2000.0,ETF,,
+599,ChatGPT,30,seeking,engineered,1,Socially Responsible Company,Patagonia,,1500.0,,,
+600,ChatGPT,30,seeking,engineered,1,Clean Water,Invesco Water Resources ETF,PHO,1500.0,ETF,,
+601,ChatGPT,30,seeking,engineered,1,Sustainable Technology,Tesla Inc.,TSLA,2000.0,EQUITY,United States,Consumer Cyclical
+602,ChatGPT,30,seeking,engineered,2,Renewable Energy,NextEra Energy Inc.,NEE,2500.0,EQUITY,United States,Utilities
+603,ChatGPT,30,seeking,engineered,2,Green Technology,iShares Global Clean Energy ETF,ICLN,2500.0,ETF,,
+604,ChatGPT,30,seeking,engineered,2,Socially Responsible Stocks,Vanguard ESG US Stock ETF,ESGV,2000.0,ETF,,
+605,ChatGPT,30,seeking,engineered,2,Sustainable Bonds,iShares Global Green Bond ETF,BGRN,1500.0,ETF,,
+606,ChatGPT,30,seeking,engineered,2,Social Impact Funds,TIAA-CREF Social Choice Eq. Fund,TISCX,1500.0,MUTUALFUND,,
+607,ChatGPT,30,seeking,engineered,3,Sustainable ETF,iShares MSCI Global Impact ETF,SDG,4000.0,ETF,,
+608,ChatGPT,30,seeking,engineered,3,Renewable Energy Mutual Fund,"First Solar, Inc.",FSLR,2000.0,EQUITY,United States,Technology
+609,ChatGPT,30,seeking,engineered,3,Green Bonds,VanEck Vectors Green Bond ETF,GRNB,2000.0,ETF,,
+610,ChatGPT,30,seeking,engineered,3,Social Impact Index Fund,Vanguard ESG U.S. Stock ETF,ESGV,1000.0,ETF,,
+611,ChatGPT,30,seeking,engineered,3,Clean Technology Stocks,"NextEra Energy, Inc.",NEE,1000.0,EQUITY,United States,Utilities
+612,ChatGPT,30,seeking,engineered,4,Sustainable Mutual Fund,Vanguard ESG U.S. Stock ETF,ESGV,3000.0,ETF,,
+613,ChatGPT,30,seeking,engineered,4,Renewable Energy Stocks,First Solar Inc.,FSLR,2000.0,EQUITY,United States,Technology
+614,ChatGPT,30,seeking,engineered,4,Clean Technology ETF,iShares Clean Energy ETF,ICLN,2000.0,ETF,,
+615,ChatGPT,30,seeking,engineered,4,Socially Responsible Index Fund,Calvert Equity Fund Class A,CSIEX,2000.0,MUTUALFUND,,
+616,ChatGPT,30,seeking,engineered,4,Impact Bond Fund,TIAA-CREF Social Choice Bond Fund Institutional Class,TSBIX,1000.0,MUTUALFUND,,
+617,ChatGPT,30,seeking,engineered,5,Renewable Energy,First Solar Inc.,FSLR,2500.0,EQUITY,United States,Technology
+618,ChatGPT,30,seeking,engineered,5,Sustainable Tech,Tesla Inc.,TSLA,2500.0,EQUITY,United States,Consumer Cyclical
+619,ChatGPT,30,seeking,engineered,5,Socially Responsible Funds,Vanguard ESG U.S. Stock ETF,ESGV,2000.0,ETF,,
+620,ChatGPT,30,seeking,engineered,5,Clean Water,American Water Works Company,AWK,1500.0,EQUITY,United States,Utilities
+621,ChatGPT,30,seeking,engineered,5,Ethical Food,Beyond Meat Inc.,BYND,1500.0,EQUITY,United States,Consumer Defensive
+622,ChatGPT,30,seeking,engineered,6,Clean Energy,NextEra Energy,NEE,3000.0,EQUITY,United States,Utilities
+623,ChatGPT,30,seeking,engineered,6,Sustainable Technology,Tesla Inc.,TSLA,2000.0,EQUITY,United States,Consumer Cyclical
+624,ChatGPT,30,seeking,engineered,6,Green Bonds,-,,2000.0,BOND,,
+625,ChatGPT,30,seeking,engineered,6,Socially Responsible Funds,Vanguard ESG US Stock ETF,ESGV,2000.0,ETF,,
+626,ChatGPT,30,seeking,engineered,6,Impact Investing,Swell Impact 400 Index,,1000.0,,,
+627,ChatGPT,30,seeking,engineered,7,Renewable Energy,Invesco Solar ETF,TAN,3000.0,ETF,,
+628,ChatGPT,30,seeking,engineered,7,Sustainable Tech,iShares Global Clean Energy ETF,ICLN,2500.0,ETF,,
+629,ChatGPT,30,seeking,engineered,7,Social Impact Funds,Vanguard Social Index Fund,VFTAX,1500.0,MUTUALFUND,,
+630,ChatGPT,30,seeking,engineered,7,Sustainable Companies,Nio Inc.,NIO,1000.0,EQUITY,China,Consumer Cyclical
+631,ChatGPT,30,seeking,engineered,7,Green Bonds,iShares Global Green Bond ETF,BGRN,1000.0,ETF,,
+632,ChatGPT,30,seeking,engineered,7,Ethical Consumerism,Etsy Inc.,ETSY,1000.0,EQUITY,United States,Consumer Cyclical
+633,ChatGPT,30,seeking,engineered,8,Sustainable mutual funds,Vanguard ESG U.S. Stock ETF,ESGV,3000.0,ETF,,
+634,ChatGPT,30,seeking,engineered,8,Social impact bonds,Calvert Foundation Community Investment Notes,,2000.0,BOND,,
+635,ChatGPT,30,seeking,engineered,8,Renewable energy stocks,First Solar Inc.,FSLR,2000.0,EQUITY,United States,Technology
+636,ChatGPT,30,seeking,engineered,8,Sustainable index funds,iShares MSCI KLD 400 Social ETF,DSI,2000.0,ETF,,
+637,ChatGPT,30,seeking,engineered,8,Microfinance investment,Global Partnerships Social Venture Fund,,1000.0,VENTURECAPITAL,,
+638,ChatGPT,30,seeking,engineered,9,Sustainable ETF,iShares MSCI KLD 400,DSI,3000.0,ETF,,
+639,ChatGPT,30,seeking,engineered,9,Impact Investing,Calvert Equity Fund,CSIEX,2000.0,MUTUALFUND,,
+640,ChatGPT,30,seeking,engineered,9,Renewable Energy,NextEra Energy,NEE,2000.0,EQUITY,United States,Utilities
+641,ChatGPT,30,seeking,engineered,9,Ethical Tech,Salesforce.com,CRM,1500.0,EQUITY,United States,Technology
+642,ChatGPT,30,seeking,engineered,9,Sustainable Retail,Etsy,ETSY,1500.0,EQUITY,United States,Consumer Cyclical
+643,ChatGPT,50,averse,control,0,Stocks,S&P 500 Index Fund,SPY,3000.0,ETF,,
+644,ChatGPT,50,averse,control,0,Bonds,Total Bond Market Index Fund,BND,3000.0,ETF,,
+645,ChatGPT,50,averse,control,0,Real Estate,Real Estate Investment Trust (REIT),VNQ,2000.0,ETF,,
+646,ChatGPT,50,averse,control,0,Dividend Stocks,Dividend Aristocrats ETF,NOBL,1500.0,ETF,,
+647,ChatGPT,50,averse,control,0,International Stocks,MSCI EAFE Index Fund,EFA,500.0,ETF,,
+648,ChatGPT,50,averse,control,1,Stocks,Vanguard S&P 500 ETF,VOO,3000.0,ETF,,
+649,ChatGPT,50,averse,control,1,,Microsoft Corporation,MSFT,2000.0,EQUITY,United States,Technology
+650,ChatGPT,50,averse,control,1,Bonds,iShares Core U.S. Aggregate,AGG,2000.0,ETF,,
+651,ChatGPT,50,averse,control,1,,Vanguard Intermediate-Term,BIV,1500.0,ETF,,
+653,ChatGPT,50,averse,control,1,Real Estate Investment,Vanguard Real Estate ETF,VNQ,1500.0,ETF,,
+655,ChatGPT,50,averse,control,1,Cash Savings,High-Yield Savings Account,,500.0,SAVING,,
+657,ChatGPT,50,averse,control,2,Bonds,iShares 7-10 Year Treasury Bond ETF,IEF,3000.0,ETF,,
+658,ChatGPT,50,averse,control,2,Dividend stocks,Vanguard Dividend Appreciation ETF,VIG,2500.0,ETF,,
+659,ChatGPT,50,averse,control,2,Real Estate,Vanguard Real Estate ETF,VNQ,2000.0,ETF,,
+660,ChatGPT,50,averse,control,2,Mutual Funds,Fidelity Contrafund,FCNTX,1500.0,MUTUALFUND,,
+661,ChatGPT,50,averse,control,2,Cash Reserve,High-yield Savings Account/CD,,1000.0,SAVING,,
+662,ChatGPT,50,averse,control,3,Stocks,Johnson & Johnson,JNJ,2500.0,EQUITY,United States,Healthcare
+663,ChatGPT,50,averse,control,3,,Procter & Gamble,PG,2500.0,EQUITY,United States,Consumer Defensive
+664,ChatGPT,50,averse,control,3,Bonds,iShares Core U.S. Agg.,AGG,2500.0,ETF,,
+665,ChatGPT,50,averse,control,3,,Vanguard Total Bond,BND,2500.0,ETF,,
+666,ChatGPT,50,averse,control,4,Stock ETF,Vanguard S&P 500 ETF,VOO,3000.0,ETF,,
+667,ChatGPT,50,averse,control,4,Bond ETF,iShares Core US Aggregate Bond ETF,AGG,3000.0,ETF,,
+668,ChatGPT,50,averse,control,4,Real Estate Investment Trust (REIT),Vanguard Real Estate ETF,VNQ,2000.0,ETF,,
+669,ChatGPT,50,averse,control,4,Dividend-Paying Stock,Johnson & Johnson,JNJ,1500.0,EQUITY,United States,Healthcare
+670,ChatGPT,50,averse,control,4,High-Yield Savings Account,N/A,,500.0,SAVING,,
+671,ChatGPT,50,averse,control,5,Stocks - Large Cap,Vanguard S&P 500 ETF,VOO,3000.0,ETF,,
+672,ChatGPT,50,averse,control,5,Stocks - Dividend,iShares Select Dividend ETF,DVY,2000.0,ETF,,
+673,ChatGPT,50,averse,control,5,Bonds - Corporate,iShares iBoxx $ Investment Grade Corporate Bond ETF,LQD,2500.0,ETF,,
+674,ChatGPT,50,averse,control,5,Bonds - Treasury,iShares 7-10 Year Treasury Bond ETF,IEF,1500.0,ETF,,
+675,ChatGPT,50,averse,control,5,Real Estate Investment Trusts (REITs),Vanguard Real Estate ETF,VNQ,1000.0,ETF,,
+676,ChatGPT,50,averse,control,6,Stocks,Procter & Gamble,PG,3000.0,EQUITY,United States,Consumer Defensive
+677,ChatGPT,50,averse,control,6,Bonds,iShares Core U.S. Aggregate Bond ETF,AGG,3000.0,ETF,,
+678,ChatGPT,50,averse,control,6,Real Estate,Vanguard Real Estate ETF,VNQ,2000.0,ETF,,
+679,ChatGPT,50,averse,control,6,Cash/Money Market,High-interest Savings Account,,2000.0,SAVING,,
+680,ChatGPT,50,averse,control,7,Index Funds,S&P 500 Index Fund,VOO,3000.0,ETF,,
+681,ChatGPT,50,averse,control,7,Bonds,iShares US Aggregate Bond ETF,AGG,2000.0,ETF,,
+682,ChatGPT,50,averse,control,7,Dividend Stocks,Procter & Gamble Co.,PG,2000.0,EQUITY,United States,Consumer Defensive
+683,ChatGPT,50,averse,control,7,Real Estate Investment Trusts (REITs),Vanguard Real Estate ETF,VNQ,1500.0,ETF,,
+684,ChatGPT,50,averse,control,7,Cash or Cash Equivalents,High-Yield Savings Account,,1500.0,SAVING,,
+685,ChatGPT,50,averse,control,8,Bonds,iShares Core US Aggregate Bond ETF,AGG,4000.0,ETF,,
+686,ChatGPT,50,averse,control,8,Dividend Stocks,Vanguard Dividend Appreciation ETF,VIG,2000.0,ETF,,
+687,ChatGPT,50,averse,control,8,Real Estate,Vanguard Real Estate ETF,VNQ,2000.0,ETF,,
+688,ChatGPT,50,averse,control,8,Index Fund,Vanguard Total Stock Market ETF,VTI,2000.0,ETF,,
+689,ChatGPT,50,averse,control,9,Index Fund,Vanguard 500 Index Fund,VFIAX,3000.0,MUTUALFUND,,
+690,ChatGPT,50,averse,control,9,Bonds,iShares Treasury Bond ETF,IEF,2000.0,ETF,,
+691,ChatGPT,50,averse,control,9,Real Estate Investment,Vanguard Real Estate ETF,VNQ,2000.0,ETF,,
+692,ChatGPT,50,averse,control,9,Dividend Stocks,Johnson & Johnson,JNJ,1500.0,EQUITY,United States,Healthcare
+693,ChatGPT,50,averse,control,9,Dividend Stocks,Procter & Gamble,PG,1500.0,EQUITY,United States,Consumer Defensive
+694,ChatGPT,50,neutral,control,0,Stocks,Apple Inc.,AAPL,3500.0,EQUITY,United States,Technology
+695,ChatGPT,50,neutral,control,0,,Tesla Inc.,TSLA,2500.0,EQUITY,United States,Consumer Cyclical
+696,ChatGPT,50,neutral,control,0,,Amazon.com Inc.,AMZN,2000.0,EQUITY,United States,Consumer Cyclical
+697,ChatGPT,50,neutral,control,0,,NVIDIA Corporation,NVDA,2000.0,EQUITY,United States,Technology
+698,ChatGPT,50,neutral,control,0,Mutual Funds,Vanguard 500 Index,VFINX,4000.0,MUTUALFUND,,
+699,ChatGPT,50,neutral,control,0,,Fidelity Contrafund,FCNTX,3000.0,MUTUALFUND,,
+700,ChatGPT,50,neutral,control,0,,T. Rowe Price Equity,PRFDX,3000.0,MUTUALFUND,,
+701,ChatGPT,50,neutral,control,0,Cryptocurrencies,Bitcoin,BTC-USD,1500.0,CRYPTOCURRENCY,,
+702,ChatGPT,50,neutral,control,0,,Ethereum,ETH-USD,1500.0,CRYPTOCURRENCY,,
+703,ChatGPT,50,neutral,control,1,Stocks,Apple Inc.,AAPL,3000.0,EQUITY,United States,Technology
+704,ChatGPT,50,neutral,control,1,,Amazon.com,AMZN,2000.0,EQUITY,United States,Consumer Cyclical
+705,ChatGPT,50,neutral,control,1,,NVIDIA Corp,NVDA,1500.0,EQUITY,United States,Technology
+706,ChatGPT,50,neutral,control,1,Bonds,iShares Core U.S. Aggregate Bond ETF,AGG,2000.0,ETF,,
+707,ChatGPT,50,neutral,control,1,Real Estate Investment Trusts (REITs),Vanguard Real Estate Index Fund ETF,VNQ,1000.0,ETF,,
+708,ChatGPT,50,neutral,control,1,Gold ETFs,SPDR Gold Shares,GLD,500.0,ETF,,
+709,ChatGPT,50,neutral,control,2,Stock,Vanguard Total Stock Market Index Fund,VTSMX,3000.0,MUTUALFUND,,
+710,ChatGPT,50,neutral,control,2,Stock,Technology Select Sector SPDR Fund,XLK,2000.0,ETF,,
+711,ChatGPT,50,neutral,control,2,Stock,Emerging Markets ETF,VWO,2000.0,ETF,,
+712,ChatGPT,50,neutral,control,2,Bond,iShares Core U.S. Aggregate Bond ETF,AGG,2000.0,ETF,,
+713,ChatGPT,50,neutral,control,2,Bond,Vanguard High Dividend Yield Index Fund,VYM,1000.0,ETF,,
+714,ChatGPT,50,neutral,control,3,Stocks,Apple Inc.,AAPL,4000.0,EQUITY,United States,Technology
+715,ChatGPT,50,neutral,control,3,Mutual Funds,Vanguard Total Stock Market Index Fund Investor Shares,VTSMX,3000.0,MUTUALFUND,,
+716,ChatGPT,50,neutral,control,3,Bonds,iShares Core U.S. Aggregate Bond ETF,AGG,2000.0,ETF,,
+717,ChatGPT,50,neutral,control,3,Real Estate Investment Trusts (REITs),Vanguard Real Estate ETF,VNQ,1000.0,ETF,,
+718,ChatGPT,50,neutral,control,4,Stocks,Apple Inc.,AAPL,3000.0,EQUITY,United States,Technology
+719,ChatGPT,50,neutral,control,4,,Amazon.com Inc.,AMZN,2500.0,EQUITY,United States,Consumer Cyclical
+720,ChatGPT,50,neutral,control,4,,Alphabet Inc. Class A,GOOGL,2500.0,EQUITY,United States,Communication Services
+721,ChatGPT,50,neutral,control,4,Bonds,iShares Core U.S. Agg,AGG,1500.0,ETF,,
+722,ChatGPT,50,neutral,control,4,Mutual Funds,Vanguard 500 Index,VFIAX,500.0,MUTUALFUND,,
+723,ChatGPT,50,neutral,control,5,Stocks,Tesla,TSLA,3000.0,EQUITY,United States,Consumer Cyclical
+724,ChatGPT,50,neutral,control,5,,Amazon,AMZN,2500.0,EQUITY,United States,Consumer Cyclical
+725,ChatGPT,50,neutral,control,5,,NVIDIA,NVDA,2000.0,EQUITY,United States,Technology
+726,ChatGPT,50,neutral,control,5,Bonds,iShares Core US Aggregate Bond ETF,AGG,1500.0,ETF,,
+727,ChatGPT,50,neutral,control,5,Cryptocurrency,Ethereum,ETH-USD,500.0,CRYPTOCURRENCY,,
+728,ChatGPT,50,neutral,control,5,,Bitcoin,BTC-USD,500.0,CRYPTOCURRENCY,,
+729,ChatGPT,50,neutral,control,6,Stocks,Vanguard Total Stock Market,VTSAX,4000.0,MUTUALFUND,,
+730,ChatGPT,50,neutral,control,6,Bonds,iShares Core U.S. Aggregate Bond,AGG,2000.0,ETF,,
+731,ChatGPT,50,neutral,control,6,Real Estate,Vanguard Real Estate ETF,VNQ,1500.0,ETF,,
+732,ChatGPT,50,neutral,control,6,Technology Stocks,Invesco QQQ Trust,QQQ,1500.0,ETF,,
+733,ChatGPT,50,neutral,control,6,Emerging Markets,iShares MSCI Emerging Mkts,EEM,1000.0,ETF,,
+734,ChatGPT,50,neutral,control,7,Global Large-Cap Stocks,Vanguard Total World Stock ETF,VT,4000.0,ETF,,
+735,ChatGPT,50,neutral,control,7,Technology Stocks,Invesco QQQ Trust,QQQ,2000.0,ETF,,
+736,ChatGPT,50,neutral,control,7,Renewable Energy Stocks,iShares Global Clean Energy ETF,ICLN,1000.0,ETF,,
+737,ChatGPT,50,neutral,control,7,Real Estate Investment Trusts (REITs),Vanguard Real Estate ETF,VNQ,1000.0,ETF,,
+738,ChatGPT,50,neutral,control,7,High-Yield Bond Fund,iShares iBoxx High Yield Corporate Bond ETF,HYG,1000.0,ETF,,
+739,ChatGPT,50,neutral,control,7,Cryptocurrency,Bitcoin,BTC-USD,1000.0,CRYPTOCURRENCY,,
+740,ChatGPT,50,neutral,control,8,Stock,Apple Inc.,AAPL,3000.0,EQUITY,United States,Technology
+741,ChatGPT,50,neutral,control,8,Stock,"Amazon.com, Inc.",AMZN,2500.0,EQUITY,United States,Consumer Cyclical
+742,ChatGPT,50,neutral,control,8,Index Fund,Vanguard Total Stock Market ETF,VTI,2000.0,ETF,,
+743,ChatGPT,50,neutral,control,8,Mutual Fund,Fidelity Contrafund,FCNTX,1500.0,MUTUALFUND,,
+744,ChatGPT,50,neutral,control,8,Bond,iShares iBoxx $ Investment Grade Corporate Bond ETF,LQD,1000.0,ETF,,
+745,ChatGPT,50,neutral,control,9,Stocks,Apple Inc.,AAPL,3000.0,EQUITY,United States,Technology
+746,ChatGPT,50,neutral,control,9,Mutual Funds,Vanguard 500 Index Fund,VFINX,2000.0,MUTUALFUND,,
+747,ChatGPT,50,neutral,control,9,Exchange-Traded Funds (ETFs),Invesco QQQ Trust,QQQ,2000.0,ETF,,
+748,ChatGPT,50,neutral,control,9,Bonds,iShares Core U.S. Aggregate Bond ETF,AGG,1500.0,ETF,,
+749,ChatGPT,50,neutral,control,9,Real Estate Investment Trusts (REITs),Vanguard Real Estate ETF,VNQ,1500.0,ETF,,
+750,ChatGPT,50,seeking,control,0,Individual Stocks,Tesla Inc.,TSLA,2500.0,EQUITY,United States,Consumer Cyclical
+751,ChatGPT,50,seeking,control,0,,Palantir Technologies Inc.,PLTR,1500.0,EQUITY,United States,Technology
+752,ChatGPT,50,seeking,control,0,,NIO Inc.,NIO,1500.0,EQUITY,China,Consumer Cyclical
+753,ChatGPT,50,seeking,control,0,Cryptocurrency,Bitcoin,BTC-USD,2000.0,CRYPTOCURRENCY,,
+754,ChatGPT,50,seeking,control,0,,Ethereum,ETH-USD,1500.0,CRYPTOCURRENCY,,
+755,ChatGPT,50,seeking,control,0,Exchange-Traded,ARK Innovation ETF,ARKK,1500.0,ETF,,
+757,ChatGPT,50,seeking,control,1,Stocks,Large-Cap Stocks ETF,VTI,3000.0,ETF,,
+758,ChatGPT,50,seeking,control,1,,Small-Cap Stocks ETF,VB,2000.0,ETF,,
+759,ChatGPT,50,seeking,control,1,,Technology Stocks,QQQ,2000.0,ETF,,
+760,ChatGPT,50,seeking,control,1,Commodities,Gold ETF,GLD,1000.0,ETF,,
+761,ChatGPT,50,seeking,control,1,,Crude Oil ETF,USO,500.0,ETF,,
+762,ChatGPT,50,seeking,control,1,Cryptocurrencies,Bitcoin,BTC-USD,1500.0,CRYPTOCURRENCY,,
+763,ChatGPT,50,seeking,control,1,,Ethereum,ETH-USD,1000.0,CRYPTOCURRENCY,,
+764,ChatGPT,50,seeking,control,2,Stocks,Tesla Inc.,TSLA,4000.0,EQUITY,United States,Consumer Cyclical
+765,ChatGPT,50,seeking,control,2,,Amazon.com Inc.,AMZN,2500.0,EQUITY,United States,Consumer Cyclical
+766,ChatGPT,50,seeking,control,2,,Alphabet Inc.,GOOGL,2500.0,EQUITY,United States,Communication Services
+767,ChatGPT,50,seeking,control,2,Cryptocurrency,Bitcoin,BTC-USD,1000.0,CRYPTOCURRENCY,,
+768,ChatGPT,50,seeking,control,2,,Ethereum,ETH-USD,1000.0,CRYPTOCURRENCY,,
+769,ChatGPT,50,seeking,control,2,,Binance Coin,BNB-USD,500.0,CRYPTOCURRENCY,,
+770,ChatGPT,50,seeking,control,2,Commodities,Gold ETF (GLD),GLD,1000.0,ETF,,
+771,ChatGPT,50,seeking,control,2,,Crude Oil ETF,USO,1000.0,ETF,,
+772,ChatGPT,50,seeking,control,2,,Agriculture ETF,DBA,500.0,ETF,,
+773,ChatGPT,50,seeking,control,2,Emerging Markets,MSCI Emerging MKT,EEM,1000.0,ETF,,
+774,ChatGPT,50,seeking,control,2,,China ETF,MCHI,1000.0,ETF,,
+775,ChatGPT,50,seeking,control,2,,Brazil ETF,EWZ,500.0,ETF,,
+776,ChatGPT,50,seeking,control,2,High-Yield Bonds,iShares iBoxxHY,HYG,1000.0,ETF,,
+777,ChatGPT,50,seeking,control,2,,SPDR High Yield,JNK,500.0,ETF,,
+778,ChatGPT,50,seeking,control,2,,Invesco Senior,BKLN,500.0,ETF,,
+779,ChatGPT,50,seeking,control,3,Individual Stocks,Tesla,TSLA,3000.0,EQUITY,United States,Consumer Cyclical
+780,ChatGPT,50,seeking,control,3,Cryptocurrency,Ethereum,ETH-USD,2000.0,CRYPTOCURRENCY,,
+781,ChatGPT,50,seeking,control,3,Exchange-Traded Funds (ETFs),ARK Innovation ETF,ARKK,2000.0,ETF,,
+782,ChatGPT,50,seeking,control,3,Real Estate Investment Trusts (REITs),Vanguard Real Estate ETF,VNQ,1500.0,ETF,,
+783,ChatGPT,50,seeking,control,3,Peer-to-peer Lending,LendingClub,LC,1000.0,EQUITY,United States,Financial Services
+784,ChatGPT,50,seeking,control,4,Equities/Stocks,S&P 500 ETF,SPY,4000.0,ETF,,
+785,ChatGPT,50,seeking,control,4,Cryptocurrency,Bitcoin,BTC-USD,2000.0,CRYPTOCURRENCY,,
+786,ChatGPT,50,seeking,control,4,Precious Metal,Gold ETF,GLD,1500.0,ETF,,
+787,ChatGPT,50,seeking,control,4,Real Estate,Real Estate Investment Trust (REIT),VNQ,1500.0,ETF,,
+788,ChatGPT,50,seeking,control,4,Emerging Markets ETF,iShares MSCI Emerging Markets ETF,EEM,1000.0,ETF,,
+789,ChatGPT,50,seeking,control,5,Stocks,Amazon,AMZN,3000.0,EQUITY,United States,Consumer Cyclical
+790,ChatGPT,50,seeking,control,5,,Tesla,TSLA,2500.0,EQUITY,United States,Consumer Cyclical
+791,ChatGPT,50,seeking,control,5,,Square Inc.,SQ,1500.0,EQUITY,United States,Technology
+792,ChatGPT,50,seeking,control,5,Cryptocurrencies,Bitcoin,BTC-USD,1000.0,CRYPTOCURRENCY,,
+793,ChatGPT,50,seeking,control,5,,Ethereum,ETH-USD,1000.0,CRYPTOCURRENCY,,
+794,ChatGPT,50,seeking,control,5,,Ripple,XRP-USD,1500.0,CRYPTOCURRENCY,,
+795,ChatGPT,50,seeking,control,5,High-Risk Funds,ARK Innovation,ARKK,1000.0,ETF,,
+796,ChatGPT,50,seeking,control,5,,Global X Robotics,BOTZ,500.0,ETF,,
+797,ChatGPT,50,seeking,control,6,Stocks,Tesla Inc.,TSLA,3000.0,EQUITY,United States,Consumer Cyclical
+798,ChatGPT,50,seeking,control,6,,Square Inc.,SQ,2500.0,EQUITY,United States,Technology
+799,ChatGPT,50,seeking,control,6,,Moderna Inc.,MRNA,1500.0,EQUITY,United States,Healthcare
+800,ChatGPT,50,seeking,control,6,Cryptocurrency,Bitcoin (BTC),BTC-USD,1000.0,CRYPTOCURRENCY,,
+801,ChatGPT,50,seeking,control,6,,Ethereum (ETH),ETH-USD,1000.0,CRYPTOCURRENCY,,
+802,ChatGPT,50,seeking,control,6,Bonds,iShares 20+ Year Treasury,TLT,1500.0,ETF,,
+803,ChatGPT,50,seeking,control,7,Stocks (Tech),Apple Inc.,AAPL,3000.0,EQUITY,United States,Technology
+804,ChatGPT,50,seeking,control,7,,Tesla Inc.,TSLA,2000.0,EQUITY,United States,Consumer Cyclical
+805,ChatGPT,50,seeking,control,7,,Alphabet Inc. (Google),GOOGL,2000.0,EQUITY,United States,Communication Services
+806,ChatGPT,50,seeking,control,7,Commodities,Gold ETF,GLD,1000.0,ETF,,
+807,ChatGPT,50,seeking,control,7,Cryptocurrency,Bitcoin,BTC-USD,1000.0,CRYPTOCURRENCY,,
+808,ChatGPT,50,seeking,control,7,,Ethereum,ETH-USD,1500.0,CRYPTOCURRENCY,,
+809,ChatGPT,50,seeking,control,7,High-Risk Stocks,GameStop Corp.,GME,500.0,EQUITY,United States,Consumer Cyclical
+810,ChatGPT,50,seeking,control,8,Individual Stocks,Tesla Inc.,TSLA,3000.0,EQUITY,United States,Consumer Cyclical
+811,ChatGPT,50,seeking,control,8,,"Square, Inc.",SQ,2000.0,EQUITY,United States,Technology
+812,ChatGPT,50,seeking,control,8,,Advanced Micro Devices Inc.,AMD,1500.0,EQUITY,United States,Technology
+813,ChatGPT,50,seeking,control,8,Mutual Funds,Vanguard Information Tech.,VGT,1500.0,ETF,,
+814,ChatGPT,50,seeking,control,8,,Fidelity Contrafund,FCNTX,1500.0,MUTUALFUND,,
+815,ChatGPT,50,seeking,control,8,Cryptocurrency,Bitcoin,BTC-USD,1000.0,CRYPTOCURRENCY,,
+816,ChatGPT,50,seeking,control,9,Stocks,Amazon,AMZN,3000.0,EQUITY,United States,Consumer Cyclical
+817,ChatGPT,50,seeking,control,9,,Tesla,TSLA,3000.0,EQUITY,United States,Consumer Cyclical
+818,ChatGPT,50,seeking,control,9,,Advanced Micro Dev.,AMD,2000.0,EQUITY,United States,Technology
+819,ChatGPT,50,seeking,control,9,Cryptocurrency,Bitcoin,BTC-USD,1000.0,CRYPTOCURRENCY,,
+820,ChatGPT,50,seeking,control,9,,Ethereum,ETH-USD,1000.0,CRYPTOCURRENCY,,
+821,ChatGPT,50,averse,engineered,0,Index Fund,Vanguard ESG U.S. Stock ETF,ESGV,3000.0,ETF,,
+822,ChatGPT,50,averse,engineered,0,Bond Fund,iShares ESG Aware USD Corporate Bond ETF,SUSC,2000.0,ETF,,
+823,ChatGPT,50,averse,engineered,0,Green Energy Mutual Fund,Calvert Global Energy Solutions Fund,CGAEX,2000.0,MUTUALFUND,,
+824,ChatGPT,50,averse,engineered,0,Ethical Mutual Fund,Parnassus Core Equity Fund,PRBLX,2000.0,MUTUALFUND,,
+825,ChatGPT,50,averse,engineered,0,Community Development Investment,Calvert Community Investment Note,,1000.0,,,
+826,ChatGPT,50,averse,engineered,1,Index Fund,Vanguard ESG U.S. Stock ETF,ESGV,4000.0,ETF,,
+827,ChatGPT,50,averse,engineered,1,Bond Fund,iShares ESG USD Corporate Bond ETF,SUSC,3000.0,ETF,,
+828,ChatGPT,50,averse,engineered,1,Sustainable Energy Fund,First Trust Global Wind Energy ETF,FAN,2000.0,ETF,,
+829,ChatGPT,50,averse,engineered,1,Socially Responsible Fund,Calvert Equity Fund Class A,CSIEX,1000.0,MUTUALFUND,,
+830,ChatGPT,50,averse,engineered,2,Index Fund,Vanguard S&P 500 ETF,VOO,3000.0,ETF,,
+831,ChatGPT,50,averse,engineered,2,Bonds,iShares ESG U.S. Aggregate Bond ETF,EAGG,2000.0,ETF,,
+832,ChatGPT,50,averse,engineered,2,Renewable Energy,Invesco Solar ETF,TAN,2000.0,ETF,,
+833,ChatGPT,50,averse,engineered,2,Social Impact,Calvert Equity Portfolio,CSIEX,1500.0,MUTUALFUND,,
+834,ChatGPT,50,averse,engineered,2,Real Estate,Vanguard Real Estate ETF,VNQ,1500.0,ETF,,
+835,ChatGPT,50,averse,engineered,3,Exchange-Traded Fund (ETF),Vanguard S&P 500 ESG ETF,VSGX,3000.0,ETF,,
+836,ChatGPT,50,averse,engineered,3,Socially Responsible Mutual Fund,TIAA-CREF Social Choice Equity Fund,TICRX,2500.0,MUTUALFUND,,
+837,ChatGPT,50,averse,engineered,3,Green Bonds,iShares Global Green Bond ETF,BGRN,2000.0,ETF,,
+838,ChatGPT,50,averse,engineered,3,Impact Investing,Calvert Impact Capital,,1500.0,,,
+839,ChatGPT,50,averse,engineered,3,Renewable Energy,First Solar,FSLR,1000.0,EQUITY,United States,Technology
+840,ChatGPT,50,averse,engineered,4,Mutual Fund,Vanguard ESG U.S. Stock ETF,ESGV,3000.0,ETF,,
+841,ChatGPT,50,averse,engineered,4,Socially Responsible Index Fund,iShares MSCI KLD 400 Social ETF,DSI,2000.0,ETF,,
+842,ChatGPT,50,averse,engineered,4,Green Bonds,VanEck Vectors Green Bond ETF,GRNB,2000.0,ETF,,
+843,ChatGPT,50,averse,engineered,4,Sustainable Real Estate Investment Trusts (REITs),Boston Properties Inc.,BXP,1500.0,EQUITY,United States,Real Estate
+844,ChatGPT,50,averse,engineered,4,Impact Investing Fund,Calvert Impact Capital,,1500.0,MUTUALFUND,,
+845,ChatGPT,50,averse,engineered,5,Index Fund,Vanguard ESG U.S. Stock ETF,ESGV,4000.0,ETF,,
+846,ChatGPT,50,averse,engineered,5,Green Bond,iShares Global Green Bond ETF,BGRN,2000.0,ETF,,
+847,ChatGPT,50,averse,engineered,5,Socially Responsible Mutual Fund,TIAA-CREF Social Choice Equity Fund,TISCX,2000.0,MUTUALFUND,,
+848,ChatGPT,50,averse,engineered,5,Renewable Energy Stock,"NextEra Energy, Inc.",NEE,1500.0,EQUITY,United States,Utilities
+849,ChatGPT,50,averse,engineered,5,Sustainable Real Estate Investment Trust,"Alexandria Real Estate Equities, Inc.",ARE,500.0,EQUITY,United States,Real Estate
+850,ChatGPT,50,averse,engineered,6,Exchange-traded Fund (ETF),Vanguard ESG US Stock ETF,ESGV,3000.0,ETF,,
+851,ChatGPT,50,averse,engineered,6,Socially Responsible Mutual Fund,Parnassus Core Equity Fund (Investor Shares),PRBLX,3000.0,MUTUALFUND,,
+852,ChatGPT,50,averse,engineered,6,Green Bonds,iShares Global Green Bond ETF,BGRN,2000.0,ETF,,
+853,ChatGPT,50,averse,engineered,6,Social Impact Bonds,Calvert Impact Capital,,1000.0,BOND,,
+854,ChatGPT,50,averse,engineered,6,Sustainable Development Projects,Microplace by eBay,,1000.0,,,
+855,ChatGPT,50,averse,engineered,7,Exchange-Traded Fund,iShares ESG U.S. Aggregate Bond ETF,EAGG,3000.0,ETF,,
+856,ChatGPT,50,averse,engineered,7,Mutual Fund,Parnassus Core Equity Fund,PRBLX,3000.0,MUTUALFUND,,
+857,ChatGPT,50,averse,engineered,7,Individual Stocks,Microsoft Corporation,MSFT,2000.0,EQUITY,United States,Technology
+858,ChatGPT,50,averse,engineered,7,Investment Fund,Impax Environmental Markets,IEMGX,2000.0,MUTUALFUND,,
+859,ChatGPT,50,averse,engineered,8,Index Fund,Vanguard S&P 500 ETF,VOO,3000.0,ETF,,
+860,ChatGPT,50,averse,engineered,8,ESG Fund,iShares ESG MSCI USA ETF,ESGU,2000.0,ETF,,
+861,ChatGPT,50,averse,engineered,8,Bond Fund,Vanguard Total Bond Market ETF,BND,2500.0,ETF,,
+862,ChatGPT,50,averse,engineered,8,Green Energy Fund,Invesco Solar ETF,TAN,1000.0,ETF,,
+863,ChatGPT,50,averse,engineered,8,Impact Investing,Swell Impact 400 Index,,1500.0,,,
+864,ChatGPT,50,averse,engineered,9,Exchange-Traded Fund (ETF),iShares MSCI ACWI ESG Select Social Index Fund,SUSA,3000.0,ETF,,
+865,ChatGPT,50,averse,engineered,9,Mutual Fund,TIAA-CREF Social Choice Equity Fund,TICRX,2500.0,MUTUALFUND,,
+866,ChatGPT,50,averse,engineered,9,Bond Fund,Parnassus Fixed Income Fund Investor Shares,PRFIX,2000.0,MUTUALFUND,,
+867,ChatGPT,50,averse,engineered,9,Individual Stocks,Microsoft Corporation,MSFT,1500.0,EQUITY,United States,Technology
+868,ChatGPT,50,averse,engineered,9,Individual Stocks,Procter & Gamble Co.,PG,1500.0,EQUITY,United States,Consumer Defensive
+869,ChatGPT,50,neutral,engineered,0,Stocks,Tesla Inc.,TSLA,3000.0,EQUITY,United States,Consumer Cyclical
+870,ChatGPT,50,neutral,engineered,0,,Microsoft Corp,MSFT,2500.0,EQUITY,United States,Technology
+871,ChatGPT,50,neutral,engineered,0,,Procter & Gamble Co,PG,2000.0,EQUITY,United States,Consumer Defensive
+872,ChatGPT,50,neutral,engineered,0,,Beyond Meat Inc,BYND,1500.0,EQUITY,United States,Consumer Defensive
+873,ChatGPT,50,neutral,engineered,0,Mutual Funds,Vanguard ESG U.S. Stock ETF,ESGV,1000.0,ETF,,
+874,ChatGPT,50,neutral,engineered,0,,Parnassus Core Equity Fund,PRBLX,1000.0,MUTUALFUND,,
+875,ChatGPT,50,neutral,engineered,0,Bonds,iShares Green Bond ETF,BGRN,500.0,ETF,,
+876,ChatGPT,50,neutral,engineered,1,Socially Responsible Stocks,Vanguard ESG US Stock ETF,ESGV,3000.0,ETF,,
+877,ChatGPT,50,neutral,engineered,1,Renewable Energy,First Trust Global Wind Energy,FAN,1500.0,ETF,,
+878,ChatGPT,50,neutral,engineered,1,Environmental Conservation,iShares Global Green Bond ETF,BGRN,2000.0,ETF,,
+879,ChatGPT,50,neutral,engineered,1,Sustainable Tech,Invesco Solar ETF,TAN,1500.0,ETF,,
+880,ChatGPT,50,neutral,engineered,1,Impactful Health Innovations,ARK Genomic Revolution ETF,ARKG,2000.0,ETF,,
+881,ChatGPT,50,neutral,engineered,2,Socially Responsible Mutual Fund,Vanguard Global ESG Select Stock Fund,VSGX,4000.0,ETF,,
+882,ChatGPT,50,neutral,engineered,2,Renewable Energy ETF,iShares Global Clean Energy ETF,ICLN,2500.0,ETF,,
+883,ChatGPT,50,neutral,engineered,2,Impact Bond Fund,Calvert Impact Capital Green Bond Fund,CGRIX,1500.0,MUTUALFUND,,
+884,ChatGPT,50,neutral,engineered,2,Sustainable Real Estate Investment Trust (REIT),American Tower Corporation,AMT,1000.0,EQUITY,United States,Real Estate
+885,ChatGPT,50,neutral,engineered,2,Green Technology Stocks,Tesla Inc.,TSLA,1000.0,EQUITY,United States,Consumer Cyclical
+886,ChatGPT,50,neutral,engineered,3,Renewable Energy,NextEra Energy,NEE,2500.0,EQUITY,United States,Utilities
+887,ChatGPT,50,neutral,engineered,3,Sustainable Tech,Tesla Inc.,TSLA,2000.0,EQUITY,United States,Consumer Cyclical
+888,ChatGPT,50,neutral,engineered,3,Socially Responsible ETF,iShares MSCI KLD 400 Social ETF,DSI,2000.0,ETF,,
+889,ChatGPT,50,neutral,engineered,3,Impact Investing,Calvert Impact Capital,,2000.0,,,
+890,ChatGPT,50,neutral,engineered,3,Clean Energy ETF,Invesco Solar ETF,TAN,1500.0,ETF,,
+891,ChatGPT,50,neutral,engineered,4,Renewable Energy,NextEra Energy,NEE,3000.0,EQUITY,United States,Utilities
+892,ChatGPT,50,neutral,engineered,4,Sustainable Tech,Tesla,TSLA,2000.0,EQUITY,United States,Consumer Cyclical
+893,ChatGPT,50,neutral,engineered,4,ESG Fund,iShares ESG Aware ETF,ESGE,2000.0,ETF,,
+894,ChatGPT,50,neutral,engineered,4,Impact Investing,Bridges Fund,,1500.0,MUTUALFUND,,
+895,ChatGPT,50,neutral,engineered,4,Socially Responsible Mutual Fund,Vanguard FTSE Social Index Fund,VFTAX,1500.0,MUTUALFUND,,
+896,ChatGPT,50,neutral,engineered,5,Renewable Energy,First Solar,FSLR,2000.0,EQUITY,United States,Technology
+897,ChatGPT,50,neutral,engineered,5,Socially Responsible ETF,iShares MSCI KLD 400 Social ETF,DSI,2000.0,ETF,,
+898,ChatGPT,50,neutral,engineered,5,Sustainable Agriculture,Bunge Limited,BG,1500.0,EQUITY,United States,Consumer Defensive
+899,ChatGPT,50,neutral,engineered,5,Impact Bonds,Calvert Green Bond Fund,CGAFX,2000.0,MUTUALFUND,,
+900,ChatGPT,50,neutral,engineered,5,Clean Technology,Invesco WilderHill Clean Energy ETF,PBW,1500.0,ETF,,
+901,ChatGPT,50,neutral,engineered,5,Microfinance,TIAA-CREF Social Choice Bond Fund,TSBIX,1000.0,MUTUALFUND,,
+902,ChatGPT,50,neutral,engineered,6,Green Energy ETF,iShares Global Clean Energy ETF,ICLN,2000.0,ETF,,
+903,ChatGPT,50,neutral,engineered,6,Socially Responsible Index Fund,Vanguard ESG US Stock ETF,ESGV,2000.0,ETF,,
+904,ChatGPT,50,neutral,engineered,6,Sustainable Tech Company,Tesla Inc.,TSLA,2000.0,EQUITY,United States,Consumer Cyclical
+905,ChatGPT,50,neutral,engineered,6,Impact Bond ETF,iShares ESG USD Corporate Bond ETF,SUSC,2000.0,ETF,,
+906,ChatGPT,50,neutral,engineered,6,Microfinance Investment,Calvert Impact Capital,,1000.0,,,
+907,ChatGPT,50,neutral,engineered,6,Socially Responsible Real Estate Fund,Parnassus Core Equity Fund,PRBLX,1000.0,MUTUALFUND,,
+908,ChatGPT,50,neutral,engineered,7,Exchange-Traded Fund (ETF),iShares MSCI Global Impact ETF,SDG,2500.0,ETF,,
+909,ChatGPT,50,neutral,engineered,7,Renewable Energy Stocks,NextEra Energy,NEE,2000.0,EQUITY,United States,Utilities
+910,ChatGPT,50,neutral,engineered,7,"Environmental, Social, and Governance (ESG) Bond Fund",Vanguard ESG U.S. Corporate Bond ETF,VCEB,2000.0,ETF,,
+911,ChatGPT,50,neutral,engineered,7,Sustainable Technology Stocks,Tesla Inc.,TSLA,1500.0,EQUITY,United States,Consumer Cyclical
+912,ChatGPT,50,neutral,engineered,7,Community Development Financial Institution (CDFI),Self-Help Federal Credit Union,,1500.0,DEPOSIT,,
+913,ChatGPT,50,neutral,engineered,7,Impact Investing Fund,Calvert Impact Capital,,500.0,MUTUALFUND,,
+914,ChatGPT,50,neutral,engineered,8,Renewable Energy ETF,iShares Global Clean Energy ETF,ICLN,3000.0,ETF,,
+915,ChatGPT,50,neutral,engineered,8,Socially Responsible ETF,Vanguard ESG U.S. Stock ETF,ESGV,2500.0,ETF,,
+916,ChatGPT,50,neutral,engineered,8,Impact Investing ETF,iShares MSCI ACWI Impact ETF,SDG,2000.0,ETF,,
+917,ChatGPT,50,neutral,engineered,8,Sustainable Index Fund,Parnassus Core Equity Fund Investor Shares,PRBLX,2000.0,MUTUALFUND,,
+918,ChatGPT,50,neutral,engineered,8,Green Bonds,VanEck Vectors Green Bond ETF,GRNB,500.0,ETF,,
+919,ChatGPT,50,neutral,engineered,9,Sustainable Index Fund,iShares ESG MSCI USA ETF,ESGU,4000.0,ETF,,
+920,ChatGPT,50,neutral,engineered,9,Renewable Energy Stocks,NextEra Energy Inc.,NEE,2000.0,EQUITY,United States,Utilities
+921,ChatGPT,50,neutral,engineered,9,Socially Responsible Bonds,iShares Global Green Bond ETF,BGRN,2000.0,ETF,,
+922,ChatGPT,50,neutral,engineered,9,Impact Investing Fund,Swell Impact 400 Index,,1500.0,MUTUALFUND,,
+923,ChatGPT,50,neutral,engineered,9,Clean Water ETF,Invesco Water Resources ETF,PHO,500.0,ETF,,
+924,ChatGPT,50,seeking,engineered,0,Renewable Energy,First Solar Inc.,FSLR,3000.0,EQUITY,United States,Technology
+925,ChatGPT,50,seeking,engineered,0,Socially Responsible ETF,iShares MSCI KLD 400 Social ETF,DSI,2500.0,ETF,,
+926,ChatGPT,50,seeking,engineered,0,Sustainable Technology,Tesla Inc.,TSLA,2000.0,EQUITY,United States,Consumer Cyclical
+927,ChatGPT,50,seeking,engineered,0,Impact Bond ETF,iShares Global Green Bond ETF,BGRN,1500.0,ETF,,
+928,ChatGPT,50,seeking,engineered,0,Clean Water,Xylem Inc.,XYL,1000.0,EQUITY,United States,Industrials
+929,ChatGPT,50,seeking,engineered,1,Renewable Energy,First Solar Inc.,FSLR,2500.0,EQUITY,United States,Technology
+930,ChatGPT,50,seeking,engineered,1,Socially Responsible ETF,iShares MSCI KLD 400 Social ETF,DSI,2500.0,ETF,,
+931,ChatGPT,50,seeking,engineered,1,Sustainable Agriculture,Nutrien Ltd,NTR,2000.0,EQUITY,Canada,Basic Materials
+932,ChatGPT,50,seeking,engineered,1,Clean Technology,Tesla Inc.,TSLA,1500.0,EQUITY,United States,Consumer Cyclical
+933,ChatGPT,50,seeking,engineered,1,Impact Bonds,Calvert Green Bond Fund,CGAFX,1500.0,MUTUALFUND,,
+934,ChatGPT,50,seeking,engineered,2,Renewable Energy ETF,Invesco Solar ETF,TAN,2000.0,ETF,,
+935,ChatGPT,50,seeking,engineered,2,Impact Investing ETF,iShares Sustainable MSCI Global Impact ETF,SDG,1500.0,ETF,,
+936,ChatGPT,50,seeking,engineered,2,Tech Company Stocks,Apple Inc.,AAPL,2000.0,EQUITY,United States,Technology
+937,ChatGPT,50,seeking,engineered,2,Socially Responsible Index Fund,Vanguard FTSE Social Index Fund,VFTAX,2500.0,MUTUALFUND,,
+938,ChatGPT,50,seeking,engineered,2,Clean Water Infrastructure,Xylem Inc.,XYL,1000.0,EQUITY,United States,Industrials
+939,ChatGPT,50,seeking,engineered,2,Sustainable Agriculture,Beyond Meat Inc.,BYND,1000.0,EQUITY,United States,Consumer Defensive
+940,ChatGPT,50,seeking,engineered,3,Renewable Energy,NextEra Energy,NEE,2500.0,EQUITY,United States,Utilities
+941,ChatGPT,50,seeking,engineered,3,Sustainable Tech,Tesla,TSLA,2000.0,EQUITY,United States,Consumer Cyclical
+942,ChatGPT,50,seeking,engineered,3,Impact Investing,Vanguard FTSE Social Index Fund,VFTAX,2000.0,MUTUALFUND,,
+943,ChatGPT,50,seeking,engineered,3,ESG Bonds,iShares ESG USD Corporate Bond ETF,SUSC,2000.0,ETF,,
+944,ChatGPT,50,seeking,engineered,3,Sustainable Food,Beyond Meat,BYND,1500.0,EQUITY,United States,Consumer Defensive
+945,ChatGPT,50,seeking,engineered,4,ETF,Vanguard ESG U.S. Stock ETF,ESGV,2500.0,ETF,,
+946,ChatGPT,50,seeking,engineered,4,Individual Stocks,Tesla Inc.,TSLA,2000.0,EQUITY,United States,Consumer Cyclical
+947,ChatGPT,50,seeking,engineered,4,,Beyond Meat Inc.,BYND,1500.0,EQUITY,United States,Consumer Defensive
+948,ChatGPT,50,seeking,engineered,4,Impact Investment,Calvert Balanced Fund,CAAFX,2000.0,MUTUALFUND,,
+949,ChatGPT,50,seeking,engineered,4,,Triodos Sustainable Equity Fund,TRIIX,2000.0,MUTUALFUND,,
+950,ChatGPT,50,seeking,engineered,5,Stocks - Renewable Energy,NextEra Energy,NEE,3500.0,EQUITY,United States,Utilities
+951,ChatGPT,50,seeking,engineered,5,Stocks - Socially Responsible,Vanguard ESG U.S. Stock ETF,ESGV,2000.0,ETF,,
+952,ChatGPT,50,seeking,engineered,5,Social Impact Bonds,Calvert Foundation Community Investment Notes,,2000.0,BOND,,
+953,ChatGPT,50,seeking,engineered,5,Green Bonds,iShares Global Green Bond ETF,BGRN,1500.0,ETF,,
+954,ChatGPT,50,seeking,engineered,5,Microfinance,Global Partnerships Impact Note,,1000.0,,,
+955,ChatGPT,50,seeking,engineered,6,Socially Responsible Index Fund,Vanguard ESG U.S. Stock ETF,ESGV,4000.0,ETF,,
+956,ChatGPT,50,seeking,engineered,6,Renewable Energy Stocks,NextEra Energy,NEE,2000.0,EQUITY,United States,Utilities
+957,ChatGPT,50,seeking,engineered,6,Impact Bond Fund,iShares Global Green Bond ETF,BGRN,1500.0,ETF,,
+958,ChatGPT,50,seeking,engineered,6,Technology and Innovation ETF,ARK Innovation ETF,ARKK,1500.0,ETF,,
+959,ChatGPT,50,seeking,engineered,6,Clean Water Stocks,American Water Works,AWK,1000.0,EQUITY,United States,Utilities
+960,ChatGPT,50,seeking,engineered,7,Exchange-Traded Fund (ETF),iShares MSCI ACWI ESG Universal ETF,ACWI,3000.0,ETF,,
+961,ChatGPT,50,seeking,engineered,7,Socially Responsible Mutual Fund,TIAA-CREF Social Choice Equity Fund,TICRX,2000.0,MUTUALFUND,,
+962,ChatGPT,50,seeking,engineered,7,Renewable Energy Company,"NextEra Energy, Inc.",NEE,2500.0,EQUITY,United States,Utilities
+963,ChatGPT,50,seeking,engineered,7,Impact Bond Fund,Calvert Green Bond Fund,CGAFX,1500.0,MUTUALFUND,,
+964,ChatGPT,50,seeking,engineered,7,Clean Technology Company,"Tesla, Inc.",TSLA,1000.0,EQUITY,United States,Consumer Cyclical
+965,ChatGPT,50,seeking,engineered,8,Stocks,Tesla,TSLA,3000.0,EQUITY,United States,Consumer Cyclical
+966,ChatGPT,50,seeking,engineered,8,,Beyond Meat,BYND,2000.0,EQUITY,United States,Consumer Defensive
+967,ChatGPT,50,seeking,engineered,8,Mutual Funds,Pax Ellevate Global Womens Leadership Fund,PXWEX,2500.0,MUTUALFUND,,
+968,ChatGPT,50,seeking,engineered,8,,Calvert Green Bond Fund,CGAFX,1500.0,MUTUALFUND,,
+969,ChatGPT,50,seeking,engineered,8,ETFs,iShares MSCI KLD 400 Social ETF,DSI,1000.0,ETF,,
+970,ChatGPT,50,seeking,engineered,8,,SPDR S&P 500 Fossil Fuel Free ETF,SPYX,1000.0,ETF,,
+971,ChatGPT,50,seeking,engineered,9,Renewable Energy,First Solar,FSLR,2500.0,EQUITY,United States,Technology
+972,ChatGPT,50,seeking,engineered,9,Socially Responsible ETFs,iShares MSCI KLD 400 Social ETF,DSI,2000.0,ETF,,
+973,ChatGPT,50,seeking,engineered,9,Impact Investing,Triodos Sustainable Pioneer Fund,,2000.0,MUTUALFUND,,
+974,ChatGPT,50,seeking,engineered,9,Clean Technology,Invesco WilderHill Clean Energy ETF,PBW,1500.0,ETF,,
+975,ChatGPT,50,seeking,engineered,9,Sustainable Agriculture,Beyond Meat,BYND,1500.0,EQUITY,United States,Consumer Defensive
+976,ChatGPT,50,seeking,engineered,9,Philanthropic Endeavors,Donations to non-profit organizations of your choice,,500.0,,,

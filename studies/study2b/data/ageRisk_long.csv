@@ -1,0 +1,981 @@
+,ai,age,risk-taking,cond,iteration,investment_type,name,ticker_symbol,amount_to_invest,asset_type,country,sector
+0,ChatGPT,15,averse,control,0,Index Fund,Vanguard Total Stock Market Index Fund,VTSMX,2500.0,MUTUALFUND,,
+1,ChatGPT,15,averse,control,0,Bond Fund,iShares Core U.S. Aggregate Bond ETF,AGG,1500.0,ETF,,
+2,ChatGPT,15,averse,control,0,Dividend Stocks,Procter & Gamble Co.,PG,2000.0,EQUITY,United States,Consumer Defensive
+3,ChatGPT,15,averse,control,0,REIT,Vanguard Real Estate ETF,VNQ,1500.0,ETF,,
+4,ChatGPT,15,averse,control,0,Technology Stocks,Microsoft Corporation,MSFT,1500.0,EQUITY,United States,Technology
+6,ChatGPT,15,averse,control,1,Stocks,Apple Inc.,AAPL,2500.0,EQUITY,United States,Technology
+7,ChatGPT,15,averse,control,1,,Microsoft Corporation,MSFT,2500.0,EQUITY,United States,Technology
+8,ChatGPT,15,averse,control,1,Bonds,iShares Core U.S. Aggregate Bond ETF,AGG,2000.0,ETF,,
+9,ChatGPT,15,averse,control,1,,Vanguard Total Bond Market Index Fund,VBMFX,1500.0,MUTUALFUND,,
+10,ChatGPT,15,averse,control,1,Index Funds,Vanguard S&P 500 Index Fund,VOO,1000.0,ETF,,
+11,ChatGPT,15,averse,control,1,,iShares Russell 2000 ETF,IWM,1500.0,ETF,,
+12,ChatGPT,15,averse,control,2,Stocks - Blue Chip,Apple Inc.,AAPL,3000.0,EQUITY,United States,Technology
+13,ChatGPT,15,averse,control,2,,Microsoft Corporation,MSFT,2000.0,EQUITY,United States,Technology
+14,ChatGPT,15,averse,control,2,Bonds,iShares Core U.S. Aggregate Bond ETF,AGG,2000.0,ETF,,
+15,ChatGPT,15,averse,control,2,,Vanguard Total Bond Market Index Fund ETF Shares,BND,1500.0,ETF,,
+16,ChatGPT,15,averse,control,2,Cash Savings,High-Yield Savings Account,,1000.0,SAVING,,
+17,ChatGPT,15,averse,control,2,,Certificate of Deposit (CD),,500.0,DEPOSIT,,
+18,ChatGPT,15,averse,control,3,Index Fund,Vanguard S&P 500 ETF,VOO,4000.0,ETF,,
+19,ChatGPT,15,averse,control,3,Blue-Chip Stocks,Microsoft Corporation,MSFT,2000.0,EQUITY,United States,Technology
+20,ChatGPT,15,averse,control,3,Dividend-Paying Stocks,Procter & Gamble,PG,2000.0,EQUITY,United States,Consumer Defensive
+21,ChatGPT,15,averse,control,3,Bonds,iShares Core U.S. Aggregate Bond ETF,AGG,1500.0,ETF,,
+22,ChatGPT,15,averse,control,3,High-Yield Savings Account,N/A,,500.0,SAVING,,
+23,ChatGPT,15,averse,control,4,Index Fund (Equities),Vanguard Total Stock Market Index Fund,VTSAX,4000.0,MUTUALFUND,,
+24,ChatGPT,15,averse,control,4,Bond Fund,iShares Core US Aggregate Bond ETF,AGG,3000.0,ETF,,
+25,ChatGPT,15,averse,control,4,Real Estate Investment Trust (REIT),Vanguard Real Estate ETF,VNQ,1500.0,ETF,,
+26,ChatGPT,15,averse,control,4,Dividend-Paying Stocks,Procter & Gamble Co.,PG,1000.0,EQUITY,United States,Consumer Defensive
+27,ChatGPT,15,averse,control,4,Certificates of Deposit (CDs),Local Bank CD Offering,,500.0,DEPOSIT,,
+28,ChatGPT,15,averse,control,5,Stock,Apple Inc.,AAPL,3000.0,EQUITY,United States,Technology
+29,ChatGPT,15,averse,control,5,Stock,Johnson & Johnson,JNJ,2500.0,EQUITY,United States,Healthcare
+30,ChatGPT,15,averse,control,5,Mutual Fund,Vanguard Total Bond Fund,BND,2000.0,ETF,,
+31,ChatGPT,15,averse,control,5,ETF,iShares Core Dividend,HDV,2000.0,ETF,,
+33,ChatGPT,15,averse,control,6,Exchange-Traded Fund (ETF),Vanguard Total Stock Market ETF,VTI,4000.0,ETF,,
+34,ChatGPT,15,averse,control,6,Index Fund,Vanguard Total Bond Market Index Fund,VBMFX,2500.0,MUTUALFUND,,
+35,ChatGPT,15,averse,control,6,Individual Stocks,Apple Inc.,AAPL,1500.0,EQUITY,United States,Technology
+36,ChatGPT,15,averse,control,6,Individual Stocks,Microsoft Corporation,MSFT,1500.0,EQUITY,United States,Technology
+37,ChatGPT,15,averse,control,6,Individual Stocks,Johnson & Johnson,JNJ,1500.0,EQUITY,United States,Healthcare
+38,ChatGPT,15,averse,control,7,Index Fund,Vanguard Total Stock Market ETF,VTI,3500.0,ETF,,
+39,ChatGPT,15,averse,control,7,Stocks - Blue Chip,Johnson & Johnson,JNJ,2000.0,EQUITY,United States,Healthcare
+40,ChatGPT,15,averse,control,7,Stocks - Blue Chip,Visa Inc.,V,2000.0,EQUITY,United States,Financial Services
+41,ChatGPT,15,averse,control,7,Bonds,iShares Core U.S. Aggregate Bond ETF,AGG,1500.0,ETF,,
+42,ChatGPT,15,averse,control,7,Cryptocurrency,Bitcoin,BTC-USD,1000.0,CRYPTOCURRENCY,,
+43,ChatGPT,15,averse,control,8,Stock/Index ETF,Vanguard S&P 500 ETF,VOO,5000.0,ETF,,
+44,ChatGPT,15,averse,control,8,Bond ETF,iShares Core U.S. Aggregate Bond ETF,AGG,2000.0,ETF,,
+45,ChatGPT,15,averse,control,8,Certificate of Deposit (CD),Local bank or credit union,,2000.0,DEPOSIT,,
+46,ChatGPT,15,averse,control,8,High-Yield Savings Account,Various online banks,,1000.0,SAVING,,
+47,ChatGPT,15,averse,control,9,Index Fund,Vanguard Total Stock Market ETF,VTI,3000.0,ETF,,
+48,ChatGPT,15,averse,control,9,Bond Fund,iShares Core U.S. Aggregate Bond ETF,AGG,2500.0,ETF,,
+49,ChatGPT,15,averse,control,9,Dividend-Paying Stock,Johnson & Johnson,JNJ,1500.0,EQUITY,United States,Healthcare
+50,ChatGPT,15,averse,control,9,Real Estate Investment Trust (REIT),Vanguard Real Estate ETF,VNQ,1500.0,ETF,,
+51,ChatGPT,15,averse,control,9,High-Yield Savings Account,N/A,,1500.0,SAVING,,
+52,ChatGPT,15,neutral,control,0,Stocks (Technology),Apple Inc.,AAPL,3000.0,EQUITY,United States,Technology
+53,ChatGPT,15,neutral,control,0,Stocks (Diversified),Vanguard Total Stock Market ETF,VTI,2000.0,ETF,,
+54,ChatGPT,15,neutral,control,0,ETF (Tech-focused),Invesco QQQ Trust,QQQ,2000.0,ETF,,
+55,ChatGPT,15,neutral,control,0,ETF (S&P 500),SPDR S&P 500 ETF Trust,SPY,1500.0,ETF,,
+56,ChatGPT,15,neutral,control,0,Cryptocurrency,Ethereum,ETH-USD,1500.0,CRYPTOCURRENCY,,
+57,ChatGPT,15,neutral,control,1,Stocks,Apple Inc.,AAPL,4000.0,EQUITY,United States,Technology
+58,ChatGPT,15,neutral,control,1,Index Funds,Vanguard Total Stock Market Index Fund,VTSAX,2000.0,MUTUALFUND,,
+59,ChatGPT,15,neutral,control,1,Exchange-Traded Funds,Invesco QQQ Trust,QQQ,2000.0,ETF,,
+60,ChatGPT,15,neutral,control,1,Cryptocurrency,Bitcoin,BTC-USD,1000.0,CRYPTOCURRENCY,,
+61,ChatGPT,15,neutral,control,1,High-Growth Stocks,"Tesla, Inc.",TSLA,1000.0,EQUITY,United States,Consumer Cyclical
+62,ChatGPT,15,neutral,control,2,Stocks,Apple Inc.,AAPL,4000.0,EQUITY,United States,Technology
+63,ChatGPT,15,neutral,control,2,,Microsoft Corporation,MSFT,3000.0,EQUITY,United States,Technology
+64,ChatGPT,15,neutral,control,2,,Alphabet Inc. (Google),GOOGL,2000.0,EQUITY,United States,Communication Services
+65,ChatGPT,15,neutral,control,2,Mutual Funds,Vanguard Total Stock Market Index Fund,VTSAX,1000.0,MUTUALFUND,,
+66,ChatGPT,15,neutral,control,2,,Fidelity Contrafund,FCNTX,1000.0,MUTUALFUND,,
+67,ChatGPT,15,neutral,control,2,Cryptocurrencies,Bitcoin,BTC-USD,500.0,CRYPTOCURRENCY,,
+68,ChatGPT,15,neutral,control,2,,Ethereum,ETH-USD,500.0,CRYPTOCURRENCY,,
+69,ChatGPT,15,neutral,control,3,Stocks,Apple Inc.,AAPL,3000.0,EQUITY,United States,Technology
+70,ChatGPT,15,neutral,control,3,,Tesla Inc.,TSLA,2000.0,EQUITY,United States,Consumer Cyclical
+71,ChatGPT,15,neutral,control,3,,Vanguard S&P 500 ETF,VOO,2000.0,ETF,,
+72,ChatGPT,15,neutral,control,3,Bonds,iShares Core U.S. Aggregate Bond ETF,AGG,1500.0,ETF,,
+73,ChatGPT,15,neutral,control,3,Cryptocurrency,Bitcoin,BTC-USD,1500.0,CRYPTOCURRENCY,,
+74,ChatGPT,15,neutral,control,4,Stocks,Apple Inc.,AAPL,4000.0,EQUITY,United States,Technology
+75,ChatGPT,15,neutral,control,4,,Amazon.com Inc.,AMZN,2500.0,EQUITY,United States,Consumer Cyclical
+76,ChatGPT,15,neutral,control,4,,Nvidia Corporation,NVDA,2000.0,EQUITY,United States,Technology
+77,ChatGPT,15,neutral,control,4,Cryptocurrency,Bitcoin,BTC-USD,1500.0,CRYPTOCURRENCY,,
+78,ChatGPT,15,neutral,control,4,,Ethereum,ETH-USD,500.0,CRYPTOCURRENCY,,
+79,ChatGPT,15,neutral,control,5,Blue-Chip Stocks,Apple Inc.,AAPL,4000.0,EQUITY,United States,Technology
+80,ChatGPT,15,neutral,control,5,,Microsoft Corporation,MSFT,3000.0,EQUITY,United States,Technology
+81,ChatGPT,15,neutral,control,5,,Visa Inc.,V,2000.0,EQUITY,United States,Financial Services
+82,ChatGPT,15,neutral,control,5,Growth Stocks,Amazon.com Inc.,AMZN,2000.0,EQUITY,United States,Consumer Cyclical
+83,ChatGPT,15,neutral,control,5,,Nvidia Corporation,NVDA,2000.0,EQUITY,United States,Technology
+84,ChatGPT,15,neutral,control,5,,"Square, Inc.",SQ,1000.0,EQUITY,United States,Technology
+85,ChatGPT,15,neutral,control,5,Exchange Traded Funds (ETFs),Invesco QQQ Trust,QQQ,2000.0,ETF,,
+86,ChatGPT,15,neutral,control,5,,iShares S&P 500 Growth ETF,IVW,2000.0,ETF,,
+87,ChatGPT,15,neutral,control,5,Cryptocurrency,Bitcoin,BTC-USD,1000.0,CRYPTOCURRENCY,,
+88,ChatGPT,15,neutral,control,5,,Ethereum,ETH-USD,1000.0,CRYPTOCURRENCY,,
+89,ChatGPT,15,neutral,control,6,Stocks,Apple Inc.,AAPL,3000.0,EQUITY,United States,Technology
+90,ChatGPT,15,neutral,control,6,,Tesla Inc.,TSLA,2000.0,EQUITY,United States,Consumer Cyclical
+91,ChatGPT,15,neutral,control,6,,Amazon.com Inc.,AMZN,1500.0,EQUITY,United States,Consumer Cyclical
+92,ChatGPT,15,neutral,control,6,ETFs,Vanguard S&P 500 ETF,VOO,1500.0,ETF,,
+93,ChatGPT,15,neutral,control,6,,Invesco QQQ Trust ETF,QQQ,1000.0,ETF,,
+94,ChatGPT,15,neutral,control,6,Mutual Funds,Fidelity Contrafund,FCNTX,1000.0,MUTUALFUND,,
+95,ChatGPT,15,neutral,control,7,Stocks,Tesla Inc,TSLA,3000.0,EQUITY,United States,Consumer Cyclical
+96,ChatGPT,15,neutral,control,7,,Alphabet Inc,GOOGL,2000.0,EQUITY,United States,Communication Services
+97,ChatGPT,15,neutral,control,7,,Netflix Inc,NFLX,1500.0,EQUITY,United States,Communication Services
+98,ChatGPT,15,neutral,control,7,,Unity Software Inc,U,1500.0,EQUITY,United States,Technology
+99,ChatGPT,15,neutral,control,7,Cryptocurrency,Bitcoin,BTC-USD,2000.0,CRYPTOCURRENCY,,
+100,ChatGPT,15,neutral,control,7,,Ethereum,ETH-USD,500.0,CRYPTOCURRENCY,,
+101,ChatGPT,15,neutral,control,8,Stock,Apple Inc.,AAPL,3000.0,EQUITY,United States,Technology
+102,ChatGPT,15,neutral,control,8,ETF,Vanguard S&P 500,VOO,2000.0,ETF,,
+103,ChatGPT,15,neutral,control,8,Cryptocurrency,Bitcoin,BTC-USD,1500.0,CRYPTOCURRENCY,,
+104,ChatGPT,15,neutral,control,8,Mutual Fund,Fidelity Contrafund,FCNTX,2000.0,MUTUALFUND,,
+105,ChatGPT,15,neutral,control,8,Bond,iShares Core U.S. Aggregate Bond,AGG,1000.0,ETF,,
+106,ChatGPT,15,neutral,control,8,Real Estate Investment Trust (REIT),Vanguard Real Estate ETF,VNQ,500.0,ETF,,
+107,ChatGPT,15,neutral,control,9,Mutual Fund,Vanguard Total Stock Market Index Fund Investor Shares,VTSMX,3000.0,MUTUALFUND,,
+108,ChatGPT,15,neutral,control,9,Individual Stocks,Apple Inc.,AAPL,2000.0,EQUITY,United States,Technology
+109,ChatGPT,15,neutral,control,9,,Amazon.com Inc.,AMZN,2000.0,EQUITY,United States,Consumer Cyclical
+110,ChatGPT,15,neutral,control,9,,Alphabet Inc. (Google),GOOGL,1500.0,EQUITY,United States,Communication Services
+111,ChatGPT,15,neutral,control,9,,Nvidia Corporation,NVDA,1500.0,EQUITY,United States,Technology
+112,ChatGPT,15,neutral,control,9,Cryptocurrency,Bitcoin,BTC-USD,500.0,CRYPTOCURRENCY,,
+113,ChatGPT,15,seeking,control,0,Individual Stocks,Tesla Inc.,TSLA,3000.0,EQUITY,United States,Consumer Cyclical
+114,ChatGPT,15,seeking,control,0,,Shopify Inc.,SHOP,2000.0,EQUITY,Canada,Technology
+115,ChatGPT,15,seeking,control,0,,Square Inc.,SQ,2000.0,EQUITY,United States,Technology
+116,ChatGPT,15,seeking,control,0,ETF,ARK Innovation ETF,ARKK,2000.0,ETF,,
+117,ChatGPT,15,seeking,control,0,Cryptocurrency,Bitcoin (BTC),BTC-USD,1000.0,CRYPTOCURRENCY,,
+118,ChatGPT,15,seeking,control,1,Stocks (Individual),"Technology Company (e.g., Apple Inc.)",AAPL,4000.0,EQUITY,United States,Technology
+119,ChatGPT,15,seeking,control,1,Stocks (Index ETF),S&P 500 Index Fund,VOO,2000.0,ETF,,
+120,ChatGPT,15,seeking,control,1,Cryptocurrency,Bitcoin,BTC-USD,2000.0,CRYPTOCURRENCY,,
+121,ChatGPT,15,seeking,control,1,Growth Stocks,"Renewable Energy Company (e.g., Tesla Inc.)",TSLA,1500.0,EQUITY,United States,Consumer Cyclical
+122,ChatGPT,15,seeking,control,1,High-Risk Stocks (Small Cap),"Biotech Company (e.g., Moderna Inc.)",MRNA,500.0,EQUITY,United States,Healthcare
+123,ChatGPT,15,seeking,control,2,Stocks,Tesla Inc.,TSLA,4000.0,EQUITY,United States,Consumer Cyclical
+124,ChatGPT,15,seeking,control,2,Cryptocurrency,Ethereum,ETH-USD,2000.0,CRYPTOCURRENCY,,
+125,ChatGPT,15,seeking,control,2,ETFs,ARK Innovation ETF,ARKK,2000.0,ETF,,
+126,ChatGPT,15,seeking,control,2,High-growth Stock,Square Inc.,SQ,1500.0,EQUITY,United States,Technology
+127,ChatGPT,15,seeking,control,2,Speculative Investment,Bitcoin Investment Trust,GBTC,500.0,ETF,,
+128,ChatGPT,15,seeking,control,3,Stocks,Apple Inc.,AAPL,2500.0,EQUITY,United States,Technology
+129,ChatGPT,15,seeking,control,3,Cryptocurrency,Bitcoin,BTC-USD,2000.0,CRYPTOCURRENCY,,
+130,ChatGPT,15,seeking,control,3,Growth Stocks,Tesla Inc.,TSLA,1500.0,EQUITY,United States,Consumer Cyclical
+131,ChatGPT,15,seeking,control,3,Exchange-Traded Funds (ETFs),Vanguard S&P 500 ETF,VOO,2000.0,ETF,,
+132,ChatGPT,15,seeking,control,3,Emerging Markets,Vanguard FTSE Emerging Markets ETF,VWO,1000.0,ETF,,
+133,ChatGPT,15,seeking,control,3,Real Estate Investment Trusts (REITs),Vanguard Real Estate ETF,VNQ,1000.0,ETF,,
+134,ChatGPT,15,seeking,control,4,Stocks,Technology Growth Stocks,VGT,4000.0,ETF,,
+135,ChatGPT,15,seeking,control,4,Cryptocurrency,Bitcoin,BTC-USD,2000.0,CRYPTOCURRENCY,,
+136,ChatGPT,15,seeking,control,4,ETFs,Emerging Markets ETF,EEM,2000.0,ETF,,
+137,ChatGPT,15,seeking,control,4,Growth Stocks,"Individual Company (e.g., Tesla)",TSLA,1500.0,EQUITY,United States,Consumer Cyclical
+138,ChatGPT,15,seeking,control,4,Alternative Energy,Renewable Energy ETF,ICLN,500.0,ETF,,
+139,ChatGPT,15,seeking,control,5,Individual stocks,Tesla Inc.,TSLA,3000.0,EQUITY,United States,Consumer Cyclical
+140,ChatGPT,15,seeking,control,5,Cryptocurrency,Ethereum,ETH-USD,2000.0,CRYPTOCURRENCY,,
+141,ChatGPT,15,seeking,control,5,Exchange-Traded Funds (ETFs),ARK Innovation ETF,ARKK,2000.0,ETF,,
+142,ChatGPT,15,seeking,control,5,Renewable Energy stocks,NextEra Energy Inc.,NEE,1500.0,EQUITY,United States,Utilities
+143,ChatGPT,15,seeking,control,5,High-growth Technology stocks,Square Inc.,SQ,1500.0,EQUITY,United States,Technology
+144,ChatGPT,15,seeking,control,6,Individual Stocks,"High-growth tech company (e.g., Tesla)",TSLA,3000.0,EQUITY,United States,Consumer Cyclical
+145,ChatGPT,15,seeking,control,6,,"Renewable energy company (e.g., NextEra Energy)",NEE,2500.0,EQUITY,United States,Utilities
+146,ChatGPT,15,seeking,control,6,,"Biotechnology company (e.g., Moderna)",MRNA,1500.0,EQUITY,United States,Healthcare
+147,ChatGPT,15,seeking,control,6,Exchange-Traded Funds (ETFs),"Broad market ETF (e.g., SPDR S&P 500 ETF Trust)",SPY,2000.0,ETF,,
+148,ChatGPT,15,seeking,control,6,,"Technology sector ETF (e.g., Invesco QQQ Trust)",QQQ,1000.0,ETF,,
+149,ChatGPT,15,seeking,control,6,,"Emerging markets ETF (e.g., iShares MSCI Emerging Markets ETF)",EEM,500.0,ETF,,
+150,ChatGPT,15,seeking,control,6,Cryptocurrencies,Bitcoin,BTC-USD,500.0,CRYPTOCURRENCY,,
+151,ChatGPT,15,seeking,control,6,,Ethereum,ETH-USD,500.0,CRYPTOCURRENCY,,
+152,ChatGPT,15,seeking,control,7,Individual Stocks,Tesla,TSLA,1500.0,EQUITY,United States,Consumer Cyclical
+153,ChatGPT,15,seeking,control,7,,Amazon,AMZN,2500.0,EQUITY,United States,Consumer Cyclical
+154,ChatGPT,15,seeking,control,7,,NVIDIA,NVDA,1500.0,EQUITY,United States,Technology
+155,ChatGPT,15,seeking,control,7,Cryptocurrencies,Bitcoin,BTC-USD,2000.0,CRYPTOCURRENCY,,
+156,ChatGPT,15,seeking,control,7,,Ethereum,ETH-USD,1500.0,CRYPTOCURRENCY,,
+157,ChatGPT,15,seeking,control,7,Exchange-Traded Funds (ETFs),Invesco QQQ Trust,QQQ,1500.0,ETF,,
+158,ChatGPT,15,seeking,control,8,Individual Stocks,Tesla Inc.,TSLA,3000.0,EQUITY,United States,Consumer Cyclical
+159,ChatGPT,15,seeking,control,8,Cryptocurrency,Bitcoin,BTC-USD,2500.0,CRYPTOCURRENCY,,
+160,ChatGPT,15,seeking,control,8,Speculative Stocks,AMC Entertainment Holdings,AMC,1500.0,EQUITY,United States,Communication Services
+161,ChatGPT,15,seeking,control,8,Emerging Technology,ARK Innovation ETF,ARKK,2000.0,ETF,,
+162,ChatGPT,15,seeking,control,8,Growth Stocks,Square Inc.,SQ,1000.0,EQUITY,United States,Technology
+163,ChatGPT,15,seeking,control,9,Stocks,Apple Inc.,AAPL,4000.0,EQUITY,United States,Technology
+164,ChatGPT,15,seeking,control,9,Cryptocurrencies,Ethereum (ETH),ETH-USD,2000.0,CRYPTOCURRENCY,,
+165,ChatGPT,15,seeking,control,9,Exchange-Traded Funds (ETFs),Invesco QQQ Trust,QQQ,2000.0,ETF,,
+166,ChatGPT,15,seeking,control,9,High-Growth Stocks,Tesla Inc.,TSLA,1500.0,EQUITY,United States,Consumer Cyclical
+167,ChatGPT,15,seeking,control,9,Mutual Funds,Vanguard Total Stock Market Index Fund,VTSMX,500.0,MUTUALFUND,,
+168,ChatGPT,15,averse,engineered,0,Stock Market Index,Vanguard Total Stock Market ETF,VTI,4000.0,ETF,,
+169,ChatGPT,15,averse,engineered,0,Bond Market Index,iShares Aggregate Bond ETF,AGG,2500.0,ETF,,
+170,ChatGPT,15,averse,engineered,0,Real Estate Investment Trust (REIT),Vanguard Real Estate ETF,VNQ,1500.0,ETF,,
+171,ChatGPT,15,averse,engineered,0,International Stock Market Index,iShares MSCI ACWI ex U.S. ETF,ACWX,1500.0,ETF,,
+172,ChatGPT,15,averse,engineered,0,Dividend Stocks,ProShares S&P 500 Dividend Aristocrats ETF,NOBL,500.0,ETF,,
+173,ChatGPT,15,averse,engineered,1,Index Fund,Vanguard S&P 500 ETF,VOO,2500.0,ETF,,
+174,ChatGPT,15,averse,engineered,1,Bonds,iShares Core U.S. Aggregate Bond ETF,AGG,2000.0,ETF,,
+175,ChatGPT,15,averse,engineered,1,Real Estate Investment Trust (REIT),Vanguard Real Estate ETF,VNQ,2000.0,ETF,,
+176,ChatGPT,15,averse,engineered,1,Dividend Stocks,Johnson & Johnson,JNJ,1500.0,EQUITY,United States,Healthcare
+177,ChatGPT,15,averse,engineered,1,High-Yield Savings Account,N/A,,1000.0,SAVING,,
+178,ChatGPT,15,averse,engineered,1,Cash,N/A,,1000.0,MONEYMARKET,,
+179,ChatGPT,15,averse,engineered,2,Index Fund,Vanguard Total Stock Market Index Fund,VTSMX,2500.0,MUTUALFUND,,
+180,ChatGPT,15,averse,engineered,2,Bond Fund,Vanguard Total Bond Market Index Fund,VBMFX,2500.0,MUTUALFUND,,
+181,ChatGPT,15,averse,engineered,2,Dividend Aristocrats ETF,ProShares S&P 500 Dividend Aristocrats ETF,NOBL,2000.0,ETF,,
+182,ChatGPT,15,averse,engineered,2,Real Estate Investment Trust (REIT),Vanguard Real Estate ETF,VNQ,1500.0,ETF,,
+183,ChatGPT,15,averse,engineered,2,High-Yield Savings Account (Cash),Local Bank,,1500.0,SAVING,,
+184,ChatGPT,15,averse,engineered,3,Index ETF,Vanguard Total Stock Market ETF,VTI,3000.0,ETF,,
+185,ChatGPT,15,averse,engineered,3,Bond ETF,iShares Core U.S. Aggregate Bond ETF,AGG,2000.0,ETF,,
+186,ChatGPT,15,averse,engineered,3,Real Estate ETF,Vanguard Real Estate ETF,VNQ,1500.0,ETF,,
+187,ChatGPT,15,averse,engineered,3,Dividend Stocks,Johnson & Johnson,JNJ,1500.0,EQUITY,United States,Healthcare
+188,ChatGPT,15,averse,engineered,3,Dividend Stocks,Procter & Gamble,PG,1500.0,EQUITY,United States,Consumer Defensive
+189,ChatGPT,15,averse,engineered,3,Cash or Savings Account*,N/A,,500.0,SAVING,,
+190,ChatGPT,15,averse,engineered,4,US Stocks ETF,Vanguard Total Stock Market ETF,VTI,4000.0,ETF,,
+191,ChatGPT,15,averse,engineered,4,International Stocks ETF,Vanguard Total International Stock ETF,VXUS,2500.0,ETF,,
+192,ChatGPT,15,averse,engineered,4,Bond ETF,iShares Core US Aggregate Bond ETF,AGG,2000.0,ETF,,
+193,ChatGPT,15,averse,engineered,4,Real Estate ETF,Vanguard Real Estate ETF,VNQ,1000.0,ETF,,
+194,ChatGPT,15,averse,engineered,4,Cash,High-Yield Savings Account,,500.0,SAVING,,
+195,ChatGPT,15,averse,engineered,5,Index Fund,Vanguard Total Stock Market ETF,VTI,2000.0,ETF,,
+196,ChatGPT,15,averse,engineered,5,Index Fund,iShares Core S&P 500 ETF,IVV,1500.0,ETF,,
+197,ChatGPT,15,averse,engineered,5,Bond Fund,iShares Core U.S. Aggregate Bond ETF,AGG,2000.0,ETF,,
+198,ChatGPT,15,averse,engineered,5,Real Estate Investment Trust (REIT),Vanguard Real Estate ETF,VNQ,1500.0,ETF,,
+199,ChatGPT,15,averse,engineered,5,Individual Stock,Microsoft,MSFT,1500.0,EQUITY,United States,Technology
+200,ChatGPT,15,averse,engineered,5,Individual Stock,Johnson & Johnson,JNJ,1500.0,EQUITY,United States,Healthcare
+201,ChatGPT,15,averse,engineered,6,Bonds,iShares Core U.S. Aggregate Bond ETF,AGG,2000.0,ETF,,
+202,ChatGPT,15,averse,engineered,6,Stocks (Large Cap),Vanguard 500 Index Fund ETF,VOO,2000.0,ETF,,
+203,ChatGPT,15,averse,engineered,6,Stocks (Dividend),iShares Select Dividend ETF,DVY,2000.0,ETF,,
+204,ChatGPT,15,averse,engineered,6,Real Estate,Schwab U.S. REIT ETF,SCHH,1500.0,ETF,,
+205,ChatGPT,15,averse,engineered,6,International,Vanguard FTSE Developed Markets ETF,VEA,1500.0,ETF,,
+206,ChatGPT,15,averse,engineered,6,Cash,High-yield Savings Account,,1000.0,SAVING,,
+207,ChatGPT,15,averse,engineered,7,Stock,Vanguard Total Stock Market ETF,VTI,5000.0,ETF,,
+208,ChatGPT,15,averse,engineered,7,Bond,iShares Core U.S. Aggregate Bond ETF,AGG,2000.0,ETF,,
+209,ChatGPT,15,averse,engineered,7,Real Estate Investment Trust (REIT),Vanguard Real Estate ETF,VNQ,1000.0,ETF,,
+210,ChatGPT,15,averse,engineered,7,Index Fund,Vanguard 500 Index Fund,VFINX,1500.0,MUTUALFUND,,
+211,ChatGPT,15,averse,engineered,7,Exchange-Traded Fund (ETF),iShares MSCI EAFE ETF,EFA,500.0,ETF,,
+212,ChatGPT,15,averse,engineered,8,Exchange-Traded Fund (ETF),Vanguard Total Stock Market ETF,VTI,4000.0,ETF,,
+213,ChatGPT,15,averse,engineered,8,Bond Fund,iShares Core U.S. Aggregate Bond ETF,AGG,2500.0,ETF,,
+214,ChatGPT,15,averse,engineered,8,Real Estate Investment Trust (REIT),Vanguard Real Estate ETF,VNQ,1500.0,ETF,,
+215,ChatGPT,15,averse,engineered,8,Dividend-Paying Stocks,Procter & Gamble Co.,PG,1500.0,EQUITY,United States,Consumer Defensive
+216,ChatGPT,15,averse,engineered,8,High-Yield Savings Account,--,,500.0,SAVING,,
+217,ChatGPT,15,averse,engineered,9,Index Fund,Vanguard Total Stock Market Index Fund,VTSMX,4000.0,MUTUALFUND,,
+218,ChatGPT,15,averse,engineered,9,Bonds,iShares Core U.S. Aggregate Bond ETF,AGG,2500.0,ETF,,
+219,ChatGPT,15,averse,engineered,9,Real Estate Investment Trust (REIT),Vanguard Real Estate ETF,VNQ,1500.0,ETF,,
+220,ChatGPT,15,averse,engineered,9,Dividend Stock,Johnson & Johnson,JNJ,1500.0,EQUITY,United States,Healthcare
+221,ChatGPT,15,averse,engineered,9,Commodity ETF,iShares Gold Trust,IAU,500.0,ETF,,
+222,ChatGPT,15,neutral,engineered,0,Index Fund,Vanguard Total Stock Market Index Fund,VTSAX,3000.0,MUTUALFUND,,
+223,ChatGPT,15,neutral,engineered,0,Exchange-Traded Fund (ETF),iShares Core S&P 500 ETF,IVV,2000.0,ETF,,
+224,ChatGPT,15,neutral,engineered,0,Bond Fund,Vanguard Total Bond Market Index Fund,VBTLX,2000.0,MUTUALFUND,,
+225,ChatGPT,15,neutral,engineered,0,Real Estate Investment Trust (REIT),Vanguard Real Estate ETF,VNQ,1000.0,ETF,,
+226,ChatGPT,15,neutral,engineered,0,Technology Company,Apple Inc.,AAPL,1000.0,EQUITY,United States,Technology
+227,ChatGPT,15,neutral,engineered,0,Emerging Market Fund,Vanguard Emerging Markets Stock Index Fund,VEMAX,1000.0,MUTUALFUND,,
+228,ChatGPT,15,neutral,engineered,1,Stocks,Total US Stock Market ETF,VTI,4000.0,ETF,,
+229,ChatGPT,15,neutral,engineered,1,Bonds,US Treasury Bond ETF,GOVT,2000.0,ETF,,
+230,ChatGPT,15,neutral,engineered,1,International Stocks,Total International Stock ETF,VXUS,2000.0,ETF,,
+231,ChatGPT,15,neutral,engineered,1,Real Estate,REIT ETF,VNQ,1000.0,ETF,,
+232,ChatGPT,15,neutral,engineered,1,Emerging Markets Stocks,Emerging Markets ETF,VWO,1000.0,ETF,,
+233,ChatGPT,15,neutral,engineered,2,Exchange-Traded Fund (ETF),Vanguard Total Stock Market ETF,VTI,3000.0,ETF,,
+234,ChatGPT,15,neutral,engineered,2,Individual Stocks,Tesla Inc.,TSLA,1500.0,EQUITY,United States,Consumer Cyclical
+235,ChatGPT,15,neutral,engineered,2,,"Amazon.com, Inc.",AMZN,1500.0,EQUITY,United States,Consumer Cyclical
+236,ChatGPT,15,neutral,engineered,2,Real Estate Investment Trust (REIT),Vanguard Real Estate ETF,VNQ,2000.0,ETF,,
+237,ChatGPT,15,neutral,engineered,2,Cryptocurrency,Bitcoin,BTC-USD,1000.0,CRYPTOCURRENCY,,
+238,ChatGPT,15,neutral,engineered,2,,Ethereum,ETH-USD,1000.0,CRYPTOCURRENCY,,
+239,ChatGPT,15,neutral,engineered,2,High-Growth Stock,"Square, Inc.",SQ,500.0,EQUITY,United States,Technology
+240,ChatGPT,15,neutral,engineered,3,Stocks,Apple Inc.,AAPL,2000.0,EQUITY,United States,Technology
+241,ChatGPT,15,neutral,engineered,3,Stocks,"Amazon.com, Inc.",AMZN,2000.0,EQUITY,United States,Consumer Cyclical
+242,ChatGPT,15,neutral,engineered,3,Stocks,Microsoft Corporation,MSFT,2000.0,EQUITY,United States,Technology
+243,ChatGPT,15,neutral,engineered,3,Exchange-Traded Funds (ETFs),Vanguard Total Stock Market ETF,VTI,1500.0,ETF,,
+244,ChatGPT,15,neutral,engineered,3,Exchange-Traded Funds (ETFs),iShares Core S&P 500 ETF,IVV,1500.0,ETF,,
+245,ChatGPT,15,neutral,engineered,3,Bonds,iShares Core U.S. Aggregate Bond ETF,AGG,1500.0,ETF,,
+246,ChatGPT,15,neutral,engineered,4,Exchange-Traded Fund (ETF),Vanguard Total Stock Market ETF,VTI,3000.0,ETF,,
+247,ChatGPT,15,neutral,engineered,4,ETF,iShares Russell 2000 ETF,IWM,2000.0,ETF,,
+248,ChatGPT,15,neutral,engineered,4,ETF,Invesco QQQ Trust,QQQ,2000.0,ETF,,
+249,ChatGPT,15,neutral,engineered,4,Stock,Apple Inc.,AAPL,1000.0,EQUITY,United States,Technology
+250,ChatGPT,15,neutral,engineered,4,Stock,"Tesla, Inc.",TSLA,1500.0,EQUITY,United States,Consumer Cyclical
+251,ChatGPT,15,neutral,engineered,4,Cryptocurrency,Bitcoin,BTC-USD,500.0,CRYPTOCURRENCY,,
+252,ChatGPT,15,neutral,engineered,5,Large-Cap Stocks,Vanguard S&P 500 ETF,VOO,3000.0,ETF,,
+253,ChatGPT,15,neutral,engineered,5,Mid-Cap Stocks,iShares Russell Mid-Cap ETF,IWR,2000.0,ETF,,
+254,ChatGPT,15,neutral,engineered,5,Small-Cap Stocks,Schwab U.S. Small-Cap ETF,SCHA,1000.0,ETF,,
+255,ChatGPT,15,neutral,engineered,5,International Stocks,Vanguard Total International Stock ETF,VXUS,1500.0,ETF,,
+256,ChatGPT,15,neutral,engineered,5,Bonds (Intermediate-Term),iShares Core U.S. Aggregate Bond ETF,AGG,1500.0,ETF,,
+257,ChatGPT,15,neutral,engineered,5,Real Estate,Vanguard Real Estate ETF,VNQ,1000.0,ETF,,
+258,ChatGPT,15,neutral,engineered,6,Stocks,Apple Inc.,AAPL,3000.0,EQUITY,United States,Technology
+259,ChatGPT,15,neutral,engineered,6,ETF (Technology),Invesco QQQ Trust,QQQ,2000.0,ETF,,
+260,ChatGPT,15,neutral,engineered,6,ETF (S&P 500),Vanguard S&P 500 ETF,VOO,2000.0,ETF,,
+261,ChatGPT,15,neutral,engineered,6,Bonds,iShares Core US Agg Bond ETF,AGG,1500.0,ETF,,
+262,ChatGPT,15,neutral,engineered,6,Real Estate,Vanguard Real Estate ETF,VNQ,1500.0,ETF,,
+263,ChatGPT,15,neutral,engineered,7,US Total Stock Market,Vanguard Total Stock Market ETF,VTI,4000.0,ETF,,
+264,ChatGPT,15,neutral,engineered,7,International Stocks,Vanguard Total International Stock ETF,VXUS,2000.0,ETF,,
+265,ChatGPT,15,neutral,engineered,7,Bonds,iShares Core U.S. Aggregate Bond ETF,AGG,2000.0,ETF,,
+266,ChatGPT,15,neutral,engineered,7,Real Estate,Vanguard Real Estate ETF,VNQ,1000.0,ETF,,
+267,ChatGPT,15,neutral,engineered,7,Technology Stocks,Invesco QQQ Trust,QQQ,1000.0,ETF,,
+268,ChatGPT,15,neutral,engineered,8,Stocks,Apple Inc.,AAPL,3000.0,EQUITY,United States,Technology
+269,ChatGPT,15,neutral,engineered,8,Stocks,Microsoft Corp.,MSFT,2500.0,EQUITY,United States,Technology
+270,ChatGPT,15,neutral,engineered,8,Exchange Traded Funds (ETFs),Vanguard Total Stock Market ETF,VTI,2000.0,ETF,,
+271,ChatGPT,15,neutral,engineered,8,Bonds,iShares Core U.S. Aggregate Bond ETF,AGG,1000.0,ETF,,
+272,ChatGPT,15,neutral,engineered,8,Real Estate Investment Trust (REIT),Vanguard Real Estate Index Fund ETF,VNQ,1000.0,ETF,,
+273,ChatGPT,15,neutral,engineered,9,Stock ETF,Vanguard Total Stock Market ETF,VTI,3000.0,ETF,,
+274,ChatGPT,15,neutral,engineered,9,Bond ETF,iShares Core U.S. Aggregate Bond ETF,AGG,2500.0,ETF,,
+275,ChatGPT,15,neutral,engineered,9,International Stock ETF,Vanguard Total International Stock ETF,VXUS,2500.0,ETF,,
+276,ChatGPT,15,neutral,engineered,9,REIT ETF,Vanguard Real Estate ETF,VNQ,1000.0,ETF,,
+277,ChatGPT,15,neutral,engineered,9,Growth Stock,Amazon.com Inc.,AMZN,1000.0,EQUITY,United States,Consumer Cyclical
+278,ChatGPT,15,seeking,engineered,0,1. Stocks - Technology,Tesla Inc.,TSLA,3000.0,EQUITY,United States,Consumer Cyclical
+279,ChatGPT,15,seeking,engineered,0,2. Stocks - Emerging Markets,iShares MSCI Emerging Markets ETF,EEM,2500.0,ETF,,
+280,ChatGPT,15,seeking,engineered,0,3. Cryptocurrency,Bitcoin,BTC-USD,2000.0,CRYPTOCURRENCY,,
+281,ChatGPT,15,seeking,engineered,0,4. Stocks - Renewable Energy,NextEra Energy Inc.,NEE,1500.0,EQUITY,United States,Utilities
+282,ChatGPT,15,seeking,engineered,0,5. Real Estate Investment Trusts (REITs),Vanguard Real Estate ETF,VNQ,1000.0,ETF,,
+283,ChatGPT,15,seeking,engineered,1,Exchange-Traded Fund (ETF),Invesco QQQ Trust,QQQ,3000.0,ETF,,
+284,ChatGPT,15,seeking,engineered,1,Stocks,Alphabet Inc. (Google),GOOGL,2500.0,EQUITY,United States,Communication Services
+285,ChatGPT,15,seeking,engineered,1,Stocks,Amazon.com Inc.,AMZN,2500.0,EQUITY,United States,Consumer Cyclical
+286,ChatGPT,15,seeking,engineered,1,Cryptocurrency,Bitcoin,BTC-USD,1500.0,CRYPTOCURRENCY,,
+287,ChatGPT,15,seeking,engineered,1,Cryptocurrency,Ethereum,ETH-USD,500.0,CRYPTOCURRENCY,,
+288,ChatGPT,15,seeking,engineered,2,Stocks,"Tesla, Inc.",TSLA,3000.0,EQUITY,United States,Consumer Cyclical
+289,ChatGPT,15,seeking,engineered,2,Cryptocurrency,Bitcoin,BTC-USD,2500.0,CRYPTOCURRENCY,,
+290,ChatGPT,15,seeking,engineered,2,Exchange-Traded Funds (ETFs),ARK Innovation ETF,ARKK,2500.0,ETF,,
+291,ChatGPT,15,seeking,engineered,2,Dividend Stocks,AT&T Inc.,T,1000.0,EQUITY,United States,Communication Services
+292,ChatGPT,15,seeking,engineered,2,Biotech Stocks,"Moderna, Inc.",MRNA,1000.0,EQUITY,United States,Healthcare
+293,ChatGPT,15,seeking,engineered,3,Stocks,Amazon.com Inc.,AMZN,2500.0,EQUITY,United States,Consumer Cyclical
+294,ChatGPT,15,seeking,engineered,3,,Alphabet Inc. (Google),GOOGL,2500.0,EQUITY,United States,Communication Services
+295,ChatGPT,15,seeking,engineered,3,,"Tesla, Inc.",TSLA,2000.0,EQUITY,United States,Consumer Cyclical
+296,ChatGPT,15,seeking,engineered,3,,NVIDIA Corporation,NVDA,1500.0,EQUITY,United States,Technology
+297,ChatGPT,15,seeking,engineered,3,,"Square, Inc.",SQ,1000.0,EQUITY,United States,Technology
+298,ChatGPT,15,seeking,engineered,3,ETFs,Invesco QQQ Trust,QQQ,500.0,ETF,,
+299,ChatGPT,15,seeking,engineered,3,,ARK Innovation ETF,ARKK,500.0,ETF,,
+300,ChatGPT,15,seeking,engineered,3,,Global X Robotics ETF,BOTZ,500.0,ETF,,
+301,ChatGPT,15,seeking,engineered,4,US Stock Market,Vanguard Total Stock Market ETF,VTI,2500.0,ETF,,
+302,ChatGPT,15,seeking,engineered,4,International Stock Market,iShares MSCI ACWI ex U.S. ETF,ACWX,2000.0,ETF,,
+303,ChatGPT,15,seeking,engineered,4,Technology Stocks,Invesco QQQ Trust,QQQ,2000.0,ETF,,
+304,ChatGPT,15,seeking,engineered,4,Renewable Energy,iShares Global Clean Energy ETF,ICLN,1500.0,ETF,,
+305,ChatGPT,15,seeking,engineered,4,Emerging Markets,iShares MSCI Emerging Markets ETF,EEM,1000.0,ETF,,
+306,ChatGPT,15,seeking,engineered,4,Real Estate,Vanguard Real Estate ETF,VNQ,1000.0,ETF,,
+307,ChatGPT,15,seeking,engineered,5,Stocks,High-growth technology,ARKK,3000.0,ETF,,
+309,ChatGPT,15,seeking,engineered,5,Stocks,Renewable energy companies ETF,ICLN,2000.0,ETF,,
+310,ChatGPT,15,seeking,engineered,5,Stocks,Emerging markets,VWO,1500.0,ETF,,
+312,ChatGPT,15,seeking,engineered,5,Cryptocurrency,Bitcoin,BTC-USD,1500.0,CRYPTOCURRENCY,,
+313,ChatGPT,15,seeking,engineered,5,Cryptocurrency,Ethereum,ETH-USD,1000.0,CRYPTOCURRENCY,,
+314,ChatGPT,15,seeking,engineered,5,High-risk stocks,Biotech companies,ARKG,1000.0,ETF,,
+315,ChatGPT,15,seeking,engineered,6,Stocks (Individual),(Example: Apple Inc.),AAPL,3000.0,EQUITY,United States,Technology
+316,ChatGPT,15,seeking,engineered,6,Exchange-Traded Funds (ETFs),(Example: Invesco QQQ Trust),QQQ,2000.0,ETF,,
+317,ChatGPT,15,seeking,engineered,6,Mutual Funds,(Example: Vanguard 500 Index Fund),VFINX,2000.0,MUTUALFUND,,
+318,ChatGPT,15,seeking,engineered,6,Bonds (Aggregate Bond ETF),(Example: Vanguard Total Bond Market ETF),BND,1500.0,ETF,,
+319,ChatGPT,15,seeking,engineered,6,Cryptocurrency,(Example: Bitcoin),BTC-USD,1000.0,CRYPTOCURRENCY,,
+320,ChatGPT,15,seeking,engineered,6,Real Estate Investment Trusts (REITs),(Example: Vanguard Real Estate ETF),VNQ,500.0,ETF,,
+321,ChatGPT,15,seeking,engineered,7,Exchange-Traded Funds (ETFs),Vanguard Total Stock Market ETF,VTI,3000.0,ETF,,
+322,ChatGPT,15,seeking,engineered,7,,Invesco QQQ Trust ETF,QQQ,2000.0,ETF,,
+323,ChatGPT,15,seeking,engineered,7,,iShares Core S&P 500 ETF,IVV,2000.0,ETF,,
+324,ChatGPT,15,seeking,engineered,7,,iShares Russell 2000 ETF,IWM,1000.0,ETF,,
+325,ChatGPT,15,seeking,engineered,7,,Vanguard FTSE Emerging Markets ETF,VWO,1000.0,ETF,,
+326,ChatGPT,15,seeking,engineered,7,Bonds,iShares Core U.S. Aggregate Bond ETF,AGG,500.0,ETF,,
+327,ChatGPT,15,seeking,engineered,7,,iShares iBoxx $ Investment Grade Corporate Bond ETF,LQD,1000.0,ETF,,
+328,ChatGPT,15,seeking,engineered,7,,Vanguard Long-Term Corporate Bond ETF,VCLT,500.0,ETF,,
+329,ChatGPT,15,seeking,engineered,8,Stocks,Tesla,TSLA,2500.0,EQUITY,United States,Consumer Cyclical
+330,ChatGPT,15,seeking,engineered,8,,Amazon,AMZN,2500.0,EQUITY,United States,Consumer Cyclical
+331,ChatGPT,15,seeking,engineered,8,,NIO,NIO,2000.0,EQUITY,China,Consumer Cyclical
+332,ChatGPT,15,seeking,engineered,8,Exchange-Traded Fund,Invesco QQQ,QQQ,1500.0,ETF,,
+333,ChatGPT,15,seeking,engineered,8,Cryptocurrency,Bitcoin,BTC-USD,1000.0,CRYPTOCURRENCY,,
+334,ChatGPT,15,seeking,engineered,8,Mutual Fund,Vanguard 500,VOO,1500.0,ETF,,
+335,ChatGPT,15,seeking,engineered,9,Stocks,Exchange Traded Fund (ETF),VTI,3000.0,ETF,,
+336,ChatGPT,15,seeking,engineered,9,,Technology,QQQ,1500.0,ETF,,
+337,ChatGPT,15,seeking,engineered,9,,Healthcare,XLV,1500.0,ETF,,
+338,ChatGPT,15,seeking,engineered,9,,Consumer Goods,XLP,1000.0,ETF,,
+339,ChatGPT,15,seeking,engineered,9,,Real Estate,VNQ,1000.0,ETF,,
+340,ChatGPT,15,seeking,engineered,9,Bonds,US Treasury Bonds,TLT,1500.0,ETF,,
+341,ChatGPT,15,seeking,engineered,9,Cryptocurrency,Bitcoin,BTC-USD,1500.0,CRYPTOCURRENCY,,
+342,ChatGPT,15,seeking,engineered,9,,Ethereum,ETH-USD,1000.0,CRYPTOCURRENCY,,
+343,ChatGPT,30,averse,control,0,Stock Index Fund,Vanguard Total Stock Market Index Fund,VTSAX,2500.0,MUTUALFUND,,
+344,ChatGPT,30,averse,control,0,Bond Fund,iShares Core U.S. Aggregate Bond ETF,AGG,3500.0,ETF,,
+345,ChatGPT,30,averse,control,0,Real Estate Investment Trust (REIT),Vanguard Real Estate ETF,VNQ,1500.0,ETF,,
+346,ChatGPT,30,averse,control,0,High-Yield Savings Account,N/A,,2500.0,SAVING,,
+347,ChatGPT,30,averse,control,1,Stocks,Vanguard S&P 500 ETF,VOO,3000.0,ETF,,
+348,ChatGPT,30,averse,control,1,Bonds,iShares Core US Agg,AGG,2000.0,ETF,,
+349,ChatGPT,30,averse,control,1,Real Estate,Vanguard REIT ETF,VNQ,1000.0,ETF,,
+350,ChatGPT,30,averse,control,1,Gold,SPDR Gold Shares,GLD,1000.0,ETF,,
+351,ChatGPT,30,averse,control,2,Bonds,Vanguard Total Bond Market Index Fund,VBMFX,3000.0,MUTUALFUND,,
+352,ChatGPT,30,averse,control,2,Dividend Stocks,Procter & Gamble Co.,PG,3000.0,EQUITY,United States,Consumer Defensive
+353,ChatGPT,30,averse,control,2,REITs,Vanguard Real Estate ETF,VNQ,2000.0,ETF,,
+354,ChatGPT,30,averse,control,2,Diversified Funds,Vanguard LifeStrategy Moderate Growth Fund,VSMGX,2000.0,MUTUALFUND,,
+355,ChatGPT,30,averse,control,3,Stock ETF,Vanguard Total Stock Market ETF,VTI,3000.0,ETF,,
+356,ChatGPT,30,averse,control,3,Bond ETF,iShares Core U.S. Aggregate Bond ETF,AGG,2000.0,ETF,,
+357,ChatGPT,30,averse,control,3,Index Fund,Vanguard S&P 500 Index Fund,VFIAX,3000.0,MUTUALFUND,,
+358,ChatGPT,30,averse,control,3,Real Estate Investment Trust (REIT),Vanguard Real Estate ETF,VNQ,1500.0,ETF,,
+359,ChatGPT,30,averse,control,3,Dividend Stock,Johnson & Johnson,JNJ,500.0,EQUITY,United States,Healthcare
+360,ChatGPT,30,averse,control,4,Stocks (Large Cap),Vanguard S&P 500 Index Fund,VFINX,4000.0,MUTUALFUND,,
+361,ChatGPT,30,averse,control,4,Stocks (International),iShares MSCI EAFE ETF,EFA,2000.0,ETF,,
+362,ChatGPT,30,averse,control,4,Bonds (US Treasury),Vanguard Total Bond Market ETF,BND,2000.0,ETF,,
+363,ChatGPT,30,averse,control,4,REITs (Real Estate Investment Trusts),Vanguard Real Estate ETF,VNQ,1000.0,ETF,,
+364,ChatGPT,30,averse,control,4,Cash (High-Yield Savings Account),N/A,,1000.0,SAVING,,
+365,ChatGPT,30,averse,control,5,Index Fund,Vanguard 500 Index Fund,VFINX,4000.0,MUTUALFUND,,
+366,ChatGPT,30,averse,control,5,Bond Fund,Fidelity U.S. Bond Index Fund,FXNAX,2000.0,MUTUALFUND,,
+367,ChatGPT,30,averse,control,5,Dividend Stocks,Johnson & Johnson,JNJ,1500.0,EQUITY,United States,Healthcare
+368,ChatGPT,30,averse,control,5,,Procter & Gamble,PG,1500.0,EQUITY,United States,Consumer Defensive
+369,ChatGPT,30,averse,control,5,Real Estate Investment Trust (REIT),Vanguard Real Estate ETF,VNQ,1000.0,ETF,,
+370,ChatGPT,30,averse,control,6,ETF,Vanguard Total Bond ETF,BND,3000.0,ETF,,
+371,ChatGPT,30,averse,control,6,Index Fund,Vanguard 500 Index Fund,VFIAX,3000.0,MUTUALFUND,,
+372,ChatGPT,30,averse,control,6,Mutual Fund,Fidelity Balanced Fund,FBALX,2000.0,MUTUALFUND,,
+373,ChatGPT,30,averse,control,6,Dividend Stocks,Johnson & Johnson,JNJ,1500.0,EQUITY,United States,Healthcare
+374,ChatGPT,30,averse,control,6,REITs,Vanguard Real Estate ETF,VNQ,500.0,ETF,,
+375,ChatGPT,30,averse,control,7,Bond ETFs,iShares Core U.S. Aggregate Bond ETF,AGG,3000.0,ETF,,
+376,ChatGPT,30,averse,control,7,Dividend Stocks,Johnson & Johnson,JNJ,2000.0,EQUITY,United States,Healthcare
+377,ChatGPT,30,averse,control,7,Real Estate Investment Trust (REIT),Vanguard Real Estate ETF,VNQ,2000.0,ETF,,
+378,ChatGPT,30,averse,control,7,High-Yield Savings Account,-,,2000.0,SAVING,,
+379,ChatGPT,30,averse,control,7,Index Fund,Vanguard S&P 500 ETF,VOO,1000.0,ETF,,
+380,ChatGPT,30,averse,control,8,Stock Market,S&P 500 Index,SPY,3000.0,ETF,,
+382,ChatGPT,30,averse,control,8,Bonds,iShares Core,AGG,2000.0,ETF,,
+385,ChatGPT,30,averse,control,8,Real Estate,Vanguard Real,VNQ,2000.0,ETF,,
+388,ChatGPT,30,averse,control,8,High-Yield,Vanguard High,VYM,1500.0,ETF,,
+391,ChatGPT,30,averse,control,8,Cash Reserve,Online Savings,,1500.0,SAVING,,
+393,ChatGPT,30,averse,control,9,Stocks,Vanguard Total Stock Market Index Fund,VTSMX,3000.0,MUTUALFUND,,
+394,ChatGPT,30,averse,control,9,Bonds,iShares Core U.S. Aggregate Bond ETF,AGG,3000.0,ETF,,
+395,ChatGPT,30,averse,control,9,Real Estate,Vanguard Real Estate ETF,VNQ,2000.0,ETF,,
+396,ChatGPT,30,averse,control,9,Cash,High-Yield Savings Account,,2000.0,SAVING,,
+397,ChatGPT,30,neutral,control,0,Stock,Apple Inc.,AAPL,3000.0,EQUITY,United States,Technology
+398,ChatGPT,30,neutral,control,0,Stock,Amazon.com Inc.,AMZN,2500.0,EQUITY,United States,Consumer Cyclical
+399,ChatGPT,30,neutral,control,0,Exchange-Traded Fund (ETF),Invesco QQQ Trust,QQQ,2500.0,ETF,,
+400,ChatGPT,30,neutral,control,0,Cryptocurrency,Bitcoin,BTC-USD,1500.0,CRYPTOCURRENCY,,
+401,ChatGPT,30,neutral,control,0,Peer-to-Peer Lending,LendingClub Corp.,LC,500.0,EQUITY,United States,Financial Services
+402,ChatGPT,30,neutral,control,1,Stocks,Amazon.com Inc.,AMZN,3000.0,EQUITY,United States,Consumer Cyclical
+403,ChatGPT,30,neutral,control,1,,Apple Inc.,AAPL,2500.0,EQUITY,United States,Technology
+404,ChatGPT,30,neutral,control,1,Bonds,iShares Core U.S. Aggregate Bond ETF,AGG,1500.0,ETF,,
+405,ChatGPT,30,neutral,control,1,Cryptocurrency,Bitcoin,BTC-USD,1500.0,CRYPTOCURRENCY,,
+406,ChatGPT,30,neutral,control,1,Mutual Funds,Vanguard Total Stock Market Index Fund,VTSAX,1500.0,MUTUALFUND,,
+407,ChatGPT,30,neutral,control,2,Stocks (Technology),Alphabet Inc.,GOOGL,3000.0,EQUITY,United States,Communication Services
+408,ChatGPT,30,neutral,control,2,,Microsoft Corporation,MSFT,2000.0,EQUITY,United States,Technology
+409,ChatGPT,30,neutral,control,2,,"Amazon.com, Inc.",AMZN,2000.0,EQUITY,United States,Consumer Cyclical
+410,ChatGPT,30,neutral,control,2,ETF (Diversified),Vanguard Total Stock Market ETF,VTI,1000.0,ETF,,
+411,ChatGPT,30,neutral,control,2,Cryptocurrency,Bitcoin,BTC-USD,1000.0,CRYPTOCURRENCY,,
+412,ChatGPT,30,neutral,control,2,Mutual Funds (Growth),Fidelity Contrafund,FCNTX,1000.0,MUTUALFUND,,
+413,ChatGPT,30,neutral,control,3,Stocks (Technology),Apple Inc.,AAPL,3000.0,EQUITY,United States,Technology
+414,ChatGPT,30,neutral,control,3,,Microsoft Corporation,MSFT,2000.0,EQUITY,United States,Technology
+415,ChatGPT,30,neutral,control,3,Stocks (Healthcare),Johnson & Johnson,JNJ,1500.0,EQUITY,United States,Healthcare
+416,ChatGPT,30,neutral,control,3,,Pfizer Inc.,PFE,1000.0,EQUITY,United States,Healthcare
+417,ChatGPT,30,neutral,control,3,Mutual Fund,Vanguard Total Stock Market Index Fund,VTSAX,2500.0,MUTUALFUND,,
+418,ChatGPT,30,neutral,control,4,Stocks (Growth),Amazon.com Inc.,AMZN,3000.0,EQUITY,United States,Consumer Cyclical
+419,ChatGPT,30,neutral,control,4,,Alphabet Inc. (Google),GOOGL,2000.0,EQUITY,United States,Communication Services
+420,ChatGPT,30,neutral,control,4,,Facebook Inc.,META,1500.0,EQUITY,United States,Communication Services
+421,ChatGPT,30,neutral,control,4,Stocks (Dividends),Johnson & Johnson,JNJ,1500.0,EQUITY,United States,Healthcare
+422,ChatGPT,30,neutral,control,4,,Procter & Gamble,PG,1500.0,EQUITY,United States,Consumer Defensive
+423,ChatGPT,30,neutral,control,4,Bonds,Vanguard Total Bond Market ETF,BND,1500.0,ETF,,
+424,ChatGPT,30,neutral,control,4,Cryptocurrency,Bitcoin,BTC-USD,1000.0,CRYPTOCURRENCY,,
+425,ChatGPT,30,neutral,control,5,Stocks,Apple Inc.,AAPL,3000.0,EQUITY,United States,Technology
+426,ChatGPT,30,neutral,control,5,Stocks,Amazon.com Inc.,AMZN,2000.0,EQUITY,United States,Consumer Cyclical
+427,ChatGPT,30,neutral,control,5,Bonds,iShares Core US Aggregate Bond ETF,AGG,1500.0,ETF,,
+428,ChatGPT,30,neutral,control,5,Cryptocurrencies,Bitcoin,BTC-USD,1000.0,CRYPTOCURRENCY,,
+429,ChatGPT,30,neutral,control,5,Mutual Funds,Vanguard Total Stock Market Index Fund,VTSMX,1000.0,MUTUALFUND,,
+430,ChatGPT,30,neutral,control,5,Real Estate Investment Trusts (REITs),Vanguard Real Estate ETF,VNQ,1000.0,ETF,,
+431,ChatGPT,30,neutral,control,5,Commodities,Invesco DB Commodity Index Tracking Fund,DBC,500.0,ETF,,
+432,ChatGPT,30,neutral,control,5,Emergency Fund,High-Yield Savings Account,,1000.0,SAVING,,
+433,ChatGPT,30,neutral,control,6,Stocks,Apple Inc.,AAPL,2500.0,EQUITY,United States,Technology
+434,ChatGPT,30,neutral,control,6,,Amazon.com Inc.,AMZN,2500.0,EQUITY,United States,Consumer Cyclical
+435,ChatGPT,30,neutral,control,6,,Alphabet Inc. (Google),GOOGL,2500.0,EQUITY,United States,Communication Services
+436,ChatGPT,30,neutral,control,6,,Microsoft Corporation,MSFT,2500.0,EQUITY,United States,Technology
+437,ChatGPT,30,neutral,control,6,Mutual Funds,Vanguard S&P 500 Index Fund,VFINX,2000.0,MUTUALFUND,,
+438,ChatGPT,30,neutral,control,6,,Fidelity Contrafund,FCNTX,2000.0,MUTUALFUND,,
+439,ChatGPT,30,neutral,control,6,ETFs,SPDR S&P 500 ETF Trust,SPY,2000.0,ETF,,
+440,ChatGPT,30,neutral,control,6,,Invesco QQQ Trust,QQQ,2000.0,ETF,,
+441,ChatGPT,30,neutral,control,6,Cryptocurrency,Bitcoin,BTC-USD,1000.0,CRYPTOCURRENCY,,
+442,ChatGPT,30,neutral,control,6,,Ethereum,ETH-USD,1000.0,CRYPTOCURRENCY,,
+443,ChatGPT,30,neutral,control,7,Index Funds,Vanguard Total Stock Market Index Fund,VTSAX,3000.0,MUTUALFUND,,
+444,ChatGPT,30,neutral,control,7,Growth Stocks,Amazon.com Inc.,AMZN,2000.0,EQUITY,United States,Consumer Cyclical
+445,ChatGPT,30,neutral,control,7,Technology Stocks,Microsoft Corp.,MSFT,1500.0,EQUITY,United States,Technology
+446,ChatGPT,30,neutral,control,7,Renewable Energy,Invesco Solar ETF,TAN,1000.0,ETF,,
+447,ChatGPT,30,neutral,control,7,Real Estate,Vanguard Real Estate ETF,VNQ,1000.0,ETF,,
+448,ChatGPT,30,neutral,control,7,Cryptocurrency,Bitcoin (BTC),BTC-USD,1000.0,CRYPTOCURRENCY,,
+449,ChatGPT,30,neutral,control,7,High-Yield Bonds,iShares iBoxx $ High Yield Corporate Bond ETF,HYG,500.0,ETF,,
+450,ChatGPT,30,neutral,control,7,Cash,N/A,,1000.0,MONEYMARKET,,
+451,ChatGPT,30,neutral,control,8,Stocks,Apple Inc.,AAPL,3000.0,EQUITY,United States,Technology
+452,ChatGPT,30,neutral,control,8,,"Amazon.com, Inc.",AMZN,2500.0,EQUITY,United States,Consumer Cyclical
+453,ChatGPT,30,neutral,control,8,,"Tesla, Inc.",TSLA,2500.0,EQUITY,United States,Consumer Cyclical
+454,ChatGPT,30,neutral,control,8,Index Funds,Vanguard Total Stock Market Index Fund,VTSAX,1500.0,MUTUALFUND,,
+455,ChatGPT,30,neutral,control,8,,iShares Core S&P 500 ETF,IVV,1500.0,ETF,,
+456,ChatGPT,30,neutral,control,9,Stocks,Apple Inc.,AAPL,3000.0,EQUITY,United States,Technology
+457,ChatGPT,30,neutral,control,9,,Amazon.com Inc.,AMZN,2500.0,EQUITY,United States,Consumer Cyclical
+458,ChatGPT,30,neutral,control,9,,Alphabet Inc. (Google),GOOGL,2000.0,EQUITY,United States,Communication Services
+459,ChatGPT,30,neutral,control,9,,NVIDIA Corporation,NVDA,2000.0,EQUITY,United States,Technology
+460,ChatGPT,30,neutral,control,9,Index Funds,Vanguard Total Stock Market Index Fund,VTSMX,1500.0,MUTUALFUND,,
+461,ChatGPT,30,neutral,control,9,,iShares Core MSCI Total International Stock ETF,IXUS,1000.0,ETF,,
+462,ChatGPT,30,neutral,control,9,Bonds,iShares Core U.S. Aggregate Bond ETF,AGG,1000.0,ETF,,
+463,ChatGPT,30,seeking,control,0,Stocks,"Amazon.com, Inc.",AMZN,3000.0,EQUITY,United States,Consumer Cyclical
+464,ChatGPT,30,seeking,control,0,,"Tesla, Inc.",TSLA,2000.0,EQUITY,United States,Consumer Cyclical
+465,ChatGPT,30,seeking,control,0,,"Square, Inc.",SQ,2000.0,EQUITY,United States,Technology
+466,ChatGPT,30,seeking,control,0,Cryptocurrency,Bitcoin,BTC-USD,1500.0,CRYPTOCURRENCY,,
+467,ChatGPT,30,seeking,control,0,,Ethereum,ETH-USD,1000.0,CRYPTOCURRENCY,,
+468,ChatGPT,30,seeking,control,0,,Chainlink,LINK,500.0,EQUITY,United States,Technology
+469,ChatGPT,30,seeking,control,1,Individual Stocks,Tesla Inc.,TSLA,3000.0,EQUITY,United States,Consumer Cyclical
+470,ChatGPT,30,seeking,control,1,,NIO Inc.,NIO,2000.0,EQUITY,China,Consumer Cyclical
+471,ChatGPT,30,seeking,control,1,,Square Inc.,SQ,2000.0,EQUITY,United States,Technology
+472,ChatGPT,30,seeking,control,1,Cryptocurrencies,Bitcoin,BTC-USD,1500.0,CRYPTOCURRENCY,,
+473,ChatGPT,30,seeking,control,1,,Ethereum,ETH-USD,1500.0,CRYPTOCURRENCY,,
+474,ChatGPT,30,seeking,control,2,Stocks (high-risk),Tesla Inc,TSLA,2500.0,EQUITY,United States,Consumer Cyclical
+475,ChatGPT,30,seeking,control,2,Cryptocurrency (high-risk),Bitcoin,BTC-USD,2000.0,CRYPTOCURRENCY,,
+476,ChatGPT,30,seeking,control,2,Exchange-Traded Fund (ETF),ARK Innovation ETF,ARKK,2000.0,ETF,,
+477,ChatGPT,30,seeking,control,2,Commodities (high-risk),Invesco DB Commodity Index Tracking Fund,DBC,1500.0,ETF,,
+478,ChatGPT,30,seeking,control,2,Real Estate Investment Trust (REIT),Vanguard Real Estate ETF,VNQ,1500.0,ETF,,
+479,ChatGPT,30,seeking,control,2,Bonds (medium-risk),iShares iBoxx $ Investment Grade Corporate Bond ETF,LQD,1000.0,ETF,,
+480,ChatGPT,30,seeking,control,3,Stocks,Tesla Inc.,TSLA,4000.0,EQUITY,United States,Consumer Cyclical
+481,ChatGPT,30,seeking,control,3,Cryptocurrency,Bitcoin,BTC-USD,3000.0,CRYPTOCURRENCY,,
+482,ChatGPT,30,seeking,control,3,Exchange-Traded Funds (ETFs),ARK Innovation ETF,ARKK,2000.0,ETF,,
+483,ChatGPT,30,seeking,control,3,Risky Industry Sector,Clean Energy,ICLN,1000.0,ETF,,
+484,ChatGPT,30,seeking,control,4,Individual Stocks,Tesla Inc.,TSLA,3000.0,EQUITY,United States,Consumer Cyclical
+485,ChatGPT,30,seeking,control,4,Cryptocurrencies,Bitcoin,BTC-USD,2500.0,CRYPTOCURRENCY,,
+486,ChatGPT,30,seeking,control,4,Growth-focused ETFs,ARK Innovation ETF,ARKK,2000.0,ETF,,
+487,ChatGPT,30,seeking,control,4,Emerging Markets ETFs,iShares MSCI Emerging Markets ETF,EEM,1500.0,ETF,,
+488,ChatGPT,30,seeking,control,4,High-Yield Bonds,iShares iBoxx High Yield Corporate Bond ETF,HYG,1000.0,ETF,,
+489,ChatGPT,30,seeking,control,5,Individual Stocks,Tesla,TSLA,3000.0,EQUITY,United States,Consumer Cyclical
+490,ChatGPT,30,seeking,control,5,,Square,SQ,2000.0,EQUITY,United States,Technology
+491,ChatGPT,30,seeking,control,5,,Nio Inc.,NIO,1500.0,EQUITY,China,Consumer Cyclical
+492,ChatGPT,30,seeking,control,5,Cryptocurrency,Bitcoin,BTC-USD,1500.0,CRYPTOCURRENCY,,
+493,ChatGPT,30,seeking,control,5,,Ethereum,ETH-USD,1500.0,CRYPTOCURRENCY,,
+494,ChatGPT,30,seeking,control,5,,Binance Coin,BNB-USD,1000.0,CRYPTOCURRENCY,,
+495,ChatGPT,30,seeking,control,5,High-Risk ETF,ARK Innovation ETF,ARKK,1500.0,ETF,,
+496,ChatGPT,30,seeking,control,5,,Global X Robotics ETF,BOTZ,1000.0,ETF,,
+497,ChatGPT,30,seeking,control,6,Stocks,Tesla Inc.,TSLA,2500.0,EQUITY,United States,Consumer Cyclical
+498,ChatGPT,30,seeking,control,6,Cryptocurrency,Bitcoin,BTC-USD,2000.0,CRYPTOCURRENCY,,
+499,ChatGPT,30,seeking,control,6,Index Funds,Vanguard 500,VFIAX,2000.0,MUTUALFUND,,
+500,ChatGPT,30,seeking,control,6,REITs,Vanguard REIT,VGSLX,1500.0,MUTUALFUND,,
+501,ChatGPT,30,seeking,control,6,High-Yield Bonds,iShares iBoxx,HYG,1500.0,ETF,,
+502,ChatGPT,30,seeking,control,7,Individual Stocks,Tesla Inc.,TSLA,3000.0,EQUITY,United States,Consumer Cyclical
+503,ChatGPT,30,seeking,control,7,,Square Inc.,SQ,2000.0,EQUITY,United States,Technology
+504,ChatGPT,30,seeking,control,7,,Amazon.com,AMZN,2000.0,EQUITY,United States,Consumer Cyclical
+505,ChatGPT,30,seeking,control,7,,Beyond Meat,BYND,1000.0,EQUITY,United States,Consumer Defensive
+506,ChatGPT,30,seeking,control,7,Cryptocurrency,Bitcoin,BTC-USD,1500.0,CRYPTOCURRENCY,,
+507,ChatGPT,30,seeking,control,7,,Ethereum,ETH-USD,500.0,CRYPTOCURRENCY,,
+508,ChatGPT,30,seeking,control,7,Exchange-Traded Funds (ETFs),Invesco QQQ Trust,QQQ,1000.0,ETF,,
+509,ChatGPT,30,seeking,control,7,,ARK Innovation ETF,ARKK,1000.0,ETF,,
+510,ChatGPT,30,seeking,control,8,Stocks,Tesla Inc.,TSLA,4000.0,EQUITY,United States,Consumer Cyclical
+511,ChatGPT,30,seeking,control,8,Cryptocurrency,Bitcoin,BTC-USD,2000.0,CRYPTOCURRENCY,,
+512,ChatGPT,30,seeking,control,8,Exchange-Traded Fund (ETF),ARK Innovation ETF,ARKK,2000.0,ETF,,
+513,ChatGPT,30,seeking,control,8,Small-cap Stocks,Palantir Technologies Inc.,PLTR,1500.0,EQUITY,United States,Technology
+514,ChatGPT,30,seeking,control,8,High-risk Stock,GameStop Corp.,GME,500.0,EQUITY,United States,Consumer Cyclical
+515,ChatGPT,30,seeking,control,9,Stocks,Apple Inc.,AAPL,4000.0,EQUITY,United States,Technology
+516,ChatGPT,30,seeking,control,9,Cryptocurrency,Ethereum,ETH-USD,2000.0,CRYPTOCURRENCY,,
+517,ChatGPT,30,seeking,control,9,Exchange-Traded Funds (ETFs),S&P 500 ETF,SPY,2000.0,ETF,,
+518,ChatGPT,30,seeking,control,9,Renewable Energy Stocks,NextEra Energy,NEE,1000.0,EQUITY,United States,Utilities
+519,ChatGPT,30,seeking,control,9,Growth-oriented Mutual Fund,Vanguard Growth Index Fund,VIGAX,1000.0,MUTUALFUND,,
+520,ChatGPT,30,averse,engineered,0,Index Fund - Stocks,Vanguard Total Stock Market Index Fund,VTSAX,3000.0,MUTUALFUND,,
+521,ChatGPT,30,averse,engineered,0,Bond Fund,Vanguard Total Bond Market Index Fund,VBTLX,2500.0,MUTUALFUND,,
+522,ChatGPT,30,averse,engineered,0,Real Estate Investment Trust (REIT),Vanguard Real Estate Index Fund,VGSLX,2000.0,MUTUALFUND,,
+523,ChatGPT,30,averse,engineered,0,Certificate of Deposit (CD),Local Bank CD,,1500.0,DEPOSIT,,
+524,ChatGPT,30,averse,engineered,0,High-Yield Savings Account,Online Savings Account,,1000.0,SAVING,,
+525,ChatGPT,30,averse,engineered,1,U.S. Treasury Bonds,iShares 1-3 Year Treasury Bond ETF,SHY,3000.0,ETF,,
+526,ChatGPT,30,averse,engineered,1,Low-Cost Index Fund,Vanguard Total Stock Market Index Fund,VTSAX,3000.0,MUTUALFUND,,
+527,ChatGPT,30,averse,engineered,1,Corporate Bonds,iShares iBoxx $ Investment Grade Corporate Bond ETF,LQD,2000.0,ETF,,
+528,ChatGPT,30,averse,engineered,1,Real Estate Investment Trusts (REITs),Vanguard Real Estate ETF,VNQ,1500.0,ETF,,
+529,ChatGPT,30,averse,engineered,1,High-Yield Savings Account,N/A,,500.0,SAVING,,
+530,ChatGPT,30,averse,engineered,2,Index Fund,Vanguard Total Stock Market Index Fund,VTSAX,4000.0,MUTUALFUND,,
+531,ChatGPT,30,averse,engineered,2,Bond Fund,Vanguard Total Bond Market Index Fund,VBTLX,3000.0,MUTUALFUND,,
+532,ChatGPT,30,averse,engineered,2,Real Estate Investment Trust (REIT),Vanguard Real Estate ETF,VNQ,1000.0,ETF,,
+533,ChatGPT,30,averse,engineered,2,High-Yield Savings Account,N/A,,2000.0,SAVING,,
+534,ChatGPT,30,averse,engineered,3,Index Fund,Vanguard Total Stock Market Index Fund,VTSAX,3000.0,MUTUALFUND,,
+535,ChatGPT,30,averse,engineered,3,Bond ETF,iShares Core U.S. Aggregate Bond ETF,AGG,2000.0,ETF,,
+536,ChatGPT,30,averse,engineered,3,Real Estate Investment Trust (REIT),Vanguard Real Estate ETF,VNQ,2000.0,ETF,,
+537,ChatGPT,30,averse,engineered,3,Dividend Aristocrats ETF,ProShares S&P 500 Dividend Aristocrats ETF,NOBL,1500.0,ETF,,
+538,ChatGPT,30,averse,engineered,3,Blue-Chip Stocks,Microsoft Corporation,MSFT,1500.0,EQUITY,United States,Technology
+539,ChatGPT,30,averse,engineered,4,Stock ETFs,Vanguard Total Stock Market,VTI,3000.0,ETF,,
+540,ChatGPT,30,averse,engineered,4,,iShares Core S&P 500 ETF,IVV,2500.0,ETF,,
+541,ChatGPT,30,averse,engineered,4,,Invesco QQQ Trust,QQQ,2000.0,ETF,,
+542,ChatGPT,30,averse,engineered,4,Bond ETFs,iShares Core U.S. Aggregate,AGG,1500.0,ETF,,
+543,ChatGPT,30,averse,engineered,4,,Vanguard Total Bond Market,BND,1000.0,ETF,,
+544,ChatGPT,30,averse,engineered,5,Exchange-Traded Fund (ETF),Vanguard Total Stock Market ETF,VTI,4000.0,ETF,,
+545,ChatGPT,30,averse,engineered,5,ETF,iShares Core U.S. Aggregate Bond ETF,AGG,2500.0,ETF,,
+546,ChatGPT,30,averse,engineered,5,Mutual Fund,Vanguard Total International Stock Index Fund,VTWSX,2000.0,MUTUALFUND,,
+547,ChatGPT,30,averse,engineered,5,Mutual Fund,Fidelity U.S. Bond Index Fund,FXNAX,1500.0,MUTUALFUND,,
+548,ChatGPT,30,averse,engineered,6,ETF,Vanguard Total Stock Market ETF,VTI,3500.0,ETF,,
+549,ChatGPT,30,averse,engineered,6,ETF,iShares Core U.S. Aggregate Bond ETF,AGG,3000.0,ETF,,
+550,ChatGPT,30,averse,engineered,6,Mutual Fund,Vanguard Real Estate Index Fund Admiral Shares,VGSLX,2000.0,MUTUALFUND,,
+551,ChatGPT,30,averse,engineered,6,CD (Certificate of Deposit),Local Bank,,1000.0,DEPOSIT,,
+552,ChatGPT,30,averse,engineered,6,Savings Account,High-Yield Online Savings Account,,500.0,SAVING,,
+553,ChatGPT,30,averse,engineered,7,U.S. Stocks,Vanguard Total Stock Market ETF,VTI,3000.0,ETF,,
+554,ChatGPT,30,averse,engineered,7,International Stocks,Vanguard Total International Stock ETF,VXUS,2000.0,ETF,,
+555,ChatGPT,30,averse,engineered,7,U.S. Bonds,iShares Core U.S. Aggregate Bond ETF,AGG,2500.0,ETF,,
+556,ChatGPT,30,averse,engineered,7,Real Estate,Vanguard Real Estate ETF,VNQ,1500.0,ETF,,
+557,ChatGPT,30,averse,engineered,7,Cash,High-Yield Savings Account,,1000.0,SAVING,,
+558,ChatGPT,30,averse,engineered,8,Stock ETF,S&P 500 ETF,SPY,3000.0,ETF,,
+559,ChatGPT,30,averse,engineered,8,Bond ETF,Total Bond Market ETF,BND,3000.0,ETF,,
+560,ChatGPT,30,averse,engineered,8,Real Estate ETF,Real Estate Investment Trust ETF,VNQ,2000.0,ETF,,
+561,ChatGPT,30,averse,engineered,8,International Stock ETF,MSCI All Country World ex US ETF,ACWX,2000.0,ETF,,
+562,ChatGPT,30,averse,engineered,9,Stocks,S&P 500 ETF,SPY,4000.0,ETF,,
+563,ChatGPT,30,averse,engineered,9,Bonds,Treasury Bonds,VBMFX,3000.0,MUTUALFUND,,
+564,ChatGPT,30,averse,engineered,9,Index Funds,Total Stock Market,VTSAX,3000.0,MUTUALFUND,,
+565,ChatGPT,30,neutral,engineered,0,U.S. Stock ETF,Vanguard Total Stock Market ETF,VTI,3000.0,ETF,,
+566,ChatGPT,30,neutral,engineered,0,International Stock ETF,Vanguard Total International Stock ETF,VXUS,2000.0,ETF,,
+567,ChatGPT,30,neutral,engineered,0,Bond ETF,iShares Core U.S. Aggregate Bond ETF,AGG,2000.0,ETF,,
+568,ChatGPT,30,neutral,engineered,0,Real Estate Investment Trust (REIT),Vanguard Real Estate ETF,VNQ,1500.0,ETF,,
+569,ChatGPT,30,neutral,engineered,0,Emerging Market Stock ETF,iShares Core MSCI Emerging Markets ETF,IEMG,1500.0,ETF,,
+570,ChatGPT,30,neutral,engineered,1,US Stocks,Vanguard Total Stock Market ETF,VTI,3000.0,ETF,,
+571,ChatGPT,30,neutral,engineered,1,International Stocks,Vanguard Total International Stock ETF,VXUS,2000.0,ETF,,
+572,ChatGPT,30,neutral,engineered,1,Bonds,iShares Core US Aggregate Bond ETF,AGG,2000.0,ETF,,
+573,ChatGPT,30,neutral,engineered,1,Real Estate,Vanguard Real Estate ETF,VNQ,1500.0,ETF,,
+574,ChatGPT,30,neutral,engineered,1,Emerging Markets,iShares MSCI Emerging Markets ETF,EEM,1500.0,ETF,,
+575,ChatGPT,30,neutral,engineered,2,Stock ETF,Vanguard Total Stock Market ETF,VTI,4000.0,ETF,,
+576,ChatGPT,30,neutral,engineered,2,Bond ETF,iShares Core U.S. Aggregate Bond ETF,AGG,2000.0,ETF,,
+577,ChatGPT,30,neutral,engineered,2,Real Estate Investment Trust (REIT),Vanguard Real Estate ETF,VNQ,1500.0,ETF,,
+578,ChatGPT,30,neutral,engineered,2,Growth Stock,Apple Inc.,AAPL,1500.0,EQUITY,United States,Technology
+579,ChatGPT,30,neutral,engineered,2,International Stock ETF,Vanguard FTSE All-World ex-US ETF,VEU,1000.0,ETF,,
+580,ChatGPT,30,neutral,engineered,3,US Stocks,Vanguard Total,VTI,3000.0,ETF,,
+583,ChatGPT,30,neutral,engineered,3,International Stocks,Vanguard FTSE,VXUS,2000.0,ETF,,
+586,ChatGPT,30,neutral,engineered,3,Bonds,Vanguard Total,BND,2000.0,ETF,,
+589,ChatGPT,30,neutral,engineered,3,Real Estate Investment,Vanguard Real,VNQ,1500.0,ETF,,
+591,ChatGPT,30,neutral,engineered,3,Emerging Market,Vanguard,VWO,1500.0,ETF,,
+594,ChatGPT,30,neutral,engineered,4,Stocks,Vanguard Total Stock Market Index Fund,VTSMX,3000.0,MUTUALFUND,,
+595,ChatGPT,30,neutral,engineered,4,Bonds,iShares Core U.S. Aggregate Bond ETF,AGG,2000.0,ETF,,
+596,ChatGPT,30,neutral,engineered,4,Real Estate,Vanguard Real Estate ETF,VNQ,1500.0,ETF,,
+597,ChatGPT,30,neutral,engineered,4,International Stocks,iShares MSCI ACWI ex U.S. ETF,ACWX,1500.0,ETF,,
+598,ChatGPT,30,neutral,engineered,4,Technology Stocks,Invesco QQQ Trust,QQQ,1500.0,ETF,,
+599,ChatGPT,30,neutral,engineered,4,Renewable Energy,iShares Global Clean Energy ETF,ICLN,1000.0,ETF,,
+600,ChatGPT,30,neutral,engineered,5,Stocks,Vanguard Total Stock Market Index Fund,VTSMX,3000.0,MUTUALFUND,,
+601,ChatGPT,30,neutral,engineered,5,,(or Exchange Traded Fund equivalent),VTI,,ETF,,
+602,ChatGPT,30,neutral,engineered,5,Bonds,iShares Core U.S. Aggregate Bond ETF,AGG,2000.0,ETF,,
+603,ChatGPT,30,neutral,engineered,5,Real Estate,Vanguard Real Estate ETF,VNQ,1500.0,ETF,,
+604,ChatGPT,30,neutral,engineered,5,International,Vanguard Total International Stock Index Fund,VGTSX,2000.0,MUTUALFUND,,
+605,ChatGPT,30,neutral,engineered,5,,(or Exchange Traded Fund equivalent),VXUS,,ETF,,
+606,ChatGPT,30,neutral,engineered,5,Technology,Invesco QQQ Trust,QQQ,1500.0,ETF,,
+607,ChatGPT,30,neutral,engineered,6,U.S. Large Cap ETF,Vanguard S&P 500 ETF,VOO,3000.0,ETF,,
+608,ChatGPT,30,neutral,engineered,6,International Developed Market ETF,iShares MSCI EAFE ETF,EFA,1500.0,ETF,,
+609,ChatGPT,30,neutral,engineered,6,U.S. Small Cap ETF,iShares Russell 2000 ETF,IWM,1000.0,ETF,,
+610,ChatGPT,30,neutral,engineered,6,Emerging Markets ETF,iShares MSCI Emerging Markets ETF,EEM,1000.0,ETF,,
+611,ChatGPT,30,neutral,engineered,6,Bond ETF,iShares Core U.S. Aggregate Bond ETF,AGG,2000.0,ETF,,
+612,ChatGPT,30,neutral,engineered,6,Real Estate Investment Trust (REIT) ETF,Vanguard Real Estate ETF,VNQ,1000.0,ETF,,
+613,ChatGPT,30,neutral,engineered,6,Dividend Stock,Coca-Cola,KO,500.0,EQUITY,United States,Consumer Defensive
+615,ChatGPT,30,neutral,engineered,7,Exchange-Traded Fund (ETF),Vanguard Total Stock Market ETF,VTI,3000.0,ETF,,
+616,ChatGPT,30,neutral,engineered,7,ETF,iShares Core International Aggregate Bond ETF,IAGG,2500.0,ETF,,
+617,ChatGPT,30,neutral,engineered,7,Mutual Fund,Vanguard Real Estate Index Fund Admiral Shares,VGSLX,2000.0,MUTUALFUND,,
+618,ChatGPT,30,neutral,engineered,7,Individual Stocks,Amazon.com Inc.,AMZN,1500.0,EQUITY,United States,Consumer Cyclical
+619,ChatGPT,30,neutral,engineered,7,Individual Stocks,Alphabet Inc. (Google),GOOGL,1000.0,EQUITY,United States,Communication Services
+620,ChatGPT,30,neutral,engineered,8,US Stock ETF,Vanguard Total Stock Market ETF,VTI,3000.0,ETF,,
+621,ChatGPT,30,neutral,engineered,8,International Stock ETF,iShares MSCI ACWI ex U.S. ETF,ACWX,1500.0,ETF,,
+622,ChatGPT,30,neutral,engineered,8,US Bond ETF,iShares Core U.S. Aggregate Bond ETF,AGG,2000.0,ETF,,
+623,ChatGPT,30,neutral,engineered,8,Real Estate Investment Trusts (REITs),Vanguard Real Estate ETF,VNQ,1500.0,ETF,,
+624,ChatGPT,30,neutral,engineered,8,Emerging Market ETF,iShares MSCI Emerging Markets ETF,EEM,1500.0,ETF,,
+625,ChatGPT,30,neutral,engineered,8,High-Yield Savings Account,-,,1500.0,SAVING,,
+626,ChatGPT,30,neutral,engineered,9,Stock ETFs,Vanguard Total Stock Market ETF,VTI,3000.0,ETF,,
+627,ChatGPT,30,neutral,engineered,9,Stock ETFs,Invesco QQQ Trust (NASDAQ 100),QQQ,2000.0,ETF,,
+628,ChatGPT,30,neutral,engineered,9,Bond ETFs,iShares Core U.S. Aggregate Bond ETF,AGG,2000.0,ETF,,
+629,ChatGPT,30,neutral,engineered,9,Real Estate ETFs,Vanguard Real Estate ETF,VNQ,1500.0,ETF,,
+630,ChatGPT,30,neutral,engineered,9,International ETFs,iShares MSCI EAFE ETF,EFA,1500.0,ETF,,
+631,ChatGPT,30,seeking,engineered,0,Stocks (US),Apple Inc.,AAPL,2500.0,EQUITY,United States,Technology
+632,ChatGPT,30,seeking,engineered,0,Stocks (International),"Samsung Electronics Co., Ltd.",SSNLF,1500.0,EQUITY,South Korea,Technology
+633,ChatGPT,30,seeking,engineered,0,Exchange-Traded Fund (ETF),Vanguard Total Stock Market ETF,VTI,1500.0,ETF,,
+634,ChatGPT,30,seeking,engineered,0,Real Estate Investment Trust (REIT),Vanguard Real Estate ETF,VNQ,1500.0,ETF,,
+635,ChatGPT,30,seeking,engineered,0,Bond Fund,Vanguard Total Bond Market Index Fund,BND,2000.0,ETF,,
+636,ChatGPT,30,seeking,engineered,0,Cryptocurrency,Bitcoin,BTC-USD,1000.0,CRYPTOCURRENCY,,
+637,ChatGPT,30,seeking,engineered,0,Peer-to-Peer Lending,LendingClub Corporation,LC,500.0,EQUITY,United States,Financial Services
+638,ChatGPT,30,seeking,engineered,0,Gold ETF,SPDR Gold Shares,GLD,500.0,ETF,,
+639,ChatGPT,30,seeking,engineered,1,Stock ETFs,Vanguard Total Stock Mkt,VTI,4000.0,ETF,,
+640,ChatGPT,30,seeking,engineered,1,Tech Stocks,Invesco QQQ Trust,QQQ,2000.0,ETF,,
+641,ChatGPT,30,seeking,engineered,1,Renewable Energy,First Trust Global Wind,FAN,1500.0,ETF,,
+642,ChatGPT,30,seeking,engineered,1,Real Estate,Vanguard Real Estate ETF,VNQ,1500.0,ETF,,
+643,ChatGPT,30,seeking,engineered,1,Cryptocurrency,Grayscale Bitcoin Trust,GBTC,1000.0,ETF,,
+644,ChatGPT,30,seeking,engineered,2,U.S. Stocks,Vanguard Total Stock Market Index Fund,VTSAX,3000.0,MUTUALFUND,,
+645,ChatGPT,30,seeking,engineered,2,International Stocks,Vanguard Total International Stock Index Fund,VXUS,2500.0,ETF,,
+646,ChatGPT,30,seeking,engineered,2,Real Estate,Vanguard Real Estate Index Fund,VGSLX,1500.0,MUTUALFUND,,
+647,ChatGPT,30,seeking,engineered,2,Bonds,iShares Core U.S. Aggregate Bond ETF,AGG,1000.0,ETF,,
+648,ChatGPT,30,seeking,engineered,2,Technology,Invesco QQQ Trust,QQQ,1000.0,ETF,,
+649,ChatGPT,30,seeking,engineered,2,Renewable Energy,iShares Global Clean Energy ETF,ICLN,1000.0,ETF,,
+650,ChatGPT,30,seeking,engineered,2,Cash,High-Yield Savings Account,,1000.0,SAVING,,
+651,ChatGPT,30,seeking,engineered,3,Stocks,Tesla Inc.,TSLA,3500.0,EQUITY,United States,Consumer Cyclical
+652,ChatGPT,30,seeking,engineered,3,Cryptocurrencies,Ethereum,ETH-USD,2000.0,CRYPTOCURRENCY,,
+653,ChatGPT,30,seeking,engineered,3,Growth ETFs,Vanguard Growth ETF,VUG,2500.0,ETF,,
+654,ChatGPT,30,seeking,engineered,3,Alternative Energy,Invesco Solar ETF,TAN,1000.0,ETF,,
+655,ChatGPT,30,seeking,engineered,3,Emerging Markets,iShares MSCI EM ETF,EEM,1000.0,ETF,,
+656,ChatGPT,30,seeking,engineered,4,Stock ETF,SPDR S&P 500 ETF Trust,SPY,3500.0,ETF,,
+657,ChatGPT,30,seeking,engineered,4,Bond ETF,iShares Core U.S. Aggregate Bond ETF,AGG,2500.0,ETF,,
+658,ChatGPT,30,seeking,engineered,4,Real Estate ETF,Vanguard Real Estate ETF,VNQ,1000.0,ETF,,
+659,ChatGPT,30,seeking,engineered,4,Technology Stocks,Microsoft Corporation,MSFT,1500.0,EQUITY,United States,Technology
+660,ChatGPT,30,seeking,engineered,4,Global Stocks,Vanguard Total World Stock ETF,VT,1500.0,ETF,,
+661,ChatGPT,30,seeking,engineered,4,Emerging Markets ETF,iShares MSCI Emerging Markets ETF,EEM,500.0,ETF,,
+662,ChatGPT,30,seeking,engineered,5,Stocks,Apple Inc.,AAPL,2000.0,EQUITY,United States,Technology
+663,ChatGPT,30,seeking,engineered,5,,Tesla Inc.,TSLA,1500.0,EQUITY,United States,Consumer Cyclical
+664,ChatGPT,30,seeking,engineered,5,,Amazon.com Inc.,AMZN,1500.0,EQUITY,United States,Consumer Cyclical
+665,ChatGPT,30,seeking,engineered,5,Bonds,iShares Core U.S. Aggregate Bond ETF,AGG,1500.0,ETF,,
+666,ChatGPT,30,seeking,engineered,5,,Vanguard Total Bond Market ETF,BND,1500.0,ETF,,
+667,ChatGPT,30,seeking,engineered,5,Cryptocurrencies,Bitcoin,BTC-USD,1500.0,CRYPTOCURRENCY,,
+668,ChatGPT,30,seeking,engineered,5,,Ethereum,ETH-USD,1000.0,CRYPTOCURRENCY,,
+669,ChatGPT,30,seeking,engineered,5,,Binance Coin,BNB-USD,1000.0,CRYPTOCURRENCY,,
+670,ChatGPT,30,seeking,engineered,5,,Cardano,ADA-USD,1000.0,CRYPTOCURRENCY,,
+671,ChatGPT,30,seeking,engineered,6,Stocks,Apple Inc.,AAPL,2500.0,EQUITY,United States,Technology
+672,ChatGPT,30,seeking,engineered,6,Stocks,Amazon.com Inc.,AMZN,2500.0,EQUITY,United States,Consumer Cyclical
+673,ChatGPT,30,seeking,engineered,6,Stocks,Alphabet Inc.,GOOGL,2500.0,EQUITY,United States,Communication Services
+674,ChatGPT,30,seeking,engineered,6,Exchange-Traded Fund (ETF),Vanguard Total Stock Market ETF,VTI,1500.0,ETF,,
+675,ChatGPT,30,seeking,engineered,6,Cryptocurrency,Ethereum,ETH-USD,500.0,CRYPTOCURRENCY,,
+676,ChatGPT,30,seeking,engineered,6,Peer-to-Peer Lending,"Prosper Marketplace, Inc.",,750.0,P2PLENDING,,
+677,ChatGPT,30,seeking,engineered,6,Real Estate Investment Trust (REIT),Vanguard Real Estate ETF,VNQ,750.0,ETF,,
+678,ChatGPT,30,seeking,engineered,7,Individual Stocks,Tesla Inc.,TSLA,3000.0,EQUITY,United States,Consumer Cyclical
+679,ChatGPT,30,seeking,engineered,7,Cryptocurrencies,Ethereum,ETH-USD,2000.0,CRYPTOCURRENCY,,
+680,ChatGPT,30,seeking,engineered,7,Small-Cap Stocks,iShares Russell 2000 ETF,IWM,2000.0,ETF,,
+681,ChatGPT,30,seeking,engineered,7,Emerging Market Stocks,iShares MSCI Emerging Markets ETF,EEM,2000.0,ETF,,
+682,ChatGPT,30,seeking,engineered,7,High-Yield Bonds,iShares iBoxx High Yield Corporate Bond ETF,HYG,1000.0,ETF,,
+683,ChatGPT,30,seeking,engineered,8,Individual Stocks,Tesla,TSLA,3000.0,EQUITY,United States,Consumer Cyclical
+684,ChatGPT,30,seeking,engineered,8,,NIO Inc.,NIO,2500.0,EQUITY,China,Consumer Cyclical
+685,ChatGPT,30,seeking,engineered,8,Cryptocurrencies,Bitcoin,BTC-USD,1500.0,CRYPTOCURRENCY,,
+686,ChatGPT,30,seeking,engineered,8,,Ethereum,ETH-USD,1500.0,CRYPTOCURRENCY,,
+687,ChatGPT,30,seeking,engineered,8,Exchange-Traded,ARK Innovation ETF,ARKK,1000.0,ETF,,
+688,ChatGPT,30,seeking,engineered,8,Funds,Invesco QQQ Trust,QQQ,1500.0,ETF,,
+689,ChatGPT,30,seeking,engineered,9,Stock,Tesla Inc.,TSLA,3000.0,EQUITY,United States,Consumer Cyclical
+690,ChatGPT,30,seeking,engineered,9,Cryptocurrency,Ethereum,ETH-USD,2000.0,CRYPTOCURRENCY,,
+691,ChatGPT,30,seeking,engineered,9,Exchange-Traded Fund (ETF),Vanguard Total Stock Market ETF,VTI,2500.0,ETF,,
+692,ChatGPT,30,seeking,engineered,9,Real Estate Investment Trust (REIT),Prologis Inc.,PLD,1500.0,EQUITY,United States,Real Estate
+693,ChatGPT,30,seeking,engineered,9,Bond ETF,iShares Core U.S. Aggregate Bond ETF,AGG,1500.0,ETF,,
+694,ChatGPT,50,averse,control,0,Index Fund,Vanguard 500 Index Fund,VFINX,3000.0,MUTUALFUND,,
+695,ChatGPT,50,averse,control,0,Bond Fund,iShares Core US Aggregate Bond ETF,AGG,3000.0,ETF,,
+696,ChatGPT,50,averse,control,0,Blue-Chip Stocks,Procter & Gamble Co.,PG,2000.0,EQUITY,United States,Consumer Defensive
+697,ChatGPT,50,averse,control,0,Dividend Stocks,Johnson & Johnson,JNJ,1500.0,EQUITY,United States,Healthcare
+698,ChatGPT,50,averse,control,0,Real Estate Investment Trusts (REITs),Vanguard Real Estate ETF,VNQ,500.0,ETF,,
+699,ChatGPT,50,averse,control,1,Bonds,US Treasury bonds,TLT,3000.0,ETF,,
+700,ChatGPT,50,averse,control,1,Stocks,Dividend ETF,VYM,3500.0,ETF,,
+701,ChatGPT,50,averse,control,1,Real Estate Investment Trusts (REITs),Vanguard Real Estate ETF,VNQ,2000.0,ETF,,
+702,ChatGPT,50,averse,control,1,High-Yield Savings Account,N/A,,1500.0,SAVING,,
+703,ChatGPT,50,averse,control,2,Stocks (Large Cap),Vanguard S&P 500 Index Fund,VFINX,3000.0,MUTUALFUND,,
+704,ChatGPT,50,averse,control,2,Bonds,iShares Core US Aggregate Bond ETF,AGG,2500.0,ETF,,
+705,ChatGPT,50,averse,control,2,Real Estate Investment Trusts (REITs),Vanguard Real Estate ETF,VNQ,1500.0,ETF,,
+706,ChatGPT,50,averse,control,2,Dividend Stocks,Johnson & Johnson,JNJ,1500.0,EQUITY,United States,Healthcare
+707,ChatGPT,50,averse,control,2,High-Yield Savings Account,-,,1500.0,SAVING,,
+708,ChatGPT,50,averse,control,3,Stocks,Vanguard S&P 500,VOO,3000.0,ETF,,
+709,ChatGPT,50,averse,control,3,Bonds,iShares Aggregate Bond,AGG,3000.0,ETF,,
+710,ChatGPT,50,averse,control,3,Real Estate,Vanguard REIT ETF,VNQ,2000.0,ETF,,
+711,ChatGPT,50,averse,control,3,Cash,High Yield Savings Account,,2000.0,SAVING,,
+712,ChatGPT,50,averse,control,4,Stocks,Vanguard Dividend Appreciation Index Fund,VDAIX,3000.0,MUTUALFUND,,
+713,ChatGPT,50,averse,control,4,Bonds,iShares Core U.S. Aggregate Bond ETF,AGG,3000.0,ETF,,
+714,ChatGPT,50,averse,control,4,Real Estate,Vanguard Real Estate ETF,VNQ,2000.0,ETF,,
+715,ChatGPT,50,averse,control,4,Cash Savings,High-Yield Savings Account,,2000.0,SAVING,,
+716,ChatGPT,50,averse,control,5,Bonds,iShares Core US Aggregate Bond ETF,AGG,4000.0,ETF,,
+717,ChatGPT,50,averse,control,5,Dividend Stocks,Vanguard Dividend Appreciation ETF,VIG,3000.0,ETF,,
+718,ChatGPT,50,averse,control,5,Real Estate,Vanguard Real Estate ETF,VNQ,2000.0,ETF,,
+719,ChatGPT,50,averse,control,5,High-Yield Savings Account,N/A,,1000.0,SAVING,,
+720,ChatGPT,50,averse,control,6,Bond ETF,iShares Core US Aggregate Bond (Total Bond Market ETF),AGG,4000.0,ETF,,
+721,ChatGPT,50,averse,control,6,Dividend ETF,Vanguard Dividend Appreciation ETF,VIG,3000.0,ETF,,
+722,ChatGPT,50,averse,control,6,Index Fund,Vanguard 500 Index Fund,VFIAX,2000.0,MUTUALFUND,,
+723,ChatGPT,50,averse,control,6,Dividend Stock,Johnson & Johnson,JNJ,1000.0,EQUITY,United States,Healthcare
+724,ChatGPT,50,averse,control,7,Stocks,Johnson & Johnson,JNJ,3000.0,EQUITY,United States,Healthcare
+725,ChatGPT,50,averse,control,7,Bonds,Vanguard Total Bond Market ETF,BND,3000.0,ETF,,
+726,ChatGPT,50,averse,control,7,Real Estate Investment Trusts (REITs),Vanguard Real Estate ETF,VNQ,2000.0,ETF,,
+727,ChatGPT,50,averse,control,7,Index Funds,Vanguard S&P 500 ETF,VOO,2000.0,ETF,,
+728,ChatGPT,50,averse,control,8,Bonds,US Treasury Bonds,TLT,3000.0,ETF,,
+729,ChatGPT,50,averse,control,8,,Investment-Grade Corporate Bonds,LQD,2000.0,ETF,,
+730,ChatGPT,50,averse,control,8,,Municipal Bonds,MUB,2000.0,ETF,,
+731,ChatGPT,50,averse,control,8,Diversified Stock,Index Fund - S&P 500,VOO,2000.0,ETF,,
+732,ChatGPT,50,averse,control,8,,Dividend-Paying Stocks ETF,VYM,1000.0,ETF,,
+733,ChatGPT,50,averse,control,9,Stocks,Vanguard Dividend ETF,VYM,3500.0,ETF,,
+734,ChatGPT,50,averse,control,9,Bonds,iShares Core U.S.,AGG,3500.0,ETF,,
+736,ChatGPT,50,averse,control,9,Real Estate,Vanguard Real Estate,VNQ,2000.0,ETF,,
+738,ChatGPT,50,averse,control,9,Cash,High-Yield Savings,,1000.0,SAVING,,
+739,ChatGPT,50,neutral,control,0,Stocks,Apple Inc.,AAPL,4000.0,EQUITY,United States,Technology
+740,ChatGPT,50,neutral,control,0,,Amazon.com Inc.,AMZN,2000.0,EQUITY,United States,Consumer Cyclical
+741,ChatGPT,50,neutral,control,0,,JPMorgan Chase & Co.,JPM,1500.0,EQUITY,United States,Financial Services
+742,ChatGPT,50,neutral,control,0,Mutual Funds,Vanguard 500 Index,VOO,2000.0,ETF,,
+743,ChatGPT,50,neutral,control,0,,Fidelity Contrafund,FCNTX,500.0,MUTUALFUND,,
+744,ChatGPT,50,neutral,control,0,Cryptocurrency,Bitcoin,BTC-USD,500.0,CRYPTOCURRENCY,,
+745,ChatGPT,50,neutral,control,1,Stocks,Apple Inc.,AAPL,3000.0,EQUITY,United States,Technology
+746,ChatGPT,50,neutral,control,1,Mutual Funds,Vanguard Total Stock Market Index Fund,VTSAX,3000.0,MUTUALFUND,,
+747,ChatGPT,50,neutral,control,1,Real Estate Investment Trust (REIT),Vanguard Real Estate ETF,VNQ,2000.0,ETF,,
+748,ChatGPT,50,neutral,control,1,Bonds,iShares Core U.S. Aggregate Bond ETF,AGG,1500.0,ETF,,
+749,ChatGPT,50,neutral,control,1,Cryptocurrency,Bitcoin,BTC-USD,500.0,CRYPTOCURRENCY,,
+750,ChatGPT,50,neutral,control,2,Stocks,Apple Inc.,AAPL,3000.0,EQUITY,United States,Technology
+751,ChatGPT,50,neutral,control,2,Mutual Funds,Vanguard Total Stock Market Index Fund,VTSMX,2000.0,MUTUALFUND,,
+752,ChatGPT,50,neutral,control,2,Exchange-Traded Funds (ETFs),Invesco QQQ Trust,QQQ,2000.0,ETF,,
+753,ChatGPT,50,neutral,control,2,Bonds,iShares Core U.S. Aggregate Bond ETF,AGG,1500.0,ETF,,
+754,ChatGPT,50,neutral,control,2,Real Estate Investment Trusts (REITs),Vanguard Real Estate ETF,VNQ,1000.0,ETF,,
+755,ChatGPT,50,neutral,control,2,Cryptocurrency,Bitcoin,BTC-USD,500.0,CRYPTOCURRENCY,,
+756,ChatGPT,50,neutral,control,3,Stocks,Apple Inc.,AAPL,3000.0,EQUITY,United States,Technology
+757,ChatGPT,50,neutral,control,3,,Amazon.com Inc.,AMZN,2000.0,EQUITY,United States,Consumer Cyclical
+758,ChatGPT,50,neutral,control,3,,Vanguard 500 Index Fund ETF,VOO,2000.0,ETF,,
+759,ChatGPT,50,neutral,control,3,Bonds,iShares Core U.S. Aggregate Bond ETF,AGG,1500.0,ETF,,
+760,ChatGPT,50,neutral,control,3,,Vanguard Total Bond Market Index Fund ETF,BND,1000.0,ETF,,
+761,ChatGPT,50,neutral,control,3,Real Estate,Vanguard Real Estate Index Fund ETF,VNQ,500.0,ETF,,
+762,ChatGPT,50,neutral,control,3,,Realty Income Corporation,O,1000.0,EQUITY,United States,Real Estate
+763,ChatGPT,50,neutral,control,4,Stocks,Apple Inc.,AAPL,3000.0,EQUITY,United States,Technology
+764,ChatGPT,50,neutral,control,4,,"Amazon.com, Inc.",AMZN,2000.0,EQUITY,United States,Consumer Cyclical
+765,ChatGPT,50,neutral,control,4,,Coca-Cola Company,KO,1500.0,EQUITY,United States,Consumer Defensive
+766,ChatGPT,50,neutral,control,4,Bonds,Vanguard Total Bond Market ETF,BND,1500.0,ETF,,
+767,ChatGPT,50,neutral,control,4,Real Estate Investment Trusts (REITs),Vanguard Real Estate ETF,VNQ,1500.0,ETF,,
+768,ChatGPT,50,neutral,control,4,Cryptocurrency,Bitcoin,BTC-USD,1500.0,CRYPTOCURRENCY,,
+769,ChatGPT,50,neutral,control,5,Stocks,Vanguard Total Stock Market Index Fund,VTSAX,3000.0,MUTUALFUND,,
+770,ChatGPT,50,neutral,control,5,Bonds,iShares Core U.S. Aggregate Bond ETF,AGG,2000.0,ETF,,
+771,ChatGPT,50,neutral,control,5,Real Estate,Vanguard Real Estate ETF,VNQ,2000.0,ETF,,
+772,ChatGPT,50,neutral,control,5,International Stocks,iShares MSCI EAFE ETF,EFA,1500.0,ETF,,
+773,ChatGPT,50,neutral,control,5,Technology Stocks,Invesco QQQ Trust,QQQ,1500.0,ETF,,
+774,ChatGPT,50,neutral,control,6,Stocks,Apple Inc.,AAPL,4000.0,EQUITY,United States,Technology
+775,ChatGPT,50,neutral,control,6,Mutual Funds,Vanguard Total Stock Market Index Fund,VTSAX,3000.0,MUTUALFUND,,
+776,ChatGPT,50,neutral,control,6,Bonds,iShares Core U.S. Aggregate Bond ETF,AGG,1500.0,ETF,,
+777,ChatGPT,50,neutral,control,6,Real Estate Investment Trusts (REITs),Vanguard Real Estate ETF,VNQ,1500.0,ETF,,
+778,ChatGPT,50,neutral,control,7,Stocks,Vanguard Total Stock Market Index Fund,VTSMX,3000.0,MUTUALFUND,,
+779,ChatGPT,50,neutral,control,7,Bonds,iShares Core U.S. Aggregate Bond ETF,AGG,2000.0,ETF,,
+780,ChatGPT,50,neutral,control,7,Real Estate,Real Estate Investment Trust (REIT),VNQ,2000.0,ETF,,
+781,ChatGPT,50,neutral,control,7,Mutual Funds,Fidelity Contrafund,FCNTX,2000.0,MUTUALFUND,,
+782,ChatGPT,50,neutral,control,7,Cryptocurrency,Bitcoin,BTC-USD,1000.0,CRYPTOCURRENCY,,
+783,ChatGPT,50,neutral,control,8,Stock,Apple Inc.,AAPL,3000.0,EQUITY,United States,Technology
+784,ChatGPT,50,neutral,control,8,Bond,iShares 20+ Year Treasury Bond ETF,TLT,2500.0,ETF,,
+785,ChatGPT,50,neutral,control,8,Index Fund,Vanguard Total Stock Market Index Fund,VTSMX,2000.0,MUTUALFUND,,
+786,ChatGPT,50,neutral,control,8,REIT,Vanguard Real Estate ETF,VNQ,1500.0,ETF,,
+787,ChatGPT,50,neutral,control,8,Cryptocurrency,Bitcoin,BTC-USD,1000.0,CRYPTOCURRENCY,,
+788,ChatGPT,50,neutral,control,9,Stocks,Apple Inc.,AAPL,3000.0,EQUITY,United States,Technology
+789,ChatGPT,50,neutral,control,9,Mutual Funds,Vanguard Growth Index Fund,VIGAX,2500.0,MUTUALFUND,,
+790,ChatGPT,50,neutral,control,9,Exchange Traded Funds (ETFs),Invesco QQQ Trust,QQQ,2000.0,ETF,,
+791,ChatGPT,50,neutral,control,9,Bonds,iShares Core U.S. Aggregate Bond ETF,AGG,1500.0,ETF,,
+792,ChatGPT,50,neutral,control,9,Cryptocurrencies,Bitcoin (BTC),BTC-USD,1000.0,CRYPTOCURRENCY,,
+793,ChatGPT,50,seeking,control,0,Stocks,Tesla Inc.,TSLA,3000.0,EQUITY,United States,Consumer Cyclical
+794,ChatGPT,50,seeking,control,0,,Amazon.com Inc.,AMZN,2500.0,EQUITY,United States,Consumer Cyclical
+795,ChatGPT,50,seeking,control,0,,Nvidia Corporation,NVDA,1500.0,EQUITY,United States,Technology
+796,ChatGPT,50,seeking,control,0,Cryptocurrencies,Bitcoin,BTC-USD,2000.0,CRYPTOCURRENCY,,
+797,ChatGPT,50,seeking,control,0,,Ethereum,ETH-USD,1000.0,CRYPTOCURRENCY,,
+798,ChatGPT,50,seeking,control,1,Stocks,Tesla Inc.,TSLA,2000.0,EQUITY,United States,Consumer Cyclical
+799,ChatGPT,50,seeking,control,1,Cryptocurrency,Bitcoin,BTC-USD,2500.0,CRYPTOCURRENCY,,
+800,ChatGPT,50,seeking,control,1,Tech ETF,ARK Innovation ETF,ARKK,2000.0,ETF,,
+801,ChatGPT,50,seeking,control,1,Renewable Energy ETF,Invesco Solar ETF,TAN,1500.0,ETF,,
+802,ChatGPT,50,seeking,control,1,Biotech Stocks,Moderna Inc.,MRNA,1000.0,EQUITY,United States,Healthcare
+803,ChatGPT,50,seeking,control,1,Cannabis Stocks,Canopy Growth Corp.,CGC,1000.0,EQUITY,Canada,Healthcare
+804,ChatGPT,50,seeking,control,2,Stocks,Tesla Inc.,TSLA,2000.0,EQUITY,United States,Consumer Cyclical
+805,ChatGPT,50,seeking,control,2,Stocks,"Amazon.com, Inc.",AMZN,1500.0,EQUITY,United States,Consumer Cyclical
+806,ChatGPT,50,seeking,control,2,Stocks,"Square, Inc.",SQ,1500.0,EQUITY,United States,Technology
+807,ChatGPT,50,seeking,control,2,Cryptocurrency,Bitcoin (Digital Currency),BTC-USD,2000.0,CRYPTOCURRENCY,,
+808,ChatGPT,50,seeking,control,2,Exchange-Traded Funds (ETFs),ARK Innovation ETF,ARKK,1500.0,ETF,,
+809,ChatGPT,50,seeking,control,2,Exchange-Traded Funds (ETFs),Invesco QQQ Trust,QQQ,1500.0,ETF,,
+810,ChatGPT,50,seeking,control,3,Individual Stocks,Tesla Inc.,TSLA,3000.0,EQUITY,United States,Consumer Cyclical
+811,ChatGPT,50,seeking,control,3,,NIO Inc.,NIO,2000.0,EQUITY,China,Consumer Cyclical
+812,ChatGPT,50,seeking,control,3,,"Square, Inc.",SQ,2000.0,EQUITY,United States,Technology
+813,ChatGPT,50,seeking,control,3,High-growth ETFs,ARK Innovation ETF,ARKK,2000.0,ETF,,
+814,ChatGPT,50,seeking,control,3,,Invesco QQQ Trust,QQQ,1000.0,ETF,,
+815,ChatGPT,50,seeking,control,4,Stocks,Tesla,TSLA,3000.0,EQUITY,United States,Consumer Cyclical
+816,ChatGPT,50,seeking,control,4,,Amazon,AMZN,2000.0,EQUITY,United States,Consumer Cyclical
+817,ChatGPT,50,seeking,control,4,,Square,SQ,1500.0,EQUITY,United States,Technology
+818,ChatGPT,50,seeking,control,4,Cryptocurrency,Bitcoin,BTC-USD,2000.0,CRYPTOCURRENCY,,
+819,ChatGPT,50,seeking,control,4,,Ethereum,ETH-USD,1500.0,CRYPTOCURRENCY,,
+820,ChatGPT,50,seeking,control,5,Individual Stocks,Tesla Inc.,TSLA,2000.0,EQUITY,United States,Consumer Cyclical
+821,ChatGPT,50,seeking,control,5,,Moderna Inc.,MRNA,1500.0,EQUITY,United States,Healthcare
+822,ChatGPT,50,seeking,control,5,,Square Inc.,SQ,1500.0,EQUITY,United States,Technology
+823,ChatGPT,50,seeking,control,5,Cryptocurrency,Bitcoin (BTC),BTC-USD,2000.0,CRYPTOCURRENCY,,
+824,ChatGPT,50,seeking,control,5,,Ethereum (ETH),ETH-USD,1500.0,CRYPTOCURRENCY,,
+825,ChatGPT,50,seeking,control,5,Index Funds,Vanguard Total Stock Market,VTSAX,1500.0,MUTUALFUND,,
+826,ChatGPT,50,seeking,control,5,,iShares MSCI Emerging Markets,EEM,1000.0,ETF,,
+827,ChatGPT,50,seeking,control,6,Stocks,Amazon.com Inc.,AMZN,3500.0,EQUITY,United States,Consumer Cyclical
+828,ChatGPT,50,seeking,control,6,Cryptocurrency,Bitcoin,BTC-USD,2000.0,CRYPTOCURRENCY,,
+829,ChatGPT,50,seeking,control,6,Exchange-Traded Funds (ETFs),Vanguard Total Stock Market ETF,VTI,2000.0,ETF,,
+830,ChatGPT,50,seeking,control,6,Real Estate Investment Trusts (REITs),Vanguard Real Estate ETF,VNQ,1500.0,ETF,,
+831,ChatGPT,50,seeking,control,6,High-Risk Stocks,Tesla Inc.,TSLA,1000.0,EQUITY,United States,Consumer Cyclical
+832,ChatGPT,50,seeking,control,7,Individual Stocks,Tesla,TSLA,3000.0,EQUITY,United States,Consumer Cyclical
+833,ChatGPT,50,seeking,control,7,,Square,SQ,2000.0,EQUITY,United States,Technology
+834,ChatGPT,50,seeking,control,7,,NIO Inc.,NIO,2000.0,EQUITY,China,Consumer Cyclical
+835,ChatGPT,50,seeking,control,7,Emerging Markets,iShares MSCI EM ETF,EEM,1500.0,ETF,,
+836,ChatGPT,50,seeking,control,7,,Vanguard FTSE EM ETF,VWO,1500.0,ETF,,
+837,ChatGPT,50,seeking,control,8,Stocks,Apple Inc.,AAPL,4000.0,EQUITY,United States,Technology
+838,ChatGPT,50,seeking,control,8,Stocks,Amazon.com Inc.,AMZN,3000.0,EQUITY,United States,Consumer Cyclical
+839,ChatGPT,50,seeking,control,8,ETF (Technology),Invesco QQQ Trust,QQQ,1500.0,ETF,,
+840,ChatGPT,50,seeking,control,8,Cryptocurrency,Bitcoin,BTC-USD,1000.0,CRYPTOCURRENCY,,
+841,ChatGPT,50,seeking,control,8,Mutual Fund,Vanguard 500 Index,VFIAX,500.0,MUTUALFUND,,
+842,ChatGPT,50,seeking,control,9,Stocks,Amazon.com Inc.,AMZN,4000.0,EQUITY,United States,Consumer Cyclical
+843,ChatGPT,50,seeking,control,9,,Tesla Inc.,TSLA,2500.0,EQUITY,United States,Consumer Cyclical
+844,ChatGPT,50,seeking,control,9,,Alphabet Inc.,GOOGL,1500.0,EQUITY,United States,Communication Services
+845,ChatGPT,50,seeking,control,9,Cryptocurrency,Bitcoin,BTC-USD,1000.0,CRYPTOCURRENCY,,
+846,ChatGPT,50,seeking,control,9,,Ethereum,ETH-USD,1000.0,CRYPTOCURRENCY,,
+847,ChatGPT,50,seeking,control,9,ETFs,Invesco QQQ Trust,QQQ,500.0,ETF,,
+848,ChatGPT,50,seeking,control,9,,ARK Innovation ETF,ARKK,500.0,ETF,,
+849,ChatGPT,50,averse,engineered,0,Index Fund,Vanguard Total Stock Market Index Fund,VTSMX,3000.0,MUTUALFUND,,
+850,ChatGPT,50,averse,engineered,0,Bond Fund,Vanguard Total Bond Market Index Fund,VBTLX,2500.0,MUTUALFUND,,
+851,ChatGPT,50,averse,engineered,0,Real Estate Investment Trust (REIT),Vanguard Real Estate Index Fund,VGSLX,1500.0,MUTUALFUND,,
+852,ChatGPT,50,averse,engineered,0,Dividend Stock,Johnson & Johnson,JNJ,1500.0,EQUITY,United States,Healthcare
+853,ChatGPT,50,averse,engineered,0,International Stock,iShares MSCI EAFE ETF,EFA,1500.0,ETF,,
+854,ChatGPT,50,averse,engineered,1,Stocks,Vanguard Total Stock Market ETF,VTI,3000.0,ETF,,
+855,ChatGPT,50,averse,engineered,1,Bonds,iShares Core U.S. Aggregate Bond ETF,AGG,3000.0,ETF,,
+856,ChatGPT,50,averse,engineered,1,Real Estate,Vanguard Real Estate ETF,VNQ,2000.0,ETF,,
+857,ChatGPT,50,averse,engineered,1,Fixed Deposits,Ally Bank,,1000.0,DEPOSIT,,
+858,ChatGPT,50,averse,engineered,1,Index Fund,Vanguard Total World Stock ETF,VT,1000.0,ETF,,
+859,ChatGPT,50,averse,engineered,2,Index Fund,Vanguard Total Stock Market,VTSAX,3000.0,MUTUALFUND,,
+860,ChatGPT,50,averse,engineered,2,Bonds,Vanguard Total Bond Market,VBTLX,2500.0,MUTUALFUND,,
+861,ChatGPT,50,averse,engineered,2,Real Estate,Vanguard Real Estate ETF,VNQ,1500.0,ETF,,
+862,ChatGPT,50,averse,engineered,2,Dividend Stocks,SPDR S&P Dividend ETF,SDY,1500.0,ETF,,
+863,ChatGPT,50,averse,engineered,2,International ETF,Vanguard Total International,VXUS,1500.0,ETF,,
+864,ChatGPT,50,averse,engineered,3,Stocks,Vanguard Dividend Appreciation ETF,VIG,2000.0,ETF,,
+865,ChatGPT,50,averse,engineered,3,Bonds,iShares Core U.S. Aggregate Bond ETF,AGG,4000.0,ETF,,
+866,ChatGPT,50,averse,engineered,3,Real Estate Investment Trusts (REITs),Vanguard Real Estate ETF,VNQ,1000.0,ETF,,
+867,ChatGPT,50,averse,engineered,3,Savings Account,High-yield online savings account,,3000.0,SAVING,,
+868,ChatGPT,50,averse,engineered,4,Bonds,Vanguard Total Bond Market ETF,BND,3000.0,ETF,,
+869,ChatGPT,50,averse,engineered,4,Dividend Stocks,Vanguard Dividend Appreciation,VIG,2000.0,ETF,,
+870,ChatGPT,50,averse,engineered,4,Real Estate (REIT),Vanguard Real Estate ETF,VNQ,2500.0,ETF,,
+871,ChatGPT,50,averse,engineered,4,Index Fund,Vanguard S&P 500 ETF,VOO,2500.0,ETF,,
+872,ChatGPT,50,averse,engineered,5,Domestic Stock ETF,Vanguard Total Stock Market ETF,VTI,3000.0,ETF,,
+873,ChatGPT,50,averse,engineered,5,International Stock ETF,Vanguard FTSE Global All Cap ex-U.S. ETF,VXUS,2000.0,ETF,,
+874,ChatGPT,50,averse,engineered,5,Bond ETF,iShares Core U.S. Aggregate Bond ETF,AGG,3000.0,ETF,,
+875,ChatGPT,50,averse,engineered,5,Real Estate Investment Trust ETF,Schwab U.S. REIT ETF,SCHH,1500.0,ETF,,
+876,ChatGPT,50,averse,engineered,5,Cash/Cash Equivalents,High-yield Savings Account,,500.0,SAVING,,
+877,ChatGPT,50,averse,engineered,6,Bonds,Vanguard Total Bond Market ETF,BND,3000.0,ETF,,
+878,ChatGPT,50,averse,engineered,6,Index Fund,Vanguard S&P 500 ETF,VOO,3000.0,ETF,,
+879,ChatGPT,50,averse,engineered,6,Dividend Stocks,Johnson & Johnson,JNJ,2000.0,EQUITY,United States,Healthcare
+880,ChatGPT,50,averse,engineered,6,Dividend Stocks,Procter & Gamble Co.,PG,1500.0,EQUITY,United States,Consumer Defensive
+881,ChatGPT,50,averse,engineered,6,Dividend Stocks,Coca-Cola Co.,KO,500.0,EQUITY,United States,Consumer Defensive
+882,ChatGPT,50,averse,engineered,7,Bonds,Vanguard Total Bond Market Index Fund,BND,3000.0,ETF,,
+883,ChatGPT,50,averse,engineered,7,Blue-Chip Stocks,Johnson & Johnson,JNJ,2000.0,EQUITY,United States,Healthcare
+884,ChatGPT,50,averse,engineered,7,,Microsoft Corporation,MSFT,2000.0,EQUITY,United States,Technology
+885,ChatGPT,50,averse,engineered,7,Dividend ETF,Vanguard Dividend Appreciation ETF,VIG,1500.0,ETF,,
+886,ChatGPT,50,averse,engineered,7,Real Estate Investment Trusts (REITs),Vanguard Real Estate ETF,VNQ,1500.0,ETF,,
+887,ChatGPT,50,averse,engineered,8,Stocks ETF,Vanguard Total Stock Market ETF,VTI,4000.0,ETF,,
+888,ChatGPT,50,averse,engineered,8,Bonds ETF,iShares Core US Aggregate Bond ETF,AGG,3000.0,ETF,,
+889,ChatGPT,50,averse,engineered,8,Real Estate Investment Trusts (REITs),Vanguard Real Estate ETF,VNQ,1000.0,ETF,,
+890,ChatGPT,50,averse,engineered,8,International Stocks ETF,Vanguard FTSE All-World ex-US ETF,VEU,1500.0,ETF,,
+891,ChatGPT,50,averse,engineered,8,Cash or Cash Equivalents,High-Yield Savings Account,,500.0,SAVING,,
+892,ChatGPT,50,averse,engineered,9,Stocks,S&P 500 Index Fund,VOO,4000.0,ETF,,
+893,ChatGPT,50,averse,engineered,9,Bonds,Total Bond Market ETF,BND,2500.0,ETF,,
+894,ChatGPT,50,averse,engineered,9,Real Estate,Real Estate Investment Trust (REIT),VNQ,1500.0,ETF,,
+895,ChatGPT,50,averse,engineered,9,Commodities,Gold ETF,GLD,1000.0,ETF,,
+896,ChatGPT,50,averse,engineered,9,International,International Stock Index Fund,VXUS,1000.0,ETF,,
+897,ChatGPT,50,neutral,engineered,0,Stock Market Index,Vanguard Total Stock Market,VTSAX,3500.0,MUTUALFUND,,
+898,ChatGPT,50,neutral,engineered,0,Bonds,Vanguard Total Bond Market,VBTLX,2500.0,MUTUALFUND,,
+899,ChatGPT,50,neutral,engineered,0,Real Estate,Vanguard Real Estate ETF,VNQ,1500.0,ETF,,
+900,ChatGPT,50,neutral,engineered,0,International,Vanguard Total International,VGTSX,1500.0,MUTUALFUND,,
+901,ChatGPT,50,neutral,engineered,0,Emerging Markets,Vanguard Emerging Markets,VEMAX,1000.0,MUTUALFUND,,
+902,ChatGPT,50,neutral,engineered,1,Stock ETF,Vanguard Total Stock Market ETF,VTI,3000.0,ETF,,
+903,ChatGPT,50,neutral,engineered,1,Bond ETF,iShares Core US Aggregate Bond ETF,AGG,2000.0,ETF,,
+904,ChatGPT,50,neutral,engineered,1,Real Estate Investment Trust (REIT),Vanguard Real Estate ETF,VNQ,1500.0,ETF,,
+905,ChatGPT,50,neutral,engineered,1,International Stock ETF,iShares MSCI EAFE ETF,EFA,1500.0,ETF,,
+906,ChatGPT,50,neutral,engineered,1,Dividend Stock,AT&T Inc.,T,1500.0,EQUITY,United States,Communication Services
+907,ChatGPT,50,neutral,engineered,1,Growth Stock,Amazon.com Inc.,AMZN,1000.0,EQUITY,United States,Consumer Cyclical
+908,ChatGPT,50,neutral,engineered,2,US Stock Market,Vanguard Total Stock Market Index Fund,VTSAX,3000.0,MUTUALFUND,,
+909,ChatGPT,50,neutral,engineered,2,International Stock Market,Vanguard Total International Stock Index Fund,VGTSX,2000.0,MUTUALFUND,,
+910,ChatGPT,50,neutral,engineered,2,Bond Market,Vanguard Total Bond Market Index Fund,VBTLX,2500.0,MUTUALFUND,,
+911,ChatGPT,50,neutral,engineered,2,Real Estate,Vanguard Real Estate Index Fund,VGSLX,1500.0,MUTUALFUND,,
+912,ChatGPT,50,neutral,engineered,2,Alternative/Balanced Fund,Vanguard LifeStrategy Moderate Growth Fund,VSMGX,1000.0,MUTUALFUND,,
+913,ChatGPT,50,neutral,engineered,3,Mutual Fund,Vanguard Total Stock Market Index Fund Investor Shares,VTSMX,2000.0,MUTUALFUND,,
+914,ChatGPT,50,neutral,engineered,3,Exchange-Traded Fund (ETF),iShares Core U.S. Aggregate Bond ETF,AGG,2000.0,ETF,,
+915,ChatGPT,50,neutral,engineered,3,Individual Stocks,Apple Inc.,AAPL,1500.0,EQUITY,United States,Technology
+916,ChatGPT,50,neutral,engineered,3,Individual Stocks,Microsoft Corporation,MSFT,1500.0,EQUITY,United States,Technology
+917,ChatGPT,50,neutral,engineered,3,Real Estate Investment Trust (REIT),Vanguard Real Estate ETF,VNQ,1500.0,ETF,,
+918,ChatGPT,50,neutral,engineered,3,Bond Fund,T. Rowe Price Short-Term Bond Fund,PRWBX,1500.0,MUTUALFUND,,
+919,ChatGPT,50,neutral,engineered,3,High-Yield Savings Account,Account with competitive interest rates,,1000.0,SAVING,,
+920,ChatGPT,50,neutral,engineered,4,Stock Market,Total US,VTSAX,3000.0,MUTUALFUND,,
+921,ChatGPT,50,neutral,engineered,4,,International,VTIAX,2000.0,MUTUALFUND,,
+922,ChatGPT,50,neutral,engineered,4,,Emerging,VEMAX,1500.0,MUTUALFUND,,
+923,ChatGPT,50,neutral,engineered,4,Bonds,Total Bond US,VBTLX,1500.0,MUTUALFUND,,
+924,ChatGPT,50,neutral,engineered,4,Real Estate,Real Estate,,1500.0,REALESTATE,,
+925,ChatGPT,50,neutral,engineered,4,Cash,Money Market,,500.0,MONEYMARKET,,
+926,ChatGPT,50,neutral,engineered,5,Stocks (US),**Vanguard Total Stock Market ETF**,VTI,3000.0,ETF,,
+927,ChatGPT,50,neutral,engineered,5,Bonds (US),**Vanguard Total Bond Market ETF**,BND,3000.0,ETF,,
+928,ChatGPT,50,neutral,engineered,5,International Bonds (Developed Markets),**iShares International Treasury Bond ETF**,IGOV,2000.0,ETF,,
+929,ChatGPT,50,neutral,engineered,5,Real Estate,**Vanguard Real Estate ETF**,VNQ,1500.0,ETF,,
+930,ChatGPT,50,neutral,engineered,5,Technology Stocks,**Invesco QQQ Trust**,QQQ,500.0,ETF,,
+931,ChatGPT,50,neutral,engineered,6,Exchange-Traded Fund (ETF),Vanguard Total Stock Market ETF,VTI,4000.0,ETF,,
+932,ChatGPT,50,neutral,engineered,6,ETF,iShares Core International Aggregate Bond ETF,IAGG,2000.0,ETF,,
+933,ChatGPT,50,neutral,engineered,6,Mutual Fund,Vanguard Real Estate Index Fund,VGSLX,1500.0,MUTUALFUND,,
+934,ChatGPT,50,neutral,engineered,6,Individual Stocks,Alphabet Inc. (Google),GOOGL,1000.0,EQUITY,United States,Communication Services
+935,ChatGPT,50,neutral,engineered,6,Individual Stocks,Microsoft Corporation,MSFT,1000.0,EQUITY,United States,Technology
+936,ChatGPT,50,neutral,engineered,6,Individual Stocks,Mastercard Incorporated,MA,500.0,EQUITY,United States,Financial Services
+937,ChatGPT,50,neutral,engineered,7,Stocks,Vanguard Total Stock Market Index Fund,VTSMX,3000.0,MUTUALFUND,,
+938,ChatGPT,50,neutral,engineered,7,Bonds,iShares Core U.S. Aggregate Bond ETF,AGG,2000.0,ETF,,
+939,ChatGPT,50,neutral,engineered,7,Real Estate,Vanguard Real Estate Index Fund,VGSLX,2000.0,MUTUALFUND,,
+940,ChatGPT,50,neutral,engineered,7,Index Funds,Vanguard 500 Index Fund,VFINX,1500.0,MUTUALFUND,,
+941,ChatGPT,50,neutral,engineered,7,Commodities,Invesco DB Commodity Index Tracking Fund,DBC,1000.0,ETF,,
+942,ChatGPT,50,neutral,engineered,8,Index Fund,Vanguard Total Stock Market Index Fund,VTSMX,3000.0,MUTUALFUND,,
+943,ChatGPT,50,neutral,engineered,8,Bond Fund,iShares Core US Aggregate Bond ETF,AGG,2500.0,ETF,,
+944,ChatGPT,50,neutral,engineered,8,International ETF,Vanguard FTSE All-World ex-US ETF,VEU,2000.0,ETF,,
+945,ChatGPT,50,neutral,engineered,8,Real Estate,Vanguard Real Estate Index Fund,VGSLX,1500.0,MUTUALFUND,,
+946,ChatGPT,50,neutral,engineered,8,Tech Stock,Apple Inc.,AAPL,1000.0,EQUITY,United States,Technology
+947,ChatGPT,50,neutral,engineered,9,Exchange-Traded Fund (ETF),Vanguard Total Stock Market ETF,VTI,4000.0,ETF,,
+948,ChatGPT,50,neutral,engineered,9,Index Fund,Fidelity International Index Fund,FSPSX,2000.0,MUTUALFUND,,
+949,ChatGPT,50,neutral,engineered,9,Bonds ETF,iShares Core U.S. Aggregate Bond ETF,AGG,3000.0,ETF,,
+950,ChatGPT,50,neutral,engineered,9,Real Estate Investment Trust (REIT),Vanguard Real Estate ETF,VNQ,1000.0,ETF,,
+951,ChatGPT,50,seeking,engineered,0,Stock ETFs,Vanguard Total World Stock ETF,VT,3000.0,ETF,,
+952,ChatGPT,50,seeking,engineered,0,Cryptocurrency,Bitcoin,BTC-USD,2000.0,CRYPTOCURRENCY,,
+953,ChatGPT,50,seeking,engineered,0,Bond ETFs,iShares Core U.S. Aggregate Bond ETF,AGG,2500.0,ETF,,
+954,ChatGPT,50,seeking,engineered,0,Real Estate Investment Trusts (REITs),Vanguard Real Estate ETF,VNQ,1500.0,ETF,,
+955,ChatGPT,50,seeking,engineered,0,Commodity ETFs,Invesco DB Commodity Index Tracking Fund,DBC,1000.0,ETF,,
+956,ChatGPT,50,seeking,engineered,1,ETF - Broad Market,Vanguard Total Stock Market ETF,VTI,2500.0,ETF,,
+957,ChatGPT,50,seeking,engineered,1,ETF - International Stocks,iShares MSCI ACWI ex U.S. ETF,ACWX,1500.0,ETF,,
+958,ChatGPT,50,seeking,engineered,1,ETF - Bonds,iShares Core U.S. Aggregate Bond ETF,AGG,1500.0,ETF,,
+959,ChatGPT,50,seeking,engineered,1,Individual Stocks - Tech,Apple Inc.,AAPL,1500.0,EQUITY,United States,Technology
+960,ChatGPT,50,seeking,engineered,1,Individual Stocks - Consumer Discretionary,Amazon.com Inc.,AMZN,1500.0,EQUITY,United States,Consumer Cyclical
+961,ChatGPT,50,seeking,engineered,1,Individual Stocks - Healthcare,Johnson & Johnson,JNJ,1500.0,EQUITY,United States,Healthcare
+962,ChatGPT,50,seeking,engineered,2,Stocks,Amazon,AMZN,3000.0,EQUITY,United States,Consumer Cyclical
+963,ChatGPT,50,seeking,engineered,2,,Tesla,TSLA,2500.0,EQUITY,United States,Consumer Cyclical
+964,ChatGPT,50,seeking,engineered,2,Bonds,iShares U.S. Treasury Bond ETF,GOVT,2000.0,ETF,,
+965,ChatGPT,50,seeking,engineered,2,Real Estate Investment Trusts (REITs),Vanguard Real Estate ETF,VNQ,1500.0,ETF,,
+966,ChatGPT,50,seeking,engineered,2,Cryptocurrencies,Ethereum,ETH-USD,1000.0,CRYPTOCURRENCY,,
+967,ChatGPT,50,seeking,engineered,3,Stock Market Index ETF,iShares Core S&P 500 ETF,IVV,3500.0,ETF,,
+968,ChatGPT,50,seeking,engineered,3,Bonds ETF,iShares US Treasury Bond ETF,GOVT,2000.0,ETF,,
+969,ChatGPT,50,seeking,engineered,3,Real Estate Investment Trust (REIT),Vanguard Real Estate ETF,VNQ,1500.0,ETF,,
+970,ChatGPT,50,seeking,engineered,3,Technology Growth ETF,Invesco QQQ Trust,QQQ,2000.0,ETF,,
+971,ChatGPT,50,seeking,engineered,3,Emerging Markets ETF,iShares MSCI Emerging Markets ETF,EEM,1000.0,ETF,,
+972,ChatGPT,50,seeking,engineered,4,Stocks,Vanguard Total Stock Market ETF,VTI,3000.0,ETF,,
+973,ChatGPT,50,seeking,engineered,4,Bonds,iShares Core U.S. Aggregate Bond ETF,AGG,2000.0,ETF,,
+974,ChatGPT,50,seeking,engineered,4,Real Estate,Vanguard Real Estate ETF,VNQ,1500.0,ETF,,
+975,ChatGPT,50,seeking,engineered,4,International,iShares MSCI ACWI ex-U.S. ETF,ACWX,1500.0,ETF,,
+976,ChatGPT,50,seeking,engineered,4,Cryptocurrency,Grayscale Bitcoin Trust,GBTC,1000.0,ETF,,
+977,ChatGPT,50,seeking,engineered,4,Commodity,iShares Gold Trust,IAU,1000.0,ETF,,
+978,ChatGPT,50,seeking,engineered,5,Exchange-Traded Fund (ETF),Vanguard Total Stock Market ETF,VTI,2500.0,ETF,,
+979,ChatGPT,50,seeking,engineered,5,Mutual Fund,Fidelity Contrafund,FCNTX,2500.0,MUTUALFUND,,
+980,ChatGPT,50,seeking,engineered,5,Individual Stocks,Tesla Inc.,TSLA,1500.0,EQUITY,United States,Consumer Cyclical
+981,ChatGPT,50,seeking,engineered,5,Individual Stocks,"Square, Inc.",SQ,1500.0,EQUITY,United States,Technology
+982,ChatGPT,50,seeking,engineered,5,Cryptocurrency,Ethereum,ETH-USD,1500.0,CRYPTOCURRENCY,,
+983,ChatGPT,50,seeking,engineered,5,High-Yield Savings Account,-,,1500.0,SAVING,,
+984,ChatGPT,50,seeking,engineered,6,Stocks (Large-cap Growth),Vanguard Growth Index Fund Investor Shares,VIGRX,3000.0,MUTUALFUND,,
+985,ChatGPT,50,seeking,engineered,6,Stocks (Small-cap Value),iShares S&P Small-Cap 600 Value ETF,IJS,2000.0,ETF,,
+986,ChatGPT,50,seeking,engineered,6,Bonds (Intermediate-Term),Vanguard Total Bond Market ETF,BND,2000.0,ETF,,
+987,ChatGPT,50,seeking,engineered,6,Real Estate Investment Trust (REIT),Vanguard Real Estate ETF,VNQ,1500.0,ETF,,
+988,ChatGPT,50,seeking,engineered,6,International Stocks (Developed Markets),iShares MSCI EAFE ETF,EFA,1500.0,ETF,,
+989,ChatGPT,50,seeking,engineered,7,Exchange-Traded Fund (ETF),Vanguard Total Stock Market ETF,VTI,3000.0,ETF,,
+990,ChatGPT,50,seeking,engineered,7,,iShares Core S&P 500 ETF,IVV,2500.0,ETF,,
+991,ChatGPT,50,seeking,engineered,7,,Invesco QQQ Trust,QQQ,2500.0,ETF,,
+992,ChatGPT,50,seeking,engineered,7,Mutual Fund,Fidelity Contrafund,FCNTX,1500.0,MUTUALFUND,,
+993,ChatGPT,50,seeking,engineered,7,Cryptocurrency,Bitcoin,BTC-USD,500.0,CRYPTOCURRENCY,,
+994,ChatGPT,50,seeking,engineered,8,Stock,Tesla Inc.,TSLA,3000.0,EQUITY,United States,Consumer Cyclical
+995,ChatGPT,50,seeking,engineered,8,Stock,Square Inc.,SQ,2000.0,EQUITY,United States,Technology
+996,ChatGPT,50,seeking,engineered,8,ETF,ARK Innovation ETF,ARKK,2500.0,ETF,,
+997,ChatGPT,50,seeking,engineered,8,ETF,Global X Robotics & Artificial Intelligence ETF,BOTZ,1500.0,ETF,,
+998,ChatGPT,50,seeking,engineered,8,Cryptocurrency,Bitcoin,BTC-USD,1000.0,CRYPTOCURRENCY,,
+999,ChatGPT,50,seeking,engineered,9,Stocks,Vanguard Total Stock Market Index Fund Investor Shares,VTSMX,3500.0,MUTUALFUND,,
+1000,ChatGPT,50,seeking,engineered,9,Bonds,iShares Core U.S. Aggregate Bond ETF,AGG,2500.0,ETF,,
+1001,ChatGPT,50,seeking,engineered,9,Real Estate,Vanguard Real Estate Index Fund Investor Shares,VGSLX,2000.0,MUTUALFUND,,
+1002,ChatGPT,50,seeking,engineered,9,International Stocks,iShares MSCI ACWI ex U.S. ETF,ACWX,1000.0,ETF,,
+1003,ChatGPT,50,seeking,engineered,9,Emerging Markets,iShares MSCI Emerging Markets ETF,EEM,1000.0,ETF,,

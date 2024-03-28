@@ -1,3 +1,12 @@
+# Ignore all .png files
+*.png
+
+# Ignore specific file
+bing_cookies_export.json
+
+# Ignore .DS_Store files
+.DS_Store
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
