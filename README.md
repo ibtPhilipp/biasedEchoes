@@ -1,4 +1,4 @@
-# Biased Echoes: Generative AI Models Reinforce Common Investor Biases and Magnify Financial Portfolio Risk
+# Biased Echoes: Generative AI Models Reinforce Investment Biases and Increase Portfolio Risks of Private Investors
 
 With this directory we provide all data collection, analysis code, and raw data associated with our research project. Each study follows a consistent structure:
 
@@ -10,7 +10,7 @@ With this directory we provide all data collection, analysis code, and raw data 
 
 4.  **Language Style Analysis** (*4_sentiments\_*): Ancillary code that conducts a language style analysis on the GenAI response raw data.
 
-5.  **Financial Performance Analysis** (*5_performance\_*): Ancillary code that conducts a financial performance analysis of GenAI financial adcie from the long format data.
+5.  **Financial Performance Analysis** (*5_performance\_*): Ancillary code that conducts a financial performance analysis of GenAI financial advice from the long format data.
 
 6.  **Data Files** (*data*/*processed* directory): Contains both raw and processed GenAI financial advice data.
 
