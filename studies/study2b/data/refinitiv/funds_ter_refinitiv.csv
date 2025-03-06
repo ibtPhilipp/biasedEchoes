@@ -1,30 +1,3 @@
-﻿HDV;IVW;ACWX.O;DVY.O;VEA;EFA;IAU;IWR;SCHA.K;VCLT.O;XLP;IXUS.O;IAGG.K;FAN;VT;MUB;SDY;IGOV.O;IJS;VEMAX.O;FXNAX.O;FBALX.O;VTWSX.O^K19;VGTSX.O;VDAIX.O^K19;PRWBX.O;FSPSX.O;VIGRX.O;,,,
-Updated at 10:42:19,Fund Type,Total Expense Ratio,Management Approach
-HDV,Equity,0.08,Active
-IVW,Equity,0.18,Active
-ACWX.O,Equity,0.32,Passive
-DVY.O,Equity,0.38,Active
-VEA,Equity,0.05,Passive
-EFA,Equity,0.33,Passive
-IAU,Commodity,0.25,Passive
-IWR,Equity,0.19,Passive
-SCHA.K,Equity,0.04,Active
-VCLT.O,Bond,0.04,Passive
-XLP,Equity,0.1,Active
-IXUS.O,Equity,0.09,Passive
-IAGG.K,Bond,0.07,Passive
-FAN,Equity,0.6,Active
-VT,Equity,0.07,Passive
-MUB,Bond,0.07,Passive
-SDY,Equity,0.35,Active
-IGOV.O,Bond,0.35,Passive
-IJS,Equity,0.18,Active
-VEMAX.O,Equity,0.14,Passive
-FXNAX.O,Bond,0.02,Passive
-FBALX.O,Mixed Assets,0.5,Active
-VTWSX.O^K19,Equity,0.17,Active
-VGTSX.O,Equity,0.17,Passive
-VDAIX.O^K19,Equity,0.14,Passive
-PRWBX.O,Bond,0.46,Active
-FSPSX.O,Equity,0.04,Passive
-VIGRX.O,Equity,0.17,Active
+version https://git-lfs.github.com/spec/v1
+oid sha256:57911867e24ac624f165e099761e3e967e425e48181bcedcb5bad803b5ae4409
+size 999
